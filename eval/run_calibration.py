@@ -57,7 +57,9 @@ def judge(n: int) -> None:
 
     RESULTS.mkdir(parents=True, exist_ok=True)
     (RESULTS / "judge_scores.jsonl").write_text(
-        "\n".join(json.dumps(s, ensure_ascii=False) for s in judge_scores) + "\n")
+        "\n".join(json.dumps(s, ensure_ascii=False) for s in judge_scores) + "\n",
+        encoding="utf-8"
+    )
 
     ws = Path(cfg["data"]["golden_path"]).parent / "human_scores.csv"
     with ws.open("w", newline="", encoding="utf-8") as f:

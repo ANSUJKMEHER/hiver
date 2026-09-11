@@ -736,3 +736,5 @@
 {"key": "617567765a4462d74d5a7f94455bf1524e1128af02154327750819c5d0a8cf13", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing significant frustration regarding a service failure and is at risk of churn.\"}"}
 {"key": "ae8795d815d35dfaa836e09b642694c5c748aaf976d3985589fbef881e3ed015", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
 {"key": "1aebd2b98d7755990dee1a56a57159c71fe20aa2f24c82c60efb987f31949714", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing significant frustration regarding a major service failure and overcrowding, which poses a high churn risk.\"}"}
+{"key": "bf74b92a90ad2341414cb21ae67b74253fb96f7572042ce5c0bed46f40633350", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "2f9a0571f49807a3578dc924d44a4b7c4c32796e4439ac1d35ec2778dd6c631a", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
