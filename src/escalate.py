@@ -1,6 +1,5 @@
 """Escalation decision with explicit risk labels and hybrid routing.
 
-Implements GPT-6 Astra suggestions:
 - Independent risk model with explicit labels (safety_risk, financial,
   pii_exposure, anger_churn, low_confidence, operational_disruption)
 - Hybrid routing: deterministic keyword rules for high-risk patterns

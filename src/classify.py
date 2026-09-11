@@ -1,8 +1,8 @@
 """Intent classification with confidence score.
 
-Implements GPT-6 Astra suggestion: structured intermediate outputs with
-schema-validated confidence scores alongside intent labels. Confidence
-feeds the abstention path in the pipeline (low confidence → auto-escalate).
+Produces structured intermediate outputs with schema-validated confidence
+scores alongside intent labels. Confidence feeds the abstention path in the
+pipeline (low confidence → auto-escalate).
 """
 from __future__ import annotations
 

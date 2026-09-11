@@ -165,16 +165,14 @@ are your checklist — the most likely label errors are the *same* mistakes:
 5. **`other` is a grab-bag** — re-read every `other` label; many are really a
    specific intent (lost property, a booking query, an off-topic joke). Move them.
 
-Fix the file directly (or edit `data/golden/labels_draft.jsonl` and re-run
-`python -m eval.build_golden_set merge`) — but keep `example_id`/`text` unchanged,
-and don't touch `golden_dev.jsonl`/`golden_test.jsonl` (the split is fixed).
+Fix the file directly in `data/golden/golden_set.jsonl` — but keep `example_id`/`text`
+unchanged, and don't touch `golden_dev.jsonl`/`golden_test.jsonl` (the split is fixed).
 
 ## Before making the repo public
 
-- **Delete `BUILD_CONTEXT.md`** — it documents the AI-assisted workflow and your
-  to-do list; it should not be in the public repo.
-- Delete `data/golden/labels_draft.jsonl` (working scratch).
 - Confirm `.env` is not committed (it is in `.gitignore`).
-- `data/raw/`, `data/processed/`, `data/cache/` are regenerable and gitignored.
+- `data/raw/` and `data/processed/` are regenerable and gitignored. `data/cache/`
+  is committed *intentionally* (DECISIONS #10) so a fresh clone replays cached LLM
+  calls; it holds no secrets — but double-check before pushing.
 - Replace `<your-repo-url>` above with your actual GitHub URL and submit that link
   (public, or private with access granted) through the Notion form — not email.

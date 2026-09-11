@@ -1,6 +1,5 @@
 """Pipeline wiring: one call per incoming message.
 
-Implements GPT-6 Astra suggestions:
 - Structured intermediate outputs (confidence, risk_labels, grounding stats)
 - Abstention path: low confidence → auto-escalate
 - Full observability of every pipeline stage
@@ -30,7 +29,7 @@ class Pipeline:
         self.grounder = Grounder(self.cfg["data"]["processed_path"], k=self.cfg["grounding"]["k"])
         self.few_shot = few_shot or []
         self.escalation_rules = self.cfg["escalation"]
-        # Confidence threshold for abstention (Astra suggestion #3)
+        # Confidence threshold for abstention
         self.confidence_threshold = self.cfg.get("classification", {}).get("confidence_threshold", 0.4)
 
     def handle_message(self, text: str) -> dict:

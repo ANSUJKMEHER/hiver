@@ -30,9 +30,11 @@ Non-obvious calls, one decision + one "why" each.
    `config.yaml`); the model only decides anger/churn/safety nuance. Encoding hard
    rules explicitly beats hoping the LLM infers them.
 
-7. **Judge model is a different, stronger model (`gpt-4o`) than the generator
-   (`gpt-4o-mini`).** Different model + different persona reduces self-grading bias;
-   this is stated in the report, not left implicit.
+7. **Judge model currently shares the generator model
+   (`gemini-3.1-flash-lite-preview`), with a distinct rubric-scorer prompt/persona.**
+   A different, stronger judge would reduce self-grading bias more, but the stronger
+   tier was out of quota at build time; the separate persona is a partial mitigation.
+   Stated in the report, not left implicit.
 
 8. **Retrieval = TF-IDF cosine, not a dense embedder or full RAG.** The assignment
    says "embedding similarity is enough"; TF-IDF is deterministic, dependency-light,

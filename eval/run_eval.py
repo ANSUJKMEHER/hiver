@@ -4,11 +4,11 @@ Runs the trivial and simple baselines (no LLM) for real, and the LLM pipeline
 (from cache or live API). Writes `data/results.json` and prints the summary
 table that becomes the spine of the report.
 
-Implements GPT-6 Astra suggestions:
+Reports, beyond the headline metrics:
 - Failure analysis extended to LLM predictions
-- Reporting of grounding quality metrics
-- Reporting of classifier confidence distribution
-- Reporting of risk label distribution
+- Grounding quality metrics
+- Classifier confidence distribution
+- Risk label distribution
 """
 from __future__ import annotations
 
@@ -71,7 +71,7 @@ def main() -> None:
         results["systems"]["llm"] = metrics.aggregate(llm_preds, test)
         results["systems"]["llm"]["predictions"] = llm_preds
         
-        # New Astra metrics for LLM pipeline
+        # LLM-only metrics
         results["systems"]["llm"]["grounding"] = grounding_metrics.grounding_report(llm_preds, test)
         results["systems"]["llm"]["confidence_dist"] = grounding_metrics.confidence_distribution(llm_preds)
         results["systems"]["llm"]["risk_labels"] = grounding_metrics.risk_label_distribution(llm_preds)

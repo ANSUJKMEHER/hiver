@@ -1,9 +1,10 @@
 """LLM-as-judge for reply quality.
 
-Uses a DIFFERENT, stronger model than the reply generator (configured via
-`llm.judge_model`) to reduce self-grading bias. Scores each reply on a 1–5
-rubric across four dimensions. The judge's own reliability is checked in
-`judge_calibration.py` (agreement with a human), not assumed.
+Scores each reply on a 1–5 rubric across four dimensions, using the model in
+`llm.judge_model` with a distinct rubric-scorer prompt. Note: `judge_model`
+currently points at the same model as the generator (see DECISIONS #7), which
+limits how much it reduces self-grading bias. The judge's own reliability is
+checked in `judge_calibration.py` (agreement with a human), not assumed.
 """
 from __future__ import annotations
 

@@ -1,7 +1,7 @@
 """Grounding / retrieval with similarity scores.
 
-Implements GPT-6 Astra suggestion: return similarity scores alongside
-retrieved threads so grounding quality can be measured independently.
+Returns similarity scores alongside retrieved threads so grounding quality can
+be measured independently.
 
 Finds the K most similar *resolved* historical threads for this brand, so the
 reply is grounded in how the brand actually resolved similar issues rather than

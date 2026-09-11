@@ -1,0 +1,243 @@
+diff --git a/DECISIONS.md b/DECISIONS.md
+index ca9b91a..8f913dd 100644
+--- a/DECISIONS.md
++++ b/DECISIONS.md
+@@ -30,9 +30,11 @@ Non-obvious calls, one decision + one "why" each.
+    `config.yaml`); the model only decides anger/churn/safety nuance. Encoding hard
+    rules explicitly beats hoping the LLM infers them.
+ 
+-7. **Judge model is a different, stronger model (`gpt-4o`) than the generator
+-   (`gpt-4o-mini`).** Different model + different persona reduces self-grading bias;
+-   this is stated in the report, not left implicit.
++7. **Judge model currently shares the generator model
++   (`gemini-3.1-flash-lite-preview`), with a distinct rubric-scorer prompt/persona.**
++   A different, stronger judge would reduce self-grading bias more, but the stronger
++   tier was out of quota at build time; the separate persona is a partial mitigation.
++   Stated in the report, not left implicit.
+ 
+ 8. **Retrieval = TF-IDF cosine, not a dense embedder or full RAG.** The assignment
+    says "embedding similarity is enough"; TF-IDF is deterministic, dependency-light,
+diff --git a/README.md b/README.md
+index 04dd7bc..5877786 100644
+--- a/README.md
++++ b/README.md
+@@ -165,16 +165,14 @@ are your checklist — the most likely label errors are the *same* mistakes:
+ 5. **`other` is a grab-bag** — re-read every `other` label; many are really a
+    specific intent (lost property, a booking query, an off-topic joke). Move them.
+ 
+-Fix the file directly (or edit `data/golden/labels_draft.jsonl` and re-run
+-`python -m eval.build_golden_set merge`) — but keep `example_id`/`text` unchanged,
+-and don't touch `golden_dev.jsonl`/`golden_test.jsonl` (the split is fixed).
++Fix the file directly in `data/golden/golden_set.jsonl` — but keep `example_id`/`text`
++unchanged, and don't touch `golden_dev.jsonl`/`golden_test.jsonl` (the split is fixed).
+ 
+ ## Before making the repo public
+ 
+-- **Delete `BUILD_CONTEXT.md`** — it documents the AI-assisted workflow and your
+-  to-do list; it should not be in the public repo.
+-- Delete `data/golden/labels_draft.jsonl` (working scratch).
+ - Confirm `.env` is not committed (it is in `.gitignore`).
+-- `data/raw/`, `data/processed/`, `data/cache/` are regenerable and gitignored.
++- `data/raw/` and `data/processed/` are regenerable and gitignored. `data/cache/`
++  is committed *intentionally* (DECISIONS #10) so a fresh clone replays cached LLM
++  calls; it holds no secrets — but double-check before pushing.
+ - Replace `<your-repo-url>` above with your actual GitHub URL and submit that link
+   (public, or private with access granted) through the Notion form — not email.
+diff --git a/REPORT.md b/REPORT.md
+index ebe246f..c805280 100644
+--- a/REPORT.md
++++ b/REPORT.md
+@@ -1,8 +1,9 @@
+ # Report — VirginTrains Support Agent
+ 
+-> ≤6 pages. Numbers marked **real** were produced by actually running the code;
+-> the LLM-pipeline and judge numbers require your API key and are marked
+-> **[needs key]** where they must be regenerated before submission.
++> ≤6 pages. The intent/escalation numbers were produced by actually running the
++> code (Gemini, real). The judge-vs-human agreement figure (§4) is **pending
++> re-scoring** — regenerate it via the README "Judge-vs-human agreement" workflow
++> before submission.
+ 
+ ## 1. Problem framing
+ 
+@@ -130,14 +131,18 @@ The single most misleading number in this repo would be "**intent accuracy 32% /
+ number]**" reported without this section. Concretely:
+ 
+ - **The LLM number shares an author with the labels.** The golden set is labelled by
+-  me. If the LLM row is produced by a model I also tuned against, any "94%" is
+-  self-grading. Mitigation: (a) the judge is a *different, stronger* model; (b) the
+-  test slice is held out from all prompt tuning; (c) **regenerate the LLM row with
+-  your own key** — a number you can't reproduce is not a result.
++  me, and the judge currently runs on the *same* model as the generator (the stronger
++  tier was out of quota at build time), so any "94%" carries a self-grading risk.
++  Mitigations: (a) the judge uses a distinct rubric-scorer prompt/persona rather than
++  the drafting prompt; (b) the test slice is held out from all prompt tuning;
++  (c) regenerate the LLM row with your own key — a number you can't reproduce is not
++  a result. A different, stronger judge model is the first upgrade once quota allows.
+ - **Judge scores without calibration are unvalidated.** A judge that grades my own
+   replies is only as good as its agreement with a human. Judge-vs-human agreement
+-  (Cohen's κ / rank correlation on a 40 blind sample) is **Spearman ρ=1.000 (perfect rank agreement)**, and if it
+-  comes back weak that is a *finding to report*, not a defect to hide.
++  (Cohen's κ / rank correlation on a 40 blind sample) is **pending re-scoring** —
++  the current `judge_agreement.json` (κ=0.0, Spearman ρ=1.000) is a degenerate
++  artifact of the human scores duplicating the judge's, not a valid result. A weak κ
++  is a *finding to report*, not a defect to hide.
+ - **Accuracy vs macro-F1.** The `other` bucket is 21/156 of test; a classifier that
+   guessed `other` constantly would get 13% accuracy and 0.03 macro-F1. Any single
+   number hides failure modes.
+@@ -145,10 +150,13 @@ number]**" reported without this section. Concretely:
+ - **Grounding Validation.** We verify that the pipeline is actually retrieving relevant precedent: the average similarity score for retrieved threads is `0.460`, with a `0.0%` rate of ungrounded (low-similarity) responses.
+ - **Statistical Rigor.** Because the test set is only 156 cases, we report 95% bootstrap confidence intervals for all accuracy metrics to prevent over-indexing on point estimates, as well as per-intent weakness (the simple baseline scores F1 0.0 on
+   `refund_compensation`).
+-- **The escalation error *direction* is the story, not F1.** 46–48 false auto-handles
+-  (a should-escalate message handled by a bot) is far costlier than a false escalate.
+-  The simple baseline "leans toward auto-handle" — the wrong lean for a support brand
+-  where a bot mishandling a refund/legal/safety case is the failure that matters.
++- **The escalation error *direction* is the story, not F1.** A false auto-handle (a
++  should-escalate message handled by a bot) is far costlier than a false escalate. The
++  baselines lean toward auto-handle (46–48 dangerous misses); the LLM pipeline flips
++  this to recall 0.979 — only 1 dangerous miss — but at the cost of 40 false
++  escalations (precision 0.54; ~56% of test messages get handed off). That is the
++  *safer* lean for a support brand, but 40 unnecessary hand-offs is a real ops cost
++  that a headline F1 of 0.696 hides.
+ - **The simple baseline is handicapped by a tiny training set (44).** The "LLM beats
+   simple by X" headline is partly "LLM needs fewer examples," not "LLM is smarter."
+   I report the CV ceiling (~0.40) alongside the held-out number to avoid that flattery.
+diff --git a/eval/grounding_metrics.py b/eval/grounding_metrics.py
+index 9090005..c2b3a2a 100644
+--- a/eval/grounding_metrics.py
++++ b/eval/grounding_metrics.py
+@@ -1,7 +1,7 @@
+ """Grounding quality metrics.
+ 
+-Implements GPT-6 Astra suggestion: evaluate grounding separately — retrieval
+-hit rate, relevance score distribution, and low-grounding flagging.
++Evaluates grounding separately from other metrics: retrieval hit rate,
++relevance score distribution, and low-grounding flagging.
+ """
+ from __future__ import annotations
+ 
+diff --git a/eval/judge.py b/eval/judge.py
+index d776580..e0c5ecc 100644
+--- a/eval/judge.py
++++ b/eval/judge.py
+@@ -1,9 +1,10 @@
+ """LLM-as-judge for reply quality.
+ 
+-Uses a DIFFERENT, stronger model than the reply generator (configured via
+-`llm.judge_model`) to reduce self-grading bias. Scores each reply on a 1–5
+-rubric across four dimensions. The judge's own reliability is checked in
+-`judge_calibration.py` (agreement with a human), not assumed.
++Scores each reply on a 1–5 rubric across four dimensions, using the model in
++`llm.judge_model` with a distinct rubric-scorer prompt. Note: `judge_model`
++currently points at the same model as the generator (see DECISIONS #7), which
++limits how much it reduces self-grading bias. The judge's own reliability is
++checked in `judge_calibration.py` (agreement with a human), not assumed.
+ """
+ from __future__ import annotations
+ 
+diff --git a/eval/metrics.py b/eval/metrics.py
+index cc13fa7..ee73b04 100644
+--- a/eval/metrics.py
++++ b/eval/metrics.py
+@@ -1,8 +1,7 @@
+ """Evaluation metrics with bootstrap confidence intervals.
+ 
+-Implements GPT-6 Astra suggestion: "Report confidence intervals or bootstrap
+-intervals" — the test set has only 156 cases, so reported metrics may have
+-wide uncertainty.
++The test set has only 156 cases, so reported metrics may have wide uncertainty;
++we report bootstrap 95% confidence intervals alongside point estimates.
+ 
+ - Intent: accuracy, macro-F1, per-intent precision/recall/F1, confusion matrix.
+ - Escalation: precision/recall/F1 + a cost-weighted read where a false
+diff --git a/eval/run_eval.py b/eval/run_eval.py
+index e41379b..e45ae70 100644
+--- a/eval/run_eval.py
++++ b/eval/run_eval.py
+@@ -4,11 +4,11 @@ Runs the trivial and simple baselines (no LLM) for real, and the LLM pipeline
+ (from cache or live API). Writes `data/results.json` and prints the summary
+ table that becomes the spine of the report.
+ 
+-Implements GPT-6 Astra suggestions:
++Reports, beyond the headline metrics:
+ - Failure analysis extended to LLM predictions
+-- Reporting of grounding quality metrics
+-- Reporting of classifier confidence distribution
+-- Reporting of risk label distribution
++- Grounding quality metrics
++- Classifier confidence distribution
++- Risk label distribution
+ """
+ from __future__ import annotations
+ 
+@@ -71,7 +71,7 @@ def main() -> None:
+         results["systems"]["llm"] = metrics.aggregate(llm_preds, test)
+         results["systems"]["llm"]["predictions"] = llm_preds
+         
+-        # New Astra metrics for LLM pipeline
++        # LLM-only metrics
+         results["systems"]["llm"]["grounding"] = grounding_metrics.grounding_report(llm_preds, test)
+         results["systems"]["llm"]["confidence_dist"] = grounding_metrics.confidence_distribution(llm_preds)
+         results["systems"]["llm"]["risk_labels"] = grounding_metrics.risk_label_distribution(llm_preds)
+diff --git a/src/classify.py b/src/classify.py
+index 04bb58a..d5aaf14 100644
+--- a/src/classify.py
++++ b/src/classify.py
+@@ -1,8 +1,8 @@
+ """Intent classification with confidence score.
+ 
+-Implements GPT-6 Astra suggestion: structured intermediate outputs with
+-schema-validated confidence scores alongside intent labels. Confidence
+-feeds the abstention path in the pipeline (low confidence → auto-escalate).
++Produces structured intermediate outputs with schema-validated confidence
++scores alongside intent labels. Confidence feeds the abstention path in the
++pipeline (low confidence → auto-escalate).
+ """
+ from __future__ import annotations
+ 
+diff --git a/src/escalate.py b/src/escalate.py
+index 20508b1..51c061c 100644
+--- a/src/escalate.py
++++ b/src/escalate.py
+@@ -1,6 +1,5 @@
+ """Escalation decision with explicit risk labels and hybrid routing.
+ 
+-Implements GPT-6 Astra suggestions:
+ - Independent risk model with explicit labels (safety_risk, financial,
+   pii_exposure, anger_churn, low_confidence, operational_disruption)
+ - Hybrid routing: deterministic keyword rules for high-risk patterns
+diff --git a/src/ground.py b/src/ground.py
+index 58e33b3..f5b6701 100644
+--- a/src/ground.py
++++ b/src/ground.py
+@@ -1,7 +1,7 @@
+ """Grounding / retrieval with similarity scores.
+ 
+-Implements GPT-6 Astra suggestion: return similarity scores alongside
+-retrieved threads so grounding quality can be measured independently.
++Returns similarity scores alongside retrieved threads so grounding quality can
++be measured independently.
+ 
+ Finds the K most similar *resolved* historical threads for this brand, so the
+ reply is grounded in how the brand actually resolved similar issues rather than
+diff --git a/src/pipeline.py b/src/pipeline.py
+index dae6462..7ea3416 100644
+--- a/src/pipeline.py
++++ b/src/pipeline.py
+@@ -1,6 +1,5 @@
+ """Pipeline wiring: one call per incoming message.
+ 
+-Implements GPT-6 Astra suggestions:
+ - Structured intermediate outputs (confidence, risk_labels, grounding stats)
+ - Abstention path: low confidence → auto-escalate
+ - Full observability of every pipeline stage
+@@ -30,7 +29,7 @@ class Pipeline:
+         self.grounder = Grounder(self.cfg["data"]["processed_path"], k=self.cfg["grounding"]["k"])
+         self.few_shot = few_shot or []
+         self.escalation_rules = self.cfg["escalation"]
+-        # Confidence threshold for abstention (Astra suggestion #3)
++        # Confidence threshold for abstention
+         self.confidence_threshold = self.cfg.get("classification", {}).get("confidence_threshold", 0.4)
+ 
+     def handle_message(self, text: str) -> dict:

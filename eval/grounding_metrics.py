@@ -1,7 +1,7 @@
 """Grounding quality metrics.
 
-Implements GPT-6 Astra suggestion: evaluate grounding separately — retrieval
-hit rate, relevance score distribution, and low-grounding flagging.
+Evaluates grounding separately from other metrics: retrieval hit rate,
+relevance score distribution, and low-grounding flagging.
 """
 from __future__ import annotations
 

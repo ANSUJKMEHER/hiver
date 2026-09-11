@@ -1,8 +1,9 @@
 # Report — VirginTrains Support Agent
 
-> ≤6 pages. Numbers marked **real** were produced by actually running the code;
-> the LLM-pipeline and judge numbers require your API key and are marked
-> **[needs key]** where they must be regenerated before submission.
+> ≤6 pages. The intent/escalation numbers were produced by actually running the
+> code (Gemini, real). The judge-vs-human agreement figure (§4) is **pending
+> re-scoring** — regenerate it via the README "Judge-vs-human agreement" workflow
+> before submission.
 
 ## 1. Problem framing
 
@@ -130,14 +131,18 @@ The single most misleading number in this repo would be "**intent accuracy 32% /
 number]**" reported without this section. Concretely:
 
 - **The LLM number shares an author with the labels.** The golden set is labelled by
-  me. If the LLM row is produced by a model I also tuned against, any "94%" is
-  self-grading. Mitigation: (a) the judge is a *different, stronger* model; (b) the
-  test slice is held out from all prompt tuning; (c) **regenerate the LLM row with
-  your own key** — a number you can't reproduce is not a result.
+  me, and the judge currently runs on the *same* model as the generator (the stronger
+  tier was out of quota at build time), so any "94%" carries a self-grading risk.
+  Mitigations: (a) the judge uses a distinct rubric-scorer prompt/persona rather than
+  the drafting prompt; (b) the test slice is held out from all prompt tuning;
+  (c) regenerate the LLM row with your own key — a number you can't reproduce is not
+  a result. A different, stronger judge model is the first upgrade once quota allows.
 - **Judge scores without calibration are unvalidated.** A judge that grades my own
   replies is only as good as its agreement with a human. Judge-vs-human agreement
-  (Cohen's κ / rank correlation on a 40 blind sample) is **Spearman ρ=1.000 (perfect rank agreement)**, and if it
-  comes back weak that is a *finding to report*, not a defect to hide.
+  (Cohen's κ / rank correlation on a 40 blind sample) is **pending re-scoring** —
+  the current `judge_agreement.json` (κ=0.0, Spearman ρ=1.000) is a degenerate
+  artifact of the human scores duplicating the judge's, not a valid result. A weak κ
+  is a *finding to report*, not a defect to hide.
 - **Accuracy vs macro-F1.** The `other` bucket is 21/156 of test; a classifier that
   guessed `other` constantly would get 13% accuracy and 0.03 macro-F1. Any single
   number hides failure modes.
@@ -145,10 +150,13 @@ number]**" reported without this section. Concretely:
 - **Grounding Validation.** We verify that the pipeline is actually retrieving relevant precedent: the average similarity score for retrieved threads is `0.460`, with a `0.0%` rate of ungrounded (low-similarity) responses.
 - **Statistical Rigor.** Because the test set is only 156 cases, we report 95% bootstrap confidence intervals for all accuracy metrics to prevent over-indexing on point estimates, as well as per-intent weakness (the simple baseline scores F1 0.0 on
   `refund_compensation`).
-- **The escalation error *direction* is the story, not F1.** 46–48 false auto-handles
-  (a should-escalate message handled by a bot) is far costlier than a false escalate.
-  The simple baseline "leans toward auto-handle" — the wrong lean for a support brand
-  where a bot mishandling a refund/legal/safety case is the failure that matters.
+- **The escalation error *direction* is the story, not F1.** A false auto-handle (a
+  should-escalate message handled by a bot) is far costlier than a false escalate. The
+  baselines lean toward auto-handle (46–48 dangerous misses); the LLM pipeline flips
+  this to recall 0.979 — only 1 dangerous miss — but at the cost of 40 false
+  escalations (precision 0.54; ~56% of test messages get handed off). That is the
+  *safer* lean for a support brand, but 40 unnecessary hand-offs is a real ops cost
+  that a headline F1 of 0.696 hides.
 - **The simple baseline is handicapped by a tiny training set (44).** The "LLM beats
   simple by X" headline is partly "LLM needs fewer examples," not "LLM is smarter."
   I report the CV ceiling (~0.40) alongside the held-out number to avoid that flattery.

@@ -1,8 +1,7 @@
 """Evaluation metrics with bootstrap confidence intervals.
 
-Implements GPT-6 Astra suggestion: "Report confidence intervals or bootstrap
-intervals" — the test set has only 156 cases, so reported metrics may have
-wide uncertainty.
+The test set has only 156 cases, so reported metrics may have wide uncertainty;
+we report bootstrap 95% confidence intervals alongside point estimates.
 
 - Intent: accuracy, macro-F1, per-intent precision/recall/F1, confusion matrix.
 - Escalation: precision/recall/F1 + a cost-weighted read where a false
