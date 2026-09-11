@@ -798,3 +798,11 @@
 {"key": "53dd24a11e54eee1aea5abc0dfbbb1a331b795b58ef44aa59bcb780ee59cba4b", "response": "{\"intent\": \"compliment\", \"confidence\": 0.9}"}
 {"key": "543c918daf284893db57e8ff0be8c3175350523a082835ab8f642d0e27dfdbc5", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
 {"key": "3d484d53135329fe2cc09d6d106eeccd9fcf58b768a1986d2e68b707a703d492", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "294f7fe141616869f4a3a27d476b148719739c77da2ddf5df2d25c0ba6ab3e01", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "827d97db7908ecca1a9170286de22d0b34363b48e3ba3ca1ba534ca0488846b1", "response": "Hi there, the 16:28 to Preston is currently scheduled to run on time. Have a good journey! ^BT"}
+{"key": "0b63900fd0991890a1b46ad3be76c71dbe9b6c032838d4e69a4e7748aec3abe7", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a simple factual inquiry about train status that does not involve sensitive data or high-risk issues.\"}"}
+{"key": "b98ca9abf9e415987c9b7db6900055a086d69f6e0154e003147a87cb6e4d0d5b", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "499ff5ebd05db798bc46106c88893c195e9585cfd254756e7427f7f81264d6a8", "response": "Sorry for the wait. Could you please DM us your Delay Repay reference number so we can look into this for you? ^MW"}
+{"key": "9335d89c6ca49a58697268c528a904577e1632770fba5eb715a7cc77d9dbbbe3", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "e04fb49260d6d419c2e178638e5d22e3b6bef57c38669ce06955374c735c8de6", "response": "I'm sorry the WiFi wasn't working for you today. Please send us a DM with your journey details and the email address used for the purchase so we can look into a refund for you. ^AB"}
+{"key": "2f818b9fb15f63642352eb3fba3a18a5ad21bb3a274fb94c3fc8e3723902d81e", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a common service complaint regarding onboard amenities that does not involve sensitive data or high-risk escalation criteria.\"}"}
