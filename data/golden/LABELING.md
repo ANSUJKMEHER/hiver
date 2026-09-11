@@ -36,7 +36,4 @@ safety / legal / vulnerability (trapped passenger, unsafe overcrowding, an anxio
 autistic customer), or (d) shows a churn threat tied to a specific unresolved issue;
 otherwise auto-handle.
 
-**Method note:** labels were drafted by an LLM and reviewed/corrected by hand against
-the messages. The candidate must re-review every label before submitting — this set is
-the thing you will be asked to defend live, so treat `intent`/`escalate` here as *your*
-answers, not the machine's.
+**Method note:** Labels were drafted with LLM assistance, and manually reviewed/corrected against the source messages.
