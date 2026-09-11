@@ -144,6 +144,7 @@ number]**" reported without this section. Concretely:
   guessed `other` constantly would get 13% accuracy and 0.03 macro-F1. Any single
   number hides failure modes.
 - **Independent Risk-Label Escalation.** Escalation is not a binary flag but a risk model tracking: `pii_exposure` (26), `financial` (21), `anger_churn` (39), `operational_disruption` (14), `safety_risk` (4), and `vulnerability` (2). We combine hard keyword rules (hybrid routing) with LLM judgment on the message content.
+- **Over-calibration.** The classifier's reported confidence is overwhelmingly 1.0. This is a known artifact of modern instruction-tuned LLMs predicting class labels; confidence scores should not currently be trusted as a reliable proxy for uncertainty.
 - **Grounding Validation.** We verify that the pipeline is actually retrieving relevant precedent: the average similarity score for retrieved threads is `0.460`, with a `0.0%` rate of ungrounded (low-similarity) responses.
 - **Statistical Rigor.** Because the test set is only 156 cases, we report 95% bootstrap confidence intervals for all accuracy metrics to prevent over-indexing on point estimates, as well as per-intent weakness (the simple baseline scores F1 0.0 on
   `refund_compensation`).
