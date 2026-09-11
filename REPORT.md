@@ -64,9 +64,9 @@ examples come from the 44-example dev slice). All three systems run the same
 
 | system | intent acc | intent macro-F1 | escalate F1 | false auto-handle* | false escalate |
 |---|---|---|---|---|---|
-| trivial (majority + canned + always-auto) | 12.2% [0.07, 0.17] | 0.027 | 0.000 | 48 | 0 |
-| simple (TF-IDF+LR + template + rule) | 32.1% [0.25, 0.39] | 0.296 | 0.069 | 46 | 8 |
-| LLM pipeline (classify→ground→draft→escalate) | 81.4% [0.75, 0.87] | 0.827 | 0.696 | 1 | 40 |
+| trivial (majority + canned + always-auto) | 12.2% [0.07, 0.17] | 0.027 | 0.000 | 65 | 0 |
+| simple (TF-IDF+LR + template + rule) | 32.1% [0.25, 0.39] | 0.296 | 0.053 | 63 | 8 |
+| LLM pipeline (classify→ground→draft→escalate) | 81.4% [0.75, 0.87] | 0.827 | 0.763 | 7 | 29 |
 
 \* *false auto-handle = a message that should have been escalated but was auto-handled —
 the expensive error for a support agent.*

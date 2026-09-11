@@ -160,6 +160,12 @@
         "pred": "auto_handle"
       },
       {
+        "example_id": "50e5a927e0cd50131f7eecb3aaf05dbd",
+        "text": "Why are the ppl who work on virgin trains absolute jobs worths @VirginTrains",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
         "example_id": "c34e37f1d9bcd098c63ea32cb2a2c0a8",
         "text": "I'm on a delayed train so I'm going to miss the 17:15 Birmingham N St to Pre. Can I get the 18:15 even though this is peak?",
         "true": "escalate",
@@ -192,6 +198,18 @@
       {
         "example_id": "8e54a24140b52105ce1088683ce0e9d7",
         "text": "am I meant to understand these emails? Have booked ‘assistance’ for my mum when she travels - useless 😬😬🙄🤔",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "c5d7f5e474ee3f083b13e0668536fae9",
+        "text": "Why do @VirginTrains always manage to get it so wrong?! Fuck sake",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "757d2bb489826fb8eed6c736ac9a120c",
+        "text": "you should be ashamed of the prices, cheaper to Fly! #virgintrains fly don’t by #virgintrains",
         "true": "escalate",
         "pred": "auto_handle"
       },
@@ -244,6 +262,30 @@
         "pred": "auto_handle"
       },
       {
+        "example_id": "058e36ecf01462791b590329bcc90c4a",
+        "text": "Can have breakfast but can’t have porridge can’t have both @VirginTrains seen prices they charge for 1st class had to sell a kidney for this",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "b19382d0eea0a617ae8d81300c13b037",
+        "text": "A very nice weekend ruined by @VirginTrains",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "e76eae7968acee334abd75478bec33f7",
+        "text": "can you tell me how a single ticket from Manchester to London on a Sunday can possibly cost £82 #daylightrobbery",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "87730464bf10cdc29eec23f4988f5e04",
+        "text": "Thanks 2the unhelpful guy @user who laughed,shrugged when I'd mistaken the platform. Not great customer service",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
         "example_id": "92afcf04281f004c80555998920cfc1e",
         "text": "standing for 3 hours WITH reserved tickets but apparently coach doesn't exist! This is awful service!",
         "true": "escalate",
@@ -264,6 +306,12 @@
       {
         "example_id": "24f37f1844884fe44fa131c2e3cf6ec4",
         "text": "We’re booked on 1250 new st-Euston running late from Telford. Any problem with us getting the 1310? #advancedpurchaseticket. Would like to pay weekend 1st too",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "df2544204521985f22808613595d620e",
+        "text": "@user how many connecting trains can you be responsible for missing in one day 🤨😴 @user please don’t follow suit!",
         "true": "escalate",
         "pred": "auto_handle"
       },
@@ -292,14 +340,38 @@
         "pred": "auto_handle"
       },
       {
+        "example_id": "4653aeea2cd7520275ab215ed204603f",
+        "text": "got a few questions for you.. why does the 18:15 from new street NEVER leave on time?? And why is it half a train?? #crushed",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
         "example_id": "3d15538a5d0230e97c1d3d78b38343f7",
         "text": "Today's the worst day of travel I've ever experienced on @VirginTrains,have been sat on 2 trains for 8 HOURS!both train managers useless !",
         "true": "escalate",
         "pred": "auto_handle"
       },
       {
+        "example_id": "e28fd0abf5420c901c099bc77410b058",
+        "text": "went from great service on Thurs to terrible service today - delays cannot be helped but unhelpful, rude staff can be. Wrong information aswell shame really",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "6dd39d469892a8bf586583d53a1522ea",
+        "text": "Thanks to the really unhelpful women at Newcastle train station @VirginTrains 😫😫",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
         "example_id": "e5867c2fda586d17c3bcd1295016ce31",
         "text": "How come it’s taken nearly 2 months to not process my refund?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "44ba5e2e05f629acb730b02abcfd5fe8",
+        "text": "Can't wait for the day I stop commuting & never have to get on a train again. Soz @VirginTrains it's not me, it's definitely you! 🤦😭",
         "true": "escalate",
         "pred": "auto_handle"
       },
@@ -322,6 +394,12 @@
         "pred": "auto_handle"
       },
       {
+        "example_id": "aeb882e2002e8b44005ad57eb9e87bae",
+        "text": "Why are @VirginTrains always delayed #nightmare",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
         "example_id": "4b064082971373eb6708f650f404b5da",
         "text": "got charged twice by the ticket machine this morning at stoke on trent station as an error message came up and would not process the transaction can you help ?",
         "true": "escalate",
@@ -340,8 +418,32 @@
         "pred": "auto_handle"
       },
       {
+        "example_id": "3b8592aa617b0299e2269ed032a13773",
+        "text": "11:15 service from Leeds to London is a joke. 2 sets of train customers shoved together on 1 service with a carriage missing.",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "4856401e636fb071d90bdb9df803310b",
+        "text": "why do you have confiscate wine on the (delayed) Edinburgh to London train without a single pre-announcement, please?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "16c9100c069d888827bea479773577c3",
+        "text": "Next time I go to Glasgow I will fly... this train is so uncomfortable 😫 @virgintrains",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
         "example_id": "72338d1881378d32b15a175eae1e2ae9",
         "text": "can you help please? I need to get in contact with staff at cov train station regarding a season ticket refund due to an 1/2",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "949caa28b4119f544aedeb6f09f1786c",
+        "text": "Can’t find the driver for 6:43 from Euston. What a shambles!!",
         "true": "escalate",
         "pred": "auto_handle"
       },

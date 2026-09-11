@@ -157,11 +157,11 @@
         "f1": 0.0,
         "tp": 0,
         "fp": 0,
-        "fn": 48,
-        "tn": 108,
-        "false_auto_handle": 48,
+        "fn": 65,
+        "tn": 91,
+        "false_auto_handle": 65,
         "false_escalate": 0,
-        "cost_weighted_total": 240.0,
+        "cost_weighted_total": 325.0,
         "lean": "toward auto-handle"
       },
       "bootstrap_ci": {
@@ -333,15 +333,15 @@
       },
       "escalation": {
         "precision": 0.2,
-        "recall": 0.041666666666666664,
-        "f1": 0.06896551724137931,
+        "recall": 0.03076923076923077,
+        "f1": 0.05333333333333334,
         "tp": 2,
         "fp": 8,
-        "fn": 46,
-        "tn": 100,
-        "false_auto_handle": 46,
+        "fn": 63,
+        "tn": 83,
+        "false_auto_handle": 63,
         "false_escalate": 8,
-        "cost_weighted_total": 238.0,
+        "cost_weighted_total": 323.0,
         "lean": "toward auto-handle"
       },
       "bootstrap_ci": {
@@ -356,9 +356,9 @@
           "ci_upper": 0.3518823348304839
         },
         "escalation_f1": {
-          "mean": 0.0674145113984035,
+          "mean": 0.052277020958005974,
           "ci_lower": 0.0,
-          "ci_upper": 0.16666666666666669
+          "ci_upper": 0.1348314606741573
         },
         "n_bootstrap": 1000,
         "confidence_level": 0.95
@@ -512,16 +512,16 @@
         ]
       },
       "escalation": {
-        "precision": 0.5402298850574713,
-        "recall": 0.9791666666666666,
-        "f1": 0.6962962962962962,
-        "tp": 47,
-        "fp": 40,
-        "fn": 1,
-        "tn": 68,
-        "false_auto_handle": 1,
-        "false_escalate": 40,
-        "cost_weighted_total": 45.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.8923076923076924,
+        "f1": 0.7631578947368421,
+        "tp": 58,
+        "fp": 29,
+        "fn": 7,
+        "tn": 62,
+        "false_auto_handle": 7,
+        "false_escalate": 29,
+        "cost_weighted_total": 64.0,
         "lean": "toward escalation"
       },
       "bootstrap_ci": {
@@ -536,9 +536,9 @@
           "ci_upper": 0.8770841754924947
         },
         "escalation_f1": {
-          "mean": 0.6931099762743977,
-          "ci_lower": 0.5981308411214953,
-          "ci_upper": 0.776978417266187
+          "mean": 0.7602089493621851,
+          "ci_lower": 0.6762589928057554,
+          "ci_upper": 0.8299319727891157
         },
         "n_bootstrap": 1000,
         "confidence_level": 0.95
@@ -584,12 +584,12 @@
   },
   "failure_analysis_simple": {
     "intent_error_count": 20,
-    "false_auto_handle": 46,
+    "false_auto_handle": 63,
     "false_escalate": 8
   },
   "failure_analysis_llm": {
     "intent_error_count": 20,
-    "false_auto_handle": 1,
-    "false_escalate": 40
+    "false_auto_handle": 7,
+    "false_escalate": 29
   }
 }
