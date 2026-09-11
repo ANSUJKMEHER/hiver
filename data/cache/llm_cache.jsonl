@@ -1,0 +1,738 @@
+{"key": "b287ebb47c6f4d25b176fc951785c233b6837dbe9f5c2a1410730aa2d091834e", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "42447d6d07ce4a725cd166f4f2a3bbecff8b56c030f0769d9607dc78884e4e3a", "response": " Strategy:**\n    *   The customer's"}
+{"key": "49cb6a3c0b9b9caa0eca73a70f4bf15615eb6a474255c1602277671c8780777c", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "c64cae6c28ec97486fc82d1ee623cf95a9ce1697004c7013bf55e8031a4c7e5c", "response": "Under ~280 characters."}
+{"key": "b8f54deca1c2a9283fef07e2836ee2bdd72cdc23be1eaf2b95f3efeb0d2b4d45", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a simple train status and delay inquiry that does not require personal data or escalation.\"}"}
+{"key": "6f93ca5ae12728321db1f6205afaa87c1b2134219197cdc7ce986beffdf0accb", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "3547f171fbdbc96200de6e491b51627a21fed72cbdfccb06d5945c0425d09f1f", "response": "Hi there. Could you let us know which journey you're looking to make and what ticket type you hold? Please DM us those details so we can check the best alternative route for you. ^BT"}
+{"key": "760054b7ef050912bf38cb240e659ecaa78dd1cb47263ed5efeb8f0cdb16d878", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "58219b5addbb73355ebe462d71b4cad730284d4bb63805a5a800b9331ab2b723", "response": "Hi there. We\u2019re currently seeing some amendments to services, so please keep an eye on National Rail Enquiries for the latest updates on your journey. ^AB"}
+{"key": "3ba2727d568aa165895f0a6935c9de9c5bbc18ac67d950bcb56f135741d4c7dc", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a standard request for real-time service status information.\"}"}
+{"key": "cbfa15b05ee58f3af431f5149dd41eb46da82d1b7654f661d70f49f1ab99781c", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "86f44ffdce6f438828d7695096cd08ce246377141b9d3c4f8641e2a021e67469", "response": "Hi there. Which service are you referring to, and are you currently at the station? Let us know and we can check the latest for you. ^MW"}
+{"key": "8a6b41b8f6fd54dab563bf280ef7a24b7b201ce82eaeff9ca01a2c4a23cbb3f7", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The customer is asking for a simple status update on a train service.\"}"}
+{"key": "09d44e99d00a9c11082e4854a1194b704cabef80228c69f93f757bf16565021f", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "7569b2e53196e61bdf505c82d54ac76a57838e6119eb467e448e6f5293f2e24d", "response": "I'm really sorry to hear about your journey. Please head to our website to submit a claim via our Delay Repay form so our team can look into this for you. ^AB"}
+{"key": "d15e608292501a0da835afa5332abcff84a476b31580682bf2ccef791780b92b", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "16ace77f6f61d64f42562574f7633247bd282eac54083e05504c0f41abf22d36", "response": "I'm sorry to hear this. Which service are you on today so I can look into this for you? ^PH"}
+{"key": "f5056340430f551e27e092b66820a516b2a309b63952c60f5b7698c5214d13d6", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a complaint about service quality that does not involve a refund request or high-risk escalation criteria.\"}"}
+{"key": "672ed72747ba78818a2712f612687d469d276946139fba4cfe95023ced02106f", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "c61b3187768447f7788cbfc01bb778820bae2d0bf664fb888b2ec5f02224f9c6", "response": "Sorry to hear about the delays on your journey today. Please send us a DM with your ticket details and travel dates so we can look into this for you. ^MW"}
+{"key": "07b6ec4832fae89102c6029af2c7826777f8d49f7d32dc69bb7d4bc195bdb630", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The customer is providing mild feedback and does not require a refund or private assistance.\"}"}
+{"key": "eac7bcbf882be493e5d9c17f585a9fd85d12c026899ecb3850e934ecdfbce1a4", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "06b3a847803516161466e1e60cadbfbd4469c3ee7ff5f46c8f02d97cd77d87a6", "response": "I'm sorry for the frustration caused by this delay. Please DM us your journey details and the train service so we can look into this for you. ^MM"}
+{"key": "68866486f5f76da43acce47593efa58432e9de3281087fbb5daa8c323dfd026d", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing significant frustration regarding safety and freedom of movement, which requires a sensitive human response.\"}"}
+{"key": "0fd9706993675710fd19446410a06a59103d4112bd7991903e826b54a5bffbcd", "response": "{\"intent\": \"compliment\"}"}
+{"key": "477d964106e490983545bdef4a2dbd6a77fabb899543ff93031c60a9c44c0bb5", "response": "Glad to hear it! Hope you have a great journey down to London. ^AB"}
+{"key": "ed0619d71c1bde47909cc9227ea5c8be336a004ddbf4c71454eac930c50fe96b", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment and does not require human intervention.\"}"}
+{"key": "89b519ab96aaf966fb3a1e796e2e021d35284a0faa6a87a6de63625f3b6a3dc9", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "0f0c8605bc68de04c66e3294415bee41fa2fa3c44f7183ef45a11414cc0f47c8", "response": "Hi there, we don't have any seat sales currently live for that route. Keep an eye on our website and social channels for any future updates! ^BT"}
+{"key": "d08d7297849dbdfea4c3666b7c85cfa2efd635c544656a164ac75313cf7281e3", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "678a246e899fead566c4c69e92cae907af0a111ae3da2320653cb0b096c539a2", "response": "I'm very sorry to hear this. Please let me know your train details and carriage number via DM so I can pass this on to our Fleet and catering teams to get it sorted. ^HP"}
+{"key": "4216451db5b0b14bcdaf24a34e37c15af203dcc2e0daedff6e911552f59be219", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong anger regarding hygiene and food safety, which poses a reputational risk.\"}"}
+{"key": "d04d6aceb10046a56ab122deff54f97d741ddd2c0a00a8af84037c901724d7a0", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "f5b956a061d7102754a17eb909e9c1331a1fc4574e3b7875b0fa4dbe7bd41d2c", "response": "I'm sorry for the delay. Could you let me know which service you are on so I can check the latest updates for you? ^AB"}
+{"key": "68aaf6c27ca451a61f407efd72261a2fe3892ceda692a0325d95075931414c28", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The customer is asking for a status update regarding a delay, which can be addressed with public service information.\"}"}
+{"key": "44a08fc892e4d44339edd71a029cd8f39cabb2427478f70c18116d8e42c61795", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "86e3c8af35b8ce585ff7c5fb96a3d35816e4825b79b8606a3fb5b28f1248e9b0", "response": "I'm sorry, we don't have an update on that service at the moment. You can check the latest live updates on our website here: http://virgintrains.co.uk/live ^AB"}
+{"key": "e37aef50acb4cd2f6e696d278a1b29c6e55405a3eec81db24e6f7866c945fcf2", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer has identified as a vulnerable person requiring additional support due to anxiety.\"}"}
+{"key": "62e531d65396c0d8e3f4da9f8eb1d24284aaa8d524fd7f11880d0f5f2685b676", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "7a6f46dc45fdd5f82b89a5e219c0533caa8a33141a9cbaa1e6f7e09982b8f3ed", "response": "I'm really sorry to hear about the disruption and that you've been unable to use your reserved seat. As you're travelling with another operator, they will be best placed to assist you with this. ^BT"}
+{"key": "e2e973640d4ec2583f22b1040c0ae0cfb88c6e14b9d5f25955ee36a1df36aa61", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong dissatisfaction regarding a service failure and potential compensation/refund eligibility.\"}"}
+{"key": "bc294234ee97299ab6fcdf67395b906516bd29251e56131518691b39832af0c2", "response": "{\"intent\": \"other\"}"}
+{"key": "5baf0b6e07ae13114ee7d50f7c13e6b3759cde35532f809be90a8b2fd3980eef", "response": "Thanks for the heads up! Stay safe out there. ^MW"}
+{"key": "a913080af47ee6777075f27953f0a878addd0aecd915cd71dc9f340cd37ffcf5", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a general safety advisory from a passenger and does not require private intervention.\"}"}
+{"key": "4bf081578b2553e4ac3478cf020ff57217b2f554ae67ae786327b8eb27f319a3", "response": "{\"intent\": \"complaint\"}"}
+{"key": "07e572a7e24b5053c31a646324dce23ab0c8224417a39614639d803a5544aa47", "response": "I'm sorry to hear you've had a frustrating experience. Could you please DM us with more details about what happened so we can look into this for you? ^AB"}
+{"key": "00e7dd3b7ec57a7aba9afd95878105a30af51e6a989f23563e142772598289f7", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong anger and hostility, which requires human intervention to manage churn risk.\"}"}
+{"key": "4609da22684a6118b87fd8d7970a031f116d038bc3cec6e099f19c5cebf293c4", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "4d2ba843caf905bdd0d768b25bd630fff9f0f0968dac34eb9e90a692a067b6a2", "response": "Sorry about the delay. If your train is delayed, you can use your ticket on the next available service. Please DM us your ticket details and the journey you're taking so we can confirm this for you. ^AB"}
+{"key": "edfdec4640a169e4397c215de2a8b6b51ee5d4baed72667e9392e0127c7c73a5", "response": "{\"intent\": \"compliment\"}"}
+{"key": "22241be4d59bdba3d55d3dd35007373db64ede848224d8a6fbc08c4de90b8c91", "response": "That sounds like a brilliant day! Best of luck with the audition, we hope you have a fantastic journey home with us. ^PA"}
+{"key": "cfa2e242850064c1edf54f7e51526b31271d13c7cd368bd9e04126b2fdb79b1c", "response": "{}"}
+{"key": "2818c8bdfba1385ab0fcaa033a8d2ecc7242eb2c5bf99e4483bdc33eecd177a3", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "6f94da1ba00a11ae34253090680b1213d8cb5d2fb4c945a8202458b7c3eb4002", "response": "Hi there. Could you please send us a DM with your booking reference number so we can take a look at this for you? ^MW"}
+{"key": "b1982d7c99adb72c1b1c40cab551f3edb3c27b0b2ede51488948d90a905b9ac2", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "48a6b11f210174dec13f91cc99445553e4f72cfac1e2ba51dde1c8a0168e77d6", "response": "If automatic Delay Repay was in process, you'd receive an email within 72 hours. Otherwise, please claim manually through our website. It can take up to 28 days to issue a response, though we aim for 14. ^CB"}
+{"key": "00e72920287f4aa9518ed967261ae2a1bbd7e8a42949f974d129a3a73a0e036b", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "cb1958f858c2048cd9e0f979974cada1821c6e3994b4a5d6fb80cf47aa19e242", "response": "Hi there. Sorry to hear you're having trouble with the website. Could you please DM us your details so we can look into this for you? ^CB"}
+{"key": "2bf17fd7a551751c4d1bb675a633765b02d3d1fbbc526104628214c170dc6a69", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "d2c20e74cd709316b112e6498f790318f14e123be379f78224b43d160180afde", "response": "Hi there! That service is currently due to run as booked. We recommend keeping an eye on our live journey tracker for any updates throughout the morning. ^BT"}
+{"key": "4b7b8a756a80ee35b6a7db10af5ea222ac51bc996d3e971cf92d107d305d8fa5", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a simple factual inquiry regarding train status that can be answered with public information.\"}"}
+{"key": "5355bfc8c08a4f2ab4831909d9b0a746590cd71105140f3b40c5097b31bd1ec6", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "a969022cc3800d318a6d11ab22a9e965cde121c9c1b38e37992bb06c96561e17", "response": "Hi there. I'm sorry to hear about the cancellation. Advance tickets are non-refundable, but you may be able to change your travel date for an admin fee. Please DM us your booking reference so we can take a look for you. ^HP"}
+{"key": "2b2610e8379511491583e1d81666805f79d7106c056dda92ef54cdd58c1fbde9", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "57a71fdadd6dff69a9dc0c830eca8c43058b51cf74c62eebe333d4e028883cbf", "response": "Sorry to hear you're having trouble with the connection. Please try forgetting the network, switching your WiFi off and back on, then reconnecting to see if that helps. Let us know how you get on. ^AB"}
+{"key": "82df9cb427e3277bec2ef607631cee11652deb6bfb57a3a72f9a6b57ed756132", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a piece of mild feedback/sarcasm regarding service quality and does not require private intervention.\"}"}
+{"key": "2e015bb38482917164937a311479edce61928f2897e66c30514eb1d4dbaa95cf", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "9783be7124044bc22171697b4cf796554c5f1f37239a299835451844d76b84d9", "response": "Hi there! Children are certainly welcome in First Class. We hope you have a lovely journey to Edinburgh! ^HP"}
+{"key": "bb211d4be0978ba18758d68828da41b5283e6dd2fd07b8c1f6d6d7bb9ae72c4d", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "b18eca60a5afe3a49de3e59f4a04ddbc95e47d67bbc380f185431d2fa94a5e47", "response": "Sorry to hear it's too warm on board. We can't adjust the temperature from here, but please speak with the Train Manager on your service and they will be able to assist you further. ^AB"}
+{"key": "03d81ad8d623ae340da5c01969a844958d2e685fc8a37bf6f530b885684bc29d", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a general feedback request regarding carriage temperature that can be addressed with a standard service response.\"}"}
+{"key": "80814edbe2de71675baecb4101dc353f68ee5b39c0f25bfbbcc1570df83a60b6", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "0f20abc29b8fd3d3d3dd534d909806f025e1f3d0125daeea5f437f7f4479e9e6", "response": "Oh no, sorry to hear that! We can help you change the collection method to a different card. Please DM us your booking reference and we'll get that sorted for you. ^BT"}
+{"key": "68351ba81ab7ab4adc2540081fcdeb04ba348fd60ca339597ac60afbc0045e1a", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "a64fbbaee99e05bdb6788b93d40effded886af558a55791e698a1af038bb3eb7", "response": "Unfortunately we do not currently have an estimate for this service due to a loss of signalling between Oxenholme & Preston. ^JH"}
+{"key": "159c907306fd1e44265a495e165a739724fded3d0d05417500bb74daf7ecb9f9", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a factual request regarding train status that can be answered with public information.\"}"}
+{"key": "aa1f221ed8d1f6c3b1bf99940e7e5bfd63dac042423d956df538c820606fdccd", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "d8ad825eeb313eb19910ceac4ccbf152838aba23409242ae0e64dc350142f924", "response": "Hi there, reservations for travel on 28th December are due to open from 20th October, so please check back with us then! ^MW"}
+{"key": "6c4417a8825e449512cae044697b028d02d9b241d8321692a22fb2d328ef926d", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "948f34300f5a8ad6dca6a5058ce4a6f408e81fabb1ec0dba02a2d55480292440", "response": "Hi there! We usually release our Advance tickets around mid-afternoon. Keep an eye on our website for the latest availability. ^PA"}
+{"key": "8d2d53c705e01bf9b62c25037e5215fbed847e95fea79d7bfd13b89bf49a1d00", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "8fea9e24efccb6d536e65819fb8de38de1a83324fd1b1b77ec9854413a61858a", "response": "Hi there. Please send us a DM with your journey details and we'll be happy to check the latest status for you. ^RD"}
+{"key": "7e7d78034ed27f4fcd09651eb407b2da1fea8cd3efa1919ddd495c58d6dccc2c", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a simple factual question regarding station status.\"}"}
+{"key": "b9fe805c06105f978bf0305d07695954b5d96ed3e6634bcb9b9893fbe96ab7a4", "response": "{\"intent\": \"complaint\"}"}
+{"key": "413fb65fe97744a04f3e345233929d08d82ccaf6e0afd98488997dc513f14576", "response": "Sorry to hear you're having trouble. Could you please DM us your journey details and the issue you're experiencing so we can look into this for you? ^CB"}
+{"key": "4e780b81152e39cff4f40c588d602ada6f771bc4b1cb085258e1553ae16aa4d2", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong frustration and using aggressive language, indicating a potential churn risk.\"}"}
+{"key": "e2dfdc7be6a46522cae3acaf91ad1a7ed6f9c0b1ce3b23e8826a207c339762e0", "response": "{\"intent\": \"other\"}"}
+{"key": "e020762f2dffb04fe2b710d11887c1e3c3d469d81af93097f6f61686289203ab", "response": "Morning! Andy is indeed on shift today. Hope you have a great journey! ^JH"}
+{"key": "630315fc335cc7ccdec496e0b0bf370a070551641e9bd50bb63f7abceed6046a", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a casual, non-urgent social interaction that does not require private handling.\"}"}
+{"key": "f3307abdd8e2193cafb4a04088d6b9d8252b5ad01d114ac47e187abc694e1bba", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "50b798ebe65297e8b19c830af05efe72effc9c37392d5445f2e059cefb884548", "response": "You can check the latest service status and live updates here: http://virgintrains.co.uk/status ^MM"}
+{"key": "750fd36807263d2ccc0a789dba51d5a1844a7c14a961af760728e7201be95136", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a general service status inquiry that can be answered with public information.\"}"}
+{"key": "f0e2338ae4aced3cfc028feef9c9a30bb1f049015ad4ba9e64e736d127e6c2dd", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "37d7dae73520f989c0eeebed2c67359bedd336651597fd92b0d80709cdc60382", "response": "I'm sorry to hear that. If you can head back to the station, the booking office should be able to check this and refund the duplicate charge for you. If that's not possible, please DM us your details so we can look into this further. ^MW"}
+{"key": "2ffaaa82b4c77d51e412af784ac1480a7e09fb7596598dc753a3a1e4eb3f4bca", "response": "{\"intent\": \"complaint\"}"}
+{"key": "af6ff72ef98720555621892be08ce725c13c8091e2590c8b22c0c35dab251fa7", "response": "I'm sorry to hear this. Please send us a DM with your booking reference and the details of the assistance requested so we can look into this for you. ^AB"}
+{"key": "64efc8f1a57b389aff8a713d5d82dd93a3d7da628e779591e92f38f940a2c5d2", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing frustration regarding assistance for a vulnerable passenger, which requires sensitive handling.\"}"}
+{"key": "22075ebc4c7c34a73bdee05b17308a1a00aa4eaea833e07d66ef621c892b9011", "response": "{\"intent\": \"complaint\"}"}
+{"key": "9261a2a4818b737924b7210b432ee03adcfeb8c7b2c9ad6cc6fec749113dbe01", "response": "I'm sorry to hear you're frustrated. Is there something specific we can help you with today? ^AB"}
+{"key": "586030ea732b9ab6333bec424a96be675fece6e73fdff7a346fed91394ff6bf3", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is using aggressive language and expressing high frustration, indicating a churn risk.\"}"}
+{"key": "11c7f453562b26f9e43b92de1afb1ba030e05fdd273bee6ebfebe9b2e966f316", "response": "{\"intent\": \"other\"}"}
+{"key": "b9b165d87c24c1eb3c82f1781d75e89c184ba50f5abd470769ca2dc90a0c8853", "response": "It sounds like quite the journey! If you'd like to share more details about your experience, please send us a DM and we'll look into it for you. ^MW"}
+{"key": "fc5d6420fed35be8cbb3f538e0e4a91495b36074b7868406c7c3622bd1c23b91", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a general observation/feedback and does not require private intervention.\"}"}
+{"key": "f33b3b79b53fe84212699555a15d3d92c8c4a2182dc19edf057a27d5d341d18a", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "3e65a7ce8095f855a5e8909235c252bbf9cdbc84aa18ad4c36f3330629927dff", "response": "Glad you found it strangely compelling! We hope you enjoyed the rest of your journey with us. ^CB"}
+{"key": "caa884bc2299d2952d62b3ec52ea92535c72c463f3f48946c68e2b0d25ac7f74", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a lighthearted piece of feedback that does not require private intervention.\"}"}
+{"key": "488c59e921cf0d13b30f08f4a3c2f1e9216582fcd24a71828f227911739ad903", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "05fa733e08ae8a16bee1635ff8fae885d7e9d7c047b483b2864c29a3df63ed6d", "response": "I'm sorry to hear that. This should be in place, but the onboard team would be best to advise further on your specific service. ^AB"}
+{"key": "bd78c7aa6eef6b083691f774e309ede99badf48a69784a1f353c8b2a22d0aabd", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a piece of feedback regarding service facilities that does not require private data or financial resolution.\"}"}
+{"key": "30f9844c6ba9b64596066adacc38f583c7af403ee2e0b43df999827f2650e8e8", "response": "{\"intent\": \"compliment\"}"}
+{"key": "ebc92ab322c641a3fe1cdaea754ab872655ac65f61f4798811d69ae2fa9c87a5", "response": "Great to hear it got sorted! Thanks for letting us know. ^BT"}
+{"key": "0ee342465006accf95511e74df5b905f73a740cd915b2b4ed930d8838d9198d6", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a compliment and does not require further action or private information.\"}"}
+{"key": "afc2722a576d9af3a34ab3e80bebbc28c5524fa92f77d3073bc1e7b831cc9a42", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "1f6c53cf90cc016ed73932b69d1de1ab9924fab39594a209d6f3b931ba126a77", "response": "I'm sorry to hear about the overcrowding on your journey today. Thanks for sharing your feedback with us. ^HP"}
+{"key": "a961febac20f196612167f9904fa5a5c69054c24efbe0fff1f7633ba7d931c7e", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing significant frustration regarding a service failure and inability to access a booked seat, indicating a potential churn risk.\"}"}
+{"key": "fedff37ffd86eed73224118f548f629a7713ea068cf7aab7fbbcd0ba6c036c6d", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "cf7dfbba4cc6d930759330c6d10405ba06b3a296cef369e1eff1870723db5ba6", "response": "I'm afraid we don't have ticket acceptance in place with CrossCountry. Please speak to the station staff at Stoke, as they will be able to advise on the best route for you. ^HP"}
+{"key": "bf450b7be9365730c7d14b7724f864e85713c5072e8517cd4c0d92f592a1899d", "response": "{\"decision\": \"escalate\", \"reason\": \"This involves ticket validity and potential refund/compensation implications for a cancelled service.\"}"}
+{"key": "4bb886e64344359f439398d566ad5806747bb77897902e94cd00e527d0ba49ed", "response": "{\"intent\": \"complaint\"}"}
+{"key": "b57e76858ffbf7ac51ebcf9164893fc402078dabba4949b09a27990fe68bedcd", "response": "Sorry to hear you feel that way. We\u2019d like to look into this for you, so please send us a DM with your journey details and we\u2019ll see what we can do. ^AB"}
+{"key": "3927b4be45d004de567d88a894d9392e86abb8fedf7732fc1ca3a77de6a902bc", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a general expression of dissatisfaction regarding pricing that does not require private data or immediate intervention.\"}"}
+{"key": "c83b99fe7bf36f4369c847b8cc482d7ce3db36ce38bb33d9173be72032225fe9", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "69a7e0393ad3b902dc68fcb629288f3add502305c88d575835e92a7850a59ce2", "response": "I'm very sorry for the disruption to your plans. Please claim for compensation via our Delay Repay form here: http://virgintrains.co.uk/delay-repay ^HP"}
+{"key": "e4695c6a971a21791f36956df01a83d3e91acb4c7f92941cee03313eb722f14a", "response": "{\"intent\": \"compliment\"}"}
+{"key": "3e66477626f1bf41698d89be14a8bcb27c2014b82f7c949f1f6d52f24180337e", "response": "Haha, glad you're enjoying it! Thanks for the shout-out. ^PA"}
+{"key": "76aa06f1625823e6d911f26d68f5cc653c9582f7e8d116153063ec83437f70e0", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment and does not require human intervention.\"}"}
+{"key": "9ef844f07c2d78d485cd6d8ae03215c04c46884cfec12f8cbfbbb4fabb020958", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "74a3a1fa00a07bd74e08d65dfb6072d06cc4985ee6f4e949379c0a6fe167d36a", "response": "Oh no! Please send us a DM with your train details, the carriage number, and your seat number. We\u2019ll check with our team to see if it\u2019s been handed in. ^HP"}
+{"key": "386726412341381e71a08b81f98f8e624a0d3cde1c569ed7f17ba75751d724db", "response": "{\"decision\": \"escalate\", \"reason\": \"The request involves locating lost property and coordinating a specific retrieval, which requires private communication.\"}"}
+{"key": "3366ed308ffd17d4d6a2fc35445650c9a990052d93979bddb419b61ef604ea17", "response": "{\"intent\": \"compliment\"}"}
+{"key": "b2a2cdd6e89de18a546ff797f8f789570940eee27be43314d3cf3828825141aa", "response": "That\u2019s lovely to hear! We\u2019ll be sure to pass your thanks on to the teams at Euston and Preston for you. ^MW"}
+{"key": "82bfb37717796e4d91b6b91e40b937d62f55a0b47fc62b5a2b9bf4ee3ac6b1f8", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment and requires no further action.\"}"}
+{"key": "92682c817fc512dfa7e1b757025051b35ad263869da6e2d884322c7ee796e84c", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "faf238cf96fba73c2b3aea235797e467dc92194c61962a904ac4bf79f753d630", "response": "Sorry for the disruption. There was a broken down train earlier, but lines have now reopened. Please speak to station staff for the latest on your specific service. ^HP"}
+{"key": "522f3944928a42c063080164f83aa680e7be5b5d43221f1853201e24f498373c", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The customer is asking for factual information regarding current service status and potential delays.\"}"}
+{"key": "afcc63d26054f6e2df1f121fc34f3c541909e2bb303d770bad3127736ebbc41c", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "51a90f3b88b8dc275927c6ec0ae183983cb54138d89938f26f22df8973f6ba6f", "response": "Sorry for the trouble with your code. The @VirginRed team would be best placed to advise on this further. ^MM"}
+{"key": "6a0d8908755b8f8846b07008cddd49a947b8f27da4c5c4ef8259fd7c53983e7a", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "a42355fff69dc96496336b37fb498e24c94a43fc0ae4074840483a2da298bb86", "response": "Hi there. I'm afraid that service doesn't have an unreserved carriage. Sorry for the inconvenience. ^PA"}
+{"key": "a0c1340fd1f678f0af6c411f7a7a539e83ba8ba83ca36c275eaa3689795f4208", "response": "{\"intent\": \"other\"}"}
+{"key": "d58da03713fec7740ceea58db7ab78ae4f6261cee9fc56eade2f30f1b916c4f3", "response": "Oh yes, night number nine in full effect! ^JH"}
+{"key": "5a610d40b5d3d4531ec05560295a7c7554796d4a0b4357bfbf2ef992832cf35f", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a casual, non-urgent social comment that does not require formal support intervention.\"}"}
+{"key": "22749276a013f9e622c67635ab1ab976a58eefabe297e7cba6b40cfdc9cc75cb", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "936748e4561e31bab70df1e89ba9a3f765a369e4d19f062ae1f236e1f0f0618a", "response": "I'm really sorry to hear you had trouble with your seat yesterday. Has the train manager on board today been able to assist you with this? ^BT"}
+{"key": "de6172f674a8564f282b26c2d4c2de3b90bc6eede442532a7e9dd6f8c198555a", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing frustration regarding a service failure and is a potential churn risk.\"}"}
+{"key": "3d0e9386bc77b97ebb26f32b0f3aec8dcba539271822efc7190010c778e94a8d", "response": "{\"intent\": \"compliment\"}"}
+{"key": "4e9a491932be996ea5c639c53c86f9852bd71d4e111d5dbd463b4b8145ae7a47", "response": "No worries at all! Thanks for letting us know. Have a great day! ^BT"}
+{"key": "d9ebd6c8b280960cafcd4f5580447cf825cc6eb1eabd3de65047916c3e403489", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment and does not require human intervention.\"}"}
+{"key": "9406286260a4821136a0fc168765a7b17098f670109e053202725a33b2bc6986", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "dd0dffb85279f8e37ffa31f2973e3d65685c3029d2d133322ef21ebf4cae1aa3", "response": "I'm sorry for the frustration. Do you have a VT reference number you can share with us via DM so we can look into this for you? ^PA"}
+{"key": "274fca98054d3385cfcf968392a22c0a74dba28fb039ddc99b7ced1a451342c4", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "f9e587f33e3e6084ae6a7121efe1fa2157d7715dbce0d82d08b69a7385070c2c", "response": "Sorry to hear you haven't received confirmation yet. Please send us a DM with your booking reference and the email address used, and we'll look into this for you. ^AB"}
+{"key": "29d82b5fabba23b9398a9d97f38d139e817b1a55c08542f9582efc1c2311e12f", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "3c5bb1a641c112b9a6bd7ae9dde1d113dd0c3f60b9e01f405895637d37fd77e3", "response": "Sorry to hear about the trouble with your booking. Please send us a DM with your booking reference and travel details so we can take a closer look for you. ^AB"}
+{"key": "3488eccbf04f35699fcb87f7356462fde43cff874a70a9861b10a62fb7d89027", "response": "{\"intent\": \"compliment\"}"}
+{"key": "a0f3ddac2800c4dc2b426c4d61215a2999c31c2599f03878534ca180cacd544a", "response": "We'll try harder next time! \ud83d\ude02 \u231a ^HP"}
+{"key": "a3a815bae59bee0a299bfb3d3ec49a07e23cee7d203761e867b819ef7d8ff876", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is mild feedback/sarcasm and does not require private intervention.\"}"}
+{"key": "467a0a07f37caaef98a9f08596a379db3c57f4de8a1360d4628017fa5030d8e3", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "f76223ef0aadf4adc426d2341981871157102181ec57b2e787ddb1e22123ac70", "response": "I'm sorry to hear about your experience on board today. If you'd like to take this further, please contact our Customer Resolutions team here: http://bit.ly/VTContact ^AB"}
+{"key": "b32f0432dee5ef2047bbfcf7d5a13d3811a60326fc977018b03c1ae9af5d9afd", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing safety concerns regarding overcrowding, which requires a sensitive and private response.\"}"}
+{"key": "d66ed552f8eb87ed3d9d9631d6eea999f5a835e3a7edff8e431e5da1a1a9af57", "response": "{\"intent\": \"compliment\"}"}
+{"key": "bb40ab6d6b0d4854976d3948ae7802098c702fedcfa8b027ac4973fb9cd26919", "response": "Aww, that\u2019s lovely to hear! Thanks so much for your feedback, we\u2019ll be sure to pass this on to the team for you. ^HP"}
+{"key": "e424aa41fc096c71edf22a9bbeedaa7b2d95ae73ee2582b8cae526b56aa94200", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment that does not require private intervention.\"}"}
+{"key": "dea23e554bd854b1fab53c12b328411421f99b5035e077f2a738116a1c05d138", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "171652df7b2640abb4eb1d981b6afbcabbf019840b8beacdde1e4e41eb3664bf", "response": "I'm very sorry for the discomfort today. Please let me know which service you are on and your journey details so I can look into this for you. ^BT"}
+{"key": "ed21beb71780e194fd0a26300e7d13666cec2bdeb839204dc9cdd88264c19d14", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong anger and potential churn risk regarding service quality.\"}"}
+{"key": "14818f69c0239af5538910ae4d4a62deec352c89137513d414bee15cd605fa0e", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "73267fbe18dde6cb435618293c0715244b5f282184a378677826478b751fa4ce", "response": "Hi there, sorry for the delay. Please send us a DM with your booking reference and email address so we can look into the status of your claim for you. ^HP"}
+{"key": "267663685cfa199beef9d94ce44f0f2b7a39740f24b2057d8ee7cfd77055fe9c", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "4104a52bf9eb7388472de0028f2a47ee7ac298d6fdd41823c3d39dbaaaf06a13", "response": "I'm sorry for the trouble. Please speak to the station staff at Kings Cross; they will be able to advise you on the best alternative service to Manchester. ^HP"}
+{"key": "a2ccab0630f40dbd4dc5575a16a615f7278a3d653ad12558521bcd92d2533f3c", "response": "{\"decision\": \"escalate\", \"reason\": \"This involves a service disruption and potential passenger distress requiring immediate assistance.\"}"}
+{"key": "322f6f991fcb261def41f459d00ea5a9619c5437ef525a7f59c24e340df36040", "response": "{\"intent\": \"other\"}"}
+{"key": "d349b2a553ecaedff7b42000255e7acf2d6d1b42f6ace4cdd0903f444943bcba", "response": "Thanks for the kind words! We\u2019ll do our best to get you to Manchester on time. Have a great journey. ^PA"}
+{"key": "6595c546517772b55da960eaf905802a51c5ecce178d876a58289a88dc0bc7d6", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a polite well-wish and does not require private intervention.\"}"}
+{"key": "d284c561b585ef654015efe96d1f3fdd42a15d6be0c33c24d48afa9601548e63", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "b78198ab48ca3ea3b2a182a3dc235b3bd05370a16dd23632eb71f6bf40392be8", "response": "Sorry to hear you're disappointed with the breakfast options on board. Please send us a DM with your journey details and seat number so we can look into this for you. ^MW"}
+{"key": "1c07fa2c98c1d0e10e398a87ee9bc57001a76af22c7ac3731dcc63fdd21adc30", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a sarcastic complaint about catering options and pricing rather than a formal refund request or safety concern.\"}"}
+{"key": "7d08f2226e5411eb9ec9ccdf05f862cc6f9a554ccf8029a0ee0365d8d1640674", "response": "{\"intent\": \"complaint\"}"}
+{"key": "1e8ad1c7b7253ef3daeef2b4a7fb77d582aade85d1a5283d92608493b5f58efb", "response": "I'm really sorry to hear this. Could you let me know what happened so I can look into this for you? ^AB"}
+{"key": "6413d4d7808851f7cfd92dea4d010c3cec2abcd85eedadb4bfd6a3a93d762e83", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing significant dissatisfaction, which requires a human touch to manage churn risk.\"}"}
+{"key": "09c361ab2aab945aea0bc853a58b65d355ba5c12a18af4660f265c81d1dcf588", "response": "{\"intent\": \"other\"}"}
+{"key": "70d2fe3322b9c4e7bd405f0b77141c2e81d3592a599f9548575d5b6f7edb5106", "response": "Oh wow, that\u2019s quite the find! Did you manage to hand it in to a member of our onboard team? ^MW"}
+{"key": "cc0bbac6ff12dee13984e6dc8764aaed5f92a87444e402ba3d3c6cae3abf371f", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a lighthearted social media post that does not require private intervention.\"}"}
+{"key": "647169345cf0a8dc22c8da2c085eba5ea2018139b98b56765247ea3e369be9a5", "response": "{\"intent\": \"other\"}"}
+{"key": "f9a1c33fdf7b3188ae84c2d82ecb0b412eb02d52c5e72bca63c2825cfcbc3d9f", "response": "Haha, sounds like you\u2019ve got a dedicated fan watching your every move! Hope you have a great journey to Manchester. ^BT"}
+{"key": "76e85189fe383a79433e93d3eb1269beac3c8ab12b6284c2064b695e68f82038", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a lighthearted social comment and does not require support intervention.\"}"}
+{"key": "c3b8447ed48487e519fd5a0af247e700c30967b1ecc31f8d3fb434bf3517209d", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "14b7dee679391c07399611bb3d5690d5243e58eed8571f9bedcd94a5a256a4b0", "response": "Hi there. For weekend travel, it's \u00a325 per person. For mid-week travel, it's the difference between your current ticket and the First Class fare. Please check with the station team on the day for availability. ^AB"}
+{"key": "edad709038b94707349275b59b7c1b343c33021ec25e71808a1c078ff43c6c77", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "e732aa590d3b03aafab641e5008d78085b1a234b84bbe9ef234b58741ad5abee", "response": "Sorry to hear you're unhappy with the fare. Prices fluctuate based on demand and how far in advance you book. If you can DM us your journey details, we'd be happy to take a closer look at the options for you. ^AB"}
+{"key": "9ef30a904d0b8bcec9aa176063d235dd7b0a703ba2c6caeb507eede94319ce50", "response": "{\"intent\": \"compliment\"}"}
+{"key": "2994451104f5e4b6c7d4134812bd8f07a15e92c1a940ec7702c158161c7c1e8f", "response": "That\u2019s lovely to hear! We\u2019ll be sure to pass your kind words on to Lynne. ^PA"}
+{"key": "3346edf01a08568ecb3e0e838840f53d892396a992c3501d2c1277bddda103e2", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a positive compliment regarding staff performance.\"}"}
+{"key": "fb359c75d0608e85dae7c02f30380cdbe4f4123ee5a7ba4b035e3c778d1640c3", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "52cb882561f37388d1e4112d103c29de2da39679f109448b99f3fa79dc2f2776", "response": "I'm sorry to hear about the crowding on your service today. Please speak with the Train Manager on board regarding the carriage configuration, as that is their decision to make. ^PA"}
+{"key": "d5d6a1fb1fa1b090b34f5db7f955e8c67afee3b6f30230fa604c649a032b2d02", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong dissatisfaction and reporting a service failure that requires a formal complaint response.\"}"}
+{"key": "92afb06655376e964fc6c3c4a8d13999234b89a45b7bf4f80a520084535d6192", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "aa57903b054a91fe559ed1344d7767dc9074f4f2a05790e9346b6eb46fb43627", "response": "We advise that passengers have a fully charged device when using an mTicket. Please speak to a member of staff at the gate if you have any issues. ^AB"}
+{"key": "650196b8251ebae54066e5f37bd284793460de80a2ca9f32424a4688a48f9544", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "60694db68162c80973a7bfac1daeca17536751f979d501bd0ba0f72ba667f219", "response": "I'm really sorry to hear about your experience on board. Please DM us your journey details and seat number so we can pass this feedback directly to our Fleet and onboard teams to investigate. ^AB"}
+{"key": "bf8dbc6be0ceb19989ea11ee492e16a3e216473062e55e07c347400e6212a5a1", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong dissatisfaction and reporting multiple service failures, indicating a high churn risk.\"}"}
+{"key": "138f076742c2f7239452a6d5a40671134b49840d93ab1485181158c72d606e3b", "response": "{\"intent\": \"complaint\"}"}
+{"key": "3c47dc995705ce773d6e388d37890f529fc0f25f7e23acf741eaf73f832bb695", "response": "I'm really sorry to hear about this experience. Please send us a DM with the date, time, and station so we can look into this for you. ^AB"}
+{"key": "1988faa153cdb9213aa48a33be4c3a973fa128d436887b5dc9cf72d8bd7989a4", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is reporting a negative staff interaction which requires investigation and service recovery.\"}"}
+{"key": "a2e4a5f3904e51a3b75ff4d30f1a8ffae75cef8b36f09e27d68fc6da9afc42bb", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "564e5bef82470445f089e66fe188f6c260f0c9340e6927281bb8adee55ea4b82", "response": "I'm sorry for the cancellation. You can travel on the next available Virgin Trains service to Euston. ^HP"}
+{"key": "1d41806c67dc37c72aaccd4c8743ab326a8762c051d815f2cab3a4d259910ef7", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a standard service inquiry regarding travel options following a cancellation.\"}"}
+{"key": "e75206328437a4f10e03116857fe4935ece1ccf30913efd7cc08b16be46047d5", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "423d397a4677956901117ce1610d7ef8f50c65b857cad60bc891644c776abd2d", "response": "I'm really sorry for the inconvenience caused. You'll need to catch the next available service. ^PA"}
+{"key": "0bf81dfb110357707186afc3fdf3e618c8f778eb38b1ee7cc48297f40a24d4df", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a piece of public feedback regarding a service delay and does not require private information or financial resolution.\"}"}
+{"key": "c600eef4ce491f8f93918971aa5a3f6d55e6a282227941d2ee59dea4b634abfc", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "b5a70204c485e6d6a763618a90fca2f58c2a91839deaf2b26af54bf7e6df53af", "response": "You can make a claim for compensation here: http://virgintrains.co.uk/delay-repay ^AB"}
+{"key": "c359ceb06c93c0687f1dbce99477eb3b9fe2f937316da14987a79745efa8001a", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "677af17e6756157fe53ae358057881f854d0841dc79691cf1da2b3d446919053", "response": "I'm really sorry to hear this. Please get in touch with our Customer Relations team via the online complaints link so we can look into this for you: http://virgintrains.co.uk/contact ^MM"}
+{"key": "08061a2f3f093534d8c999e1a17ab4e4bf44ca2aec372b29bb5ebe759edb6042", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong anger and a potential service failure regarding a booking, which requires individual investigation.\"}"}
+{"key": "bb3ac166245dfd1d5bafd069c2d77606da1a10a6afa37508666af2d5796ec1ec", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "1992d30f56786634350939a005bc646ac23b915ce43f66be53e4148a6a771712", "response": "Hi there. We don't offer free Wi-Fi codes for First Class passengers, I'm afraid. You can purchase 24-hour access for \u00a35 via the portal on board. ^AB"}
+{"key": "c61552af6f703595a5ddd013fad40e80547180589315149e2e08dec14069de75", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a factual question about onboard amenities that can be answered with public information.\"}"}
+{"key": "b578700b2cd014c0a374d6cca861080dd271476ab666819d07a04b6a130057e6", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "33925ef79b3eba1efb422eb3670394ca3b74e15162975d0ec3d62fed28be2dc4", "response": "I'm sorry for the confusion on board. Please speak to the Train Manager on your service, as they are best placed to advise on the current reservation situation and WiFi availability. ^AB"}
+{"key": "4c4b428db4cb3a3abbc8f97bf8d4a08c8066f68eedf7b0f9ec435b568ea1df64", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is reporting an active onboard conflict and service failure that requires immediate staff intervention.\"}"}
+{"key": "4a095a877e09a55725beb337ec3a04b5f409fa50c267d6fa208de4ec4729e8be", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "1421addfd64dc4eae8a9f6c453c149a0c56739d4daaf040408ec0edbd515847a", "response": "Sorry to hear about the lack of seats this morning. Please head to our website to submit a Delay Repay claim so our team can look into this for you: http://virgintrains.co.uk/delay-repay ^AB"}
+{"key": "bc1801f0a54855a78621658706aab71937b851036be64dfa72f53b34a8b0e476", "response": "{\"intent\": \"complaint\"}"}
+{"key": "c6529540968c3f54882de8d6237d614bde1f9014786c45e41acf0d94af74b7ce", "response": "I'm very sorry to hear about your journey and the service you received at Peterborough. Please send us a DM with your ticket details and the time of your train so we can look into this for you. ^HP"}
+{"key": "8feee4f1334a2532a3bf0707f87b8325aa83d632eb7376757112af1618a2723b", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong dissatisfaction and potential churn risk due to a service failure and poor staff interaction.\"}"}
+{"key": "0dcad4100601efee928e8672e98dcf376d77a1edec142ae838edde2246ae3f5e", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "1a76da4741d6f11396998ac905ec04eefb17451efafeb145e6a611bb671747f4", "response": "Hi there! That sounds like a lovely birthday surprise. Unfortunately, we aren't able to authorise free upgrades here, but it may be worth speaking to the Train Manager on the day to see if they can help. Have a great trip! ^HP"}
+{"key": "bd77ab26cd85ab02bd496b3c44204a8ca3c57eccd8c8b355bc1c10b8fdea6933", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "ad5c7814bb6d556d4cbec7e381bafd761d9345bb9687b6e1b48a1d9220eca32c", "response": "Can you DM us your booking reference please? We'll take a look and see how we can help. ^BT"}
+{"key": "825325a445b83950083138bd03e6b1f2089ff00d317a201f03f4df036d704769", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "b6994396480c819aa1ffdde49c2b5b4a992fb722f767a719b4528bf5b840b950", "response": "Sorry for the delay. If your train is delayed, you can usually travel on the next available service. Please DM us your booking reference and we can check the specifics for you, including the 1st class upgrade. ^HP"}
+{"key": "cb94e98b54f15a768740ef740d0c23651d1e3eec4bbfaa3f6f1eb1696d33ba64", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "999923b799f7b728ceaf2fbd42e02eb5bbdfe0eba00c86eb004c3e2dd61156d9", "response": "I'm sorry for the disruption to your journey today. Please DM us your ticket details and the route you're travelling so we can look into the best options for your connection. ^AB"}
+{"key": "48dbb2c5e1146ea5988f08293092b3dc94a90a1e12b35b7d8e20cc86ef6a023a", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing significant frustration regarding service reliability and potential compensation/policy issues.\"}"}
+{"key": "a427a8e709ba627930ab76df08ceba80f1f4316bb26e71dfd224ce6bc8bbe0c3", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "9a5f629a72833e5381bfa2442ddf6ce55b408af2042fdf4d47883ec40b751c36", "response": "Sorry for the frustration with the seat selection. We can certainly look into this for you. Could you please DM us your booking reference and the details of the journey you're trying to book? ^AB"}
+{"key": "23c1dc122882f7ea8c6d998da4ebe32ad876db4cd392793456951dca9a7b1d94", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "29c97cea9636c71931b2c4d509071ea9f0c3d704092075f1a86104d493fd5c5d", "response": "Hi there. This service is currently due to run as planned. We do advise keeping an eye on our live departure boards for any further updates throughout your journey. ^BT"}
+{"key": "f8f6c9ed143a1eacfb22cb1bfe22e04cf900d1757ba9fa752086dc1caf8841ac", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a factual inquiry regarding train service status that can be answered with public information.\"}"}
+{"key": "34995c89906e7aace9d52619648d84fc11d87cc5d312f294d9d22f11ec59fb5f", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "f5a1713618c698fa304a445b827f5a2b18ee95b71ca228b130df5a221e577f9d", "response": "I'm really sorry to hear about the conditions on your journey today. Please send us a DM with your booking reference and seat details so we can look into this for you. ^HP"}
+{"key": "3b26fa3ec32e365a05be6858d47c0d6a8ba855b701f62506b59212dd7f21a000", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is reporting safety concerns and expressing high levels of anger, indicating a churn risk.\"}"}
+{"key": "6472f619bfa1f677d3d96296c4128bb6defacec16529ccdf68bcf8ad1105b514", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "8e13cae7fa1689b593ba1499923011a0aa16fb91047f1d9481d341be3e36542e", "response": "Oh no, sorry to hear that! Please drop us a DM with your train details so we can look into this for you. ^BT"}
+{"key": "dddbaa55a361a2571b14396b956706df5495218c00403a177c235f25f1f040b9", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is mild feedback regarding onboard catering that does not require private data or urgent intervention.\"}"}
+{"key": "0fecffbbaceb5430b32731e612e4be0006516a786b1d898b96662c3128126d16", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "3954ea8c7d24a50f8dd228d037f0657e84d8226c2493184b6397c8cefebd3691", "response": "I'm sorry to hear he had to stand despite having a reservation. Please send us a DM with his booking reference and ticket details so we can look into this for you. ^LC"}
+{"key": "35a7d42149528bd5cc2bbb37d5bd343053a0fe7ec378e3e9a5718c03b4d869f2", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "d84ea21dcf0e44adf6c78a4e9aaa7ac1218c41b83b96cbd3a38bafa42da592f1", "response": "Hi there. Sorry for the trouble with the Wi-Fi today. If you've experienced issues, you may be able to make a claim for compensation here: http://virgintrains.co.uk/help/refunds ^HP"}
+{"key": "8355ab8bca57d0d3d791cf5d567ad4f2e46eca55120268b73de250bff2d21759", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a factual question about service status that does not require private information.\"}"}
+{"key": "a51fa3a3d45c9e371c7388de6b9068deb1b6b4042d39cb987b64877d387907a7", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "4f0dff0ee066278b263593224946b982e4d97733d9f3e4fe04391638532841c8", "response": "Advance tickets are usually released around 12 weeks in advance. For travel in late December, please keep an eye on our website as they should be available soon. ^MW"}
+{"key": "0a459b1a2836366a50ae37c54a49275978820624dcc819162af63f6cd72423cb", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "b211d94143aa5ddfd297e63ae55b6b2372a79801fa18a11da0a9f5b34f5cddae", "response": "Sorry to hear the WiFi wasn't working on your journey this morning. Please send us a DM with your ticket details and the train service so we can look into this for you. ^BT"}
+{"key": "574e0e119f6c49cc9adbf057f22e84e91115e1940f1a9d9ebfa6b92090e68b70", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a complaint about service quality that does not require private data or financial resolution.\"}"}
+{"key": "14995e0fcc15d0950069182b854fd66c37803aaaacb8576e6e064cc181251a2f", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "6039692524d80e299f8631f4b87fefe4018171bc257f817971d9861900750dd4", "response": "I'm sorry for the delay and the lack of information. Please DM us your booking reference and seat number so we can look into this for you. ^HP"}
+{"key": "6e8d07c233a98d8303918bbeae5efed2109769f95659947a03c71055221270f1", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The customer is asking for a status update on a delayed train, which can be addressed with public service information.\"}"}
+{"key": "5b6235535db71b6f923d4ff3da1224624b14baa828997333f122e4bb661fe455", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "c386ebee38bc56aa1051dca1df0c093cca6066f38a113a767d2c7b7f06664d2b", "response": "I'm sorry to hear that. Please DM us your journey details and seat number so we can look into this for you. ^BT"}
+{"key": "a04b10f338746be1022d1bc618b8f864b4523e0ac0616f680a8fdd34dfaf0721", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "0447c5469f138e766e444c045e3bf1225af9ed5dc0bfe1a3bd25f757e73684a0", "response": "Hi there. It can take our Customer Resolutions Centre up to 28 days to fully process a refund. If it has been longer than this, please send us a DM with your booking reference so we can look into this for you. ^AB"}
+{"key": "c19e1dee7c4608fb1a83f7055e1b24bef94018fd05369640b43aaffe8dd9be6d", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "bb6a3b60567aaa15462536d0917628b6f542ea79a45dce707ad73da1a846abb9", "response": "We don't offer free WiFi codes, only the provider does if you book through their site for their service. ^AB"}
+{"key": "f25a70e7a353f24a9564caa54f730b0a332d568e7e2fb01766f8c33dd406fdd1", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a factual question about service eligibility that does not require private data.\"}"}
+{"key": "0bf5de77204650795ffae3ffdabfd18def53344da652c72cd7a3c71a6b8d848a", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "d2e109c1d9301999b2e007556382633cd4dc2522b526762268a803faa0ea9265", "response": "I'm sorry to hear you're unhappy with the food on board. Please send us a DM with your journey details so we can look into this for you. ^MW"}
+{"key": "8cd15ba8973c558d53d97fd083548785a66b0de9210ab8a5b9af39fa964fe0a7", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is mild feedback regarding onboard catering that does not require private intervention.\"}"}
+{"key": "f9103cc809f801d64bd22b8aa7a3be5494cac87ff6e8eb8e46ce06ef9bd471d9", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "c6f1b9fdc2f97aa5a3190d4866c7c24bd5f9470f859ad8d579ac0540da0a891d", "response": "Hi there. You can find the latest information regarding industrial action and affected services on our website here: http://virgintrains.co.uk/travel-updates. Hope this helps. ^BT"}
+{"key": "1cebb7f2662908fd92132f79f06b4250ad506fce9b940f8fd00a0ef00bcd3df0", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a factual request for public information regarding service disruptions.\"}"}
+{"key": "390a892b366a2cfe5d1da7a9bbd60fef82c08784263eb95e9f3d513d2baa5993", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "7a019b96f556c9b5a81b63415fa1c4cf67239516d30b722e1532c191c55425ab", "response": "I'm sorry for the frustration caused by the delays and the shorter train today. Please send us a DM with your journey details so we can look into this for you. ^HP"}
+{"key": "6f8d2e6ec3caa6ede9423129374212abdc598c06d6b4bad14d9fe21d6b0c2c49", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a general service complaint regarding punctuality and capacity that can be addressed with a standard public response.\"}"}
+{"key": "be1d6f9d8ba2e3d7df42524bebccaf45a918740185f9a8e63571616fecb63379", "response": "{\"intent\": \"complaint\"}"}
+{"key": "fef4d11ae924d14c47e8fdb9c878db715c123b8ffe0248577d398c3d6c745b7e", "response": "I am very sorry to hear about your experience today. We\u2019d like to pass your comments on regarding the service you received. Please claim for your journey via our Delay Repay form here: http://bit.ly/VTDelayRepay ^MM"}
+{"key": "639bb946f68b98c19a6a94e1613ce643b004c3241e9430d159d64fd256b9fbd7", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing extreme frustration and is a high churn risk.\"}"}
+{"key": "6000d7fc9818f096946057a2a7b7c6b82ce871415c4ddb9d178e9bafdaea925a", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "996853559dcad9befe177fa61689f2bfa863db676be7d1987ef05ccaf15c0ab2", "response": "Sorry to hear about the queues at Manchester Piccadilly. We\u2019d like to look into this for you, could you please send us a DM with the details of your journey? ^HP"}
+{"key": "9bf12c445a6f08fce0015e3b1862d7b08476aa467003e99f7e0e29ce90adbce6", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong frustration regarding station infrastructure and service quality, representing a potential churn risk.\"}"}
+{"key": "f356c73f4ff5a5e88b7650c229e7caf9b7016cfcfb1300fd74d7268dd172d87d", "response": "{\"intent\": \"other\"}"}
+{"key": "e6821bc8f1816e1f32547aa34a808ba87b752fe54c6e0475d52b0682c2e33a1d", "response": "They hatin'! Hope you're having a smooth journey with us today. ^MW"}
+{"key": "549ba238d9eb5f2dcf25f549072a75e29ee5d186c3dfecb38f9d05fd72e93da8", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a lighthearted social media mention that does not require human intervention.\"}"}
+{"key": "25f12b9239651ea3ef7ccb2071e633936af4a18e4cc3c65f84612cfbb9bd1d1e", "response": "{\"intent\": \"complaint\"}"}
+{"key": "709215ef5baea659fb5d913a885aaa3809b4351845c64f854fc7120ef2cdf3c3", "response": "I'm really sorry to hear about your experience with our staff today. Please raise a formal complaint regarding this and the service issues here: http://bit.ly/VT-Contact ^LC"}
+{"key": "51d0ddbc474438c1a84630ccc43d733841dbe85222ab588e5e8dbc3447b5c1fd", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is reporting a negative experience with staff conduct, which requires a personalized response to manage churn risk.\"}"}
+{"key": "c28b209e3c3b71cc9dcda6d780587bf48257a37d2aea5a314390136d3638424f", "response": "{\"intent\": \"complaint\"}"}
+{"key": "c13cf7599b50dc8cf28d87efe94802b70c3317343693877075695d3a0caddd88", "response": "I'm sorry to hear this. As Newcastle station is operated by LNER, we'll pass your feedback over to them so they can look into this for you. ^HP"}
+{"key": "c2bc752bcd7ac1aab906cd034ef695c54e210358266e29de1b8017edaf454b21", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong dissatisfaction and a negative experience, which requires human intervention to manage churn risk.\"}"}
+{"key": "e2a18465af277232e13ab7a6ce8b3e7465fb68831afb15b1fea19abbc400358b", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "501dc63d8762385af1816abf848c42880ccfe40f57a4bf7268776e67cb73099d", "response": "Sorry for the inconvenience caused by the coffee machine being out of order today. ^AN"}
+{"key": "88bc907104a3453ce73c3e99a5b7cd61b40e176a6ca10108d8b9f6d7a41cb49f", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a piece of mild feedback regarding onboard facilities that does not require private data or a refund request.\"}"}
+{"key": "f79fee5746c39e333a00477c499da625cb94ad8f8d5f8172b2862f1b97384aa7", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "9e218713d17648661fabf27cc81d03fe9552157d900c9f36dd28788b0afdc2f6", "response": "I'm sorry for the delay. That certainly shouldn't be taking this long. Please DM us your reference number so we can look into this for you. ^MW"}
+{"key": "6071baa6bff183986bea709360b53d00c9095997e25d82f54d1d44a9aebf0fc1", "response": "{\"intent\": \"complaint\"}"}
+{"key": "6e8421900175f8764d06cb114102af940b4aae004eac451b87bb3bc14fc8bbd1", "response": "Oh no, sorry to hear you're feeling this way. Is there anything specific we can help you with today? ^BT"}
+{"key": "2704e0f0ed0115ab1b3eb8d5c53cb649742392a0fedc7f752e137c954fc508f8", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is mild feedback expressing frustration rather than a specific service failure or churn risk requiring intervention.\"}"}
+{"key": "acd3a1fd113cadb3f33a019f3947c4ef4690db773e7f5d22f5d50c143567da63", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "3e08886701b006046d6717a048ac35b46f96d45b50a846bd0c7592ccbc147fbd", "response": "I'm very sorry for the poor experience today. You can claim compensation for your delay here: http://virgintrains.co.uk/delay-repay ^HP"}
+{"key": "ab77e0a084c2d6ef8114cc6efb78395eeaa4b4b5d6cbbe9147cef02417439f11", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong dissatisfaction and is a churn risk.\"}"}
+{"key": "b17df4fef3fed22b95681f418b4a88a6d935c34b2233b306ef458051e89946ae", "response": "{\"intent\": \"compliment\"}"}
+{"key": "a750a66060d8bd5b7bd1c46f27fb78906c267a7d681a64c55413c4f4a87b79a4", "response": "That\u2019s lovely to hear! We\u2019ll be sure to pass your kind words on to Debbie and the team in Manchester. ^PA"}
+{"key": "c0e705b5dfd970f57b51e4d96e66a89e20c36bc002ace42acc1099f0165880a6", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a positive compliment that does not require private information or financial resolution.\"}"}
+{"key": "f23bb7a67de1be770a7d6ddf71658f91ea53b93c73053f3466e4eaa41e35a887", "response": "{\"intent\": \"other\"}"}
+{"key": "d4eef0caf19d708b840c98aca1892070cbbc68ff594acd9fc7f28b50883f5ef8", "response": "Sorry the FAQs aren't helping. Please drop us a DM with your booking details and the issue you're having, and we'll take a look for you. ^AB"}
+{"key": "1697566fce7e80495bb22aced3cece6020c50f37abf2d482dd73fbfd0b59104b", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a general inquiry about navigation and does not contain sensitive or complex issues.\"}"}
+{"key": "0e913ecd07e3a4575c16eb4afa84dd4868652aaa63d8fda0d4a6f2a5364f4b8e", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "b174de8c5ba6ce078ddb6689db07050a232418756d4f6b21f028a77b37283ae6", "response": "I'm afraid that's how our WiFi is set up at the moment, so it's limited to one device per code. Sorry for the frustration! ^MM"}
+{"key": "f61001685772401a465ee2df292308aceda3d66b70390e1dfbac7c98fb9bbc2e", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a general policy question regarding onboard services that does not require private data or escalation.\"}"}
+{"key": "b45aab71d5752a42c3bc8e0ef09323d3e46c4ebcfa43b47201d4f3e470ab9078", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "12442b4614dc15f2545f51feafb51f2c0f7d759dcbea4402fdc42b21b3eabbff", "response": "Sorry to hear you're having trouble with the connection. We are working to improve our onboard Wi-Fi, but if you're having specific issues, please give our support team a call on 0330 088 1271 so they can take a look. ^MW"}
+{"key": "f596cc9c42389df329befa2d7190f3df50f7c85ae994903a8090f33e00abc2df", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is mild feedback regarding onboard services that does not require private data or escalation.\"}"}
+{"key": "40a2f3f9d1a45250903359ae6e93b7c7afc3a2b029a7d167bcba17375fce897b", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "f40da985ece243fd638c9161421b51c1f4dc090c9246a2c44d6170e1c9d2d0e3", "response": "Hi there. Sorry about that! Please send us a DM with your booking reference and seat number so we can look into this for you. ^AB"}
+{"key": "a9243eb5c1521cc3309ce18ada527a12d995d9110063d63575e564533ce0604f", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a simple service inquiry regarding onboard amenities that does not require private data or financial resolution.\"}"}
+{"key": "2100dd6bffaa64823e7502f922de0fba881495dba09d5ca8a39304b36bd43c3e", "response": "{\"intent\": \"other\"}"}
+{"key": "1297ebf4cf4bea7e988d601a5836faebf59d7eebf2cecbb70a4d06024b934977", "response": "Hi there, sorry to hear this. Please report your lost item to our team on 03331 031 031, selecting option 1 then 3. They will be able to assist you further. ^MW"}
+{"key": "9b7b30c6bc10ffc08cd072254e3a2db3dd757d8136c75cad7e7ddf536e44a137", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing frustration regarding a lost property issue and lack of immediate support.\"}"}
+{"key": "04547669edcc382ac05d979ac093276e14df898e4baec7002be52a2a61fbf8c9", "response": "{\"intent\": \"complaint\"}"}
+{"key": "e91bee4cb3ba48396f77314783119d4275435e5be400f5ddee140d89570022dc", "response": "Hi there, I'm sorry to hear you've been delayed. Could you let me know which service you're travelling on so I can take a look for you? ^HP"}
+{"key": "3361208525529eb8bee36a1f9aacf07cdbd15d1b4eba311432ce2af8d6912c37", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a general expression of frustration regarding service reliability that does not require private data or financial resolution.\"}"}
+{"key": "20439ccffa7b67849dbd8c0cc8e876f4eb91c51b376655b0ad0f6dca2d7a7d08", "response": "{\"intent\": \"other\"}"}
+{"key": "ad9740090eacaa087fd600634490733c0ec99bf315f50b742748029ee9a006a3", "response": "Looking good guys! ^MW"}
+{"key": "3ffcedce18b835f61ebe7e4dbab468232f3b945ec3d8fdf92fcb75ee14050788", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a lighthearted social media comment that does not require private intervention.\"}"}
+{"key": "c9b990e89274b197253fd399f90d61e485cb3c3ba0d06a94ef9f719e0c613704", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "9d33cd5341b4ff5a7e1fa8f99174461e0cf738cd212505288b778e4b3b85ff52", "response": "I'm sorry to hear that happened. As this occurred at the station, please speak with the team at Stoke-on-Trent directly so they can look into this for you. ^HP"}
+{"key": "cbe790d7c01de2fd71ae278265075d126efc964260e06f07696fe1b7fdb9a8f2", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "f1812a48a4c4c4560d5115d833490255c3f1a3944a93d97b054dd471ab742e59", "response": "I'm sorry for the disruption to your journey. Please send us a DM with your ticket details and the specific service you're on so we can look into this for you. ^HP"}
+{"key": "bb1f70cc7ea5f9685805bed9a06ec5e0cdbd99c4b8bc00c97e7a43436eafe286", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing urgent distress regarding a potential cancellation and work commitments, requiring personalized assistance.\"}"}
+{"key": "4908546bed5ccc94092823dfe864c0af6466a5f4b67f36ac78ac25823579b563", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "6941aab1eccc70fbd281c475bb34d17f93cdc5208dc46fe94688e1f71afae117", "response": "Hi there. Our Customer Resolutions team aims to respond to Delay Repay claims within 14 days, and 28 days at the latest. If it has been longer than this, please send us a DM with your claim reference number so we can look into this for you. ^AB"}
+{"key": "640f88483cc5e3313395afca35dc47dec036111b4ed79fb161c19251b32ee4f1", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "cf8fdb61d25c95e3a075e3edb972215fa86221513fff75b8ef65bd76dab425c3", "response": "I'm really sorry to hear about the overcrowding on your journey today. Please send us a DM with your ticket details and the train time so we can look into this for you. ^AB"}
+{"key": "d2021c296543e02a8c055a65aea8640f4aa61c70f249a508261fe32901c86d45", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong dissatisfaction regarding service quality and overcrowding, indicating a potential churn risk.\"}"}
+{"key": "e7b9d4ef8d1e80648aa245f55483fc0ce42d6912d1f61c80d9227ffda24a52a7", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "d6bb9b62e8cbeea68e55fc283b15de18804e6a39e29c631aceebe82b2bd741a8", "response": "I'm sorry for the delay. It does look like there is a fault with the train. Please keep an eye on the departure boards for the latest updates, and be sure to make a claim for your journey once you arrive. ^MW"}
+{"key": "8d433dff4cab943f374c0d0bc3b44f03d58fc5be6e3b464866cbfe05dadb671d", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a factual inquiry regarding train status that can be answered with public service information.\"}"}
+{"key": "1955c364f9d4a0530bf69aaf5dd87e139651c311dc955ff90207665a9eee2a3e", "response": "{\"intent\": \"compliment\"}"}
+{"key": "ecfa231eec7f67c3a4ab6358ccf7fe24b2a27d9cdd93e86fec311199e5130265", "response": "Glad to hear you're making good use of the time on board! Thanks for the kind words about our train manager, I'll be sure to pass that on. Safe travels to Euston. ^AB"}
+{"key": "7b82cdf2268fed78e64077f4ebab7fb28df706243a5ef01bc9b35a85b0fb42a0", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment and does not require further action.\"}"}
+{"key": "8f8b11dc15bfb5249698729d9ec6c59303656da6ff801e37fe01465e6ea77ac9", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "592624120a667c5829ce802e26499e2173cf36dd97bee3529b94f95855301b63", "response": "I'm sorry to hear about this. Could you please DM us your coach number and the time of your train so we can look into this with our onboard team? ^HP"}
+{"key": "44fa03dd8cfac362de9202a3628a39fe3a2f3df0847476a3cbe5872a5ef81464", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong frustration regarding a specific service incident that requires a personalized investigation.\"}"}
+{"key": "4b114a11d81055d6ebf50982147cac759cd0f90af7f3b7a724a467459540b2df", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "ca7627833f4c61493de88992a1f53007db5cdc224edcde385c457f06fae5e7e6", "response": "Hi there, sorry to hear you're concerned about your journey. Could you please DM us your booking reference and the date of travel so we can take a look for you? ^AB"}
+{"key": "bfc152e6606687e698ffc584d462210459a5cfe4b812e8d7f4a754502fa7dba6", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "ea455bf4b1333d66ff2b44e8992649bbe7ea27298a220e9a44735c149b7645ea", "response": "I'm sorry to hear you're finding the journey uncomfortable. Please do speak to a member of our onboard team, as they may be able to assist you with your seating. ^BT"}
+{"key": "0dca6ca4f5da119f90e07f29347033d2110bf41877d66d43dfb4c813abe85913", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is mild feedback regarding comfort and does not require private intervention.\"}"}
+{"key": "ada1ace5af5e7f971ee66d0f6cb2d83bb507e2818a6135766184331a9cfc85ab", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "974e510f806772a4ef1b418412cd08bfe2fd5c66d7f3d800bf344506b14dbbc9", "response": "Sorry to hear you've had trouble. Please drop us a DM with your ticket details and we can point you in the right direction for your refund request. ^HP"}
+{"key": "8f1d3f84196bf994ce480c5509da711e7d2477862c51ce38bb59461fb1160928", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "e9ba12b59c737c47cd39b3cf3f93f220cd357b35c2317d435c166dcd165afb4f", "response": "Sorry to hear you're having trouble with the WiFi. Please speak with the Train Manager on board, as they are best placed to assist you with this. ^MW"}
+{"key": "2109107d566605121cd2d1b2a07e6f450404015aee78d7c84969bb647de59342", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a piece of mild feedback regarding onboard services that does not require private data or financial resolution.\"}"}
+{"key": "16a8af5e95ffdf7eeb7d21ae1f4abc47803d83bc411d60ff32acc84e624ca9fe", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "ef227f669175a94347c106e91e1e97d58b13eba7504d4fbb77fd61fa7c823b26", "response": "Hi there. There is currently no confirmation regarding strikes for Thursday. Please keep an eye on our website for the latest travel updates. ^AN"}
+{"key": "5be169ee34942df2730ead9c615d2a5897deb78026ab222e7ce600faa8075fe7", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a general service status inquiry that can be answered with public information.\"}"}
+{"key": "d31a676c7b6ad2ea41cef068fc9548e1dc6111b108e1603a062d85b6d4218fda", "response": "{\"intent\": \"compliment\"}"}
+{"key": "752c935a1dc78654a628a5bc76c93d1af333298e6801186a9ad6626cf899427e", "response": "That\u2019s lovely to hear! We\u2019ll be sure to pass your kind words on to Aimad for you. Safe travels home. ^HP"}
+{"key": "0effedfa70429a16441b7bbce9b7d408118bb59bf900fa0de1f6b5f571aafd24", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment and does not require private intervention.\"}"}
+{"key": "8f5c98779cf5dbfd593193c66f1174bde0577dfd3aeab7a2d68b99c16fe3c4f0", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "95dfefec1298c273269da48fcc14eeb8e88aede96f1ebfdcb5dc70d015395fc4", "response": "We don't have a Christmas dinner menu on that service, but I'll pass your comments on to our catering team. ^MM"}
+{"key": "2cf163a20a20824a0f98b0bbbd5d8b4df548d94ef34bba5f7ff97e2408344667", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The query is a factual question about onboard catering services.\"}"}
+{"key": "d2db057839ba70cfc473e6b36f59c509f80c311e968177dcc302e5a554dda38a", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "c6f62beb50b37948919e59efdf931362de1d02d1fe2ea876c0df1f059423e0bd", "response": "Morning! That service is currently scheduled to run as planned. Keep an eye on the departure boards for any updates closer to the time. Have a great trip! ^MW"}
+{"key": "1f685e79a18a30e43e4a9ca69ec70f2915ab286d920322c44ca2c8934fc0c9ae", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The customer is asking for a simple status update on a train service.\"}"}
+{"key": "4b1f388decd6f1d87d862652ae0c7813b21de0b92850dbf4bb6f871e6ab1f875", "response": "{\"intent\": \"compliment\"}"}
+{"key": "422e352bf298b5ca57f80a43f651fe743b991a898036c8ea4012d26afe3b186c", "response": "That\u2019s so kind of you to share. We\u2019re really glad Daniel and Sylvia were there to help your Mum. We\u2019ll make sure to pass your lovely feedback on to them! ^JH"}
+{"key": "dd027c4f03bb752c270be48927105f4f4c9300fec03f31dba9c0a6b8e15ebd0e", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a positive compliment regarding staff performance.\"}"}
+{"key": "7534341e8fec06441f3e5165581d8ff1c346f6773ca18737f39babe9eddf7b31", "response": "{\"intent\": \"other\"}"}
+{"key": "0258e02d54e211edb24396b286c4035c0cbdf8f78f06041ade7880def7aa3dd5", "response": "Good morning! Hope you're all having a great trip. ^BT"}
+{"key": "fde55ffc9dd53ce8d488f87ca064367b3c514808000bb0d9bdec4fe977c49a2a", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a positive social media post that does not require intervention.\"}"}
+{"key": "777e683714bdbc9c5c9edc4a25c45d8a1634ff3d24edff923160cb46dea216eb", "response": "{\"intent\": \"compliment\"}"}
+{"key": "0272248c6d2f7007bab47b5f5c21acada9d4b22f6b6a9e205d0f9d07d52b5d38", "response": "Glad you love them! We'll be sure to pass your feedback on to the team. Have a great day! \ud83d\ude03 ^BT"}
+{"key": "baf76d1d11e7ad0a0b74b222cb6fd078d572515334ae487b5236eef89faffc5e", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment and does not require human intervention.\"}"}
+{"key": "6812267d39dca857b6934f6239fcef0f3af2427d5ec5dbacf7e289250072e671", "response": "{\"intent\": \"delay_cancellation\"}"}
+{"key": "66bf2f07b74f3f4a355961bc65a413ca66191a49b3bc784d1f083c18e57824f0", "response": "I'm sorry for the frustration this morning. Where are you travelling to today? Please DM us your details so we can look into this for you. ^AB"}
+{"key": "3de1dcc3fb685f42ea4ae0c99e4ae42c923d848a7620ff6efab333150a074b98", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong anger and frustration, indicating a potential churn risk.\"}"}
+{"key": "bf4307efbb088c38a95212f751e223ab52e9c77f317c6864a499498bab7fb3be", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "d5569b84687b3ca04e313d06beda6e7011e834d263bcdf10f3a6720305542292", "response": "I'm really sorry for the delay and the lack of updates. Please DM us your journey details and seat number so we can look into this for you. ^MW"}
+{"key": "89b972246c3cf9c5e83a706087331c700a7fb9d7e8043bab7cc040494b923fb8", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing significant frustration and potential churn risk due to poor service conditions.\"}"}
+{"key": "d64df156dec10efe506b4a997391250805932de6cd7253aa843b29569b42736a", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "295d3aa8fbfc2384490823077006e6cce163cd84206e8964746f7cf81e9664c5", "response": "Hi, sorry to hear your news. Yes, you can use your ticket for today to travel tomorrow instead. Safe travels. ^BT"}
+{"key": "0386811cc1aa8867648c61dd816986a0a0c73fc8fcc5c0154768fb1ffbff91a7", "response": "{\"intent\": \"complaint\"}"}
+{"key": "9329878fee0a8449bb9d10cbbb69b2367aaaa81a4b934bf80e2b6a0d2c066ca3", "response": "We forgive you! ^HP"}
+{"key": "49c88655b6ce64b764f887db12e7a91737614234bef5494ad738c122bf4d2edc", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is general feedback and does not require private account information or a refund.\"}"}
+{"key": "d8a5eecde8efd4b6d318fcc9d573ec651c883c95c3be123a24e7aff0e7f9ed32", "response": "{\"intent\": \"ticket_booking\"}"}
+{"key": "f7e455ccd50287125383968ce662185b4dba0baf28a97c3c6785f655ffe2d68e", "response": "Hi there. Please DM us your booking reference and the details of your journey so we can look into the wheelchair space for your 18:30 service. ^AB"}
+{"key": "dd85d2c385027e097467607c8335463adab774b4ce87c60073d48a86ff010887", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "735b8a0c65a4120d43c26e8fc0c6a7572c2723617ab4857835cf8d46bc8de3dd", "response": "Hi there. Please send us a DM with your booking reference and travel details so we can look into your options for you. ^BT"}
+{"key": "edcf8734e0b4012fdc241dcde3750ccd3e97d46e8f8c467259462c51a455b234", "response": "{\"intent\": \"wifi_onboard\"}"}
+{"key": "e82629b082f3e55f23c53b192ee1a2bc6ab55a875ed1c7b220a4fa2c139e7d18", "response": "Sorry to hear the Wi-Fi let you down during the match. Please drop us a DM with your journey details and receipt so we can look into this for you. ^AB"}
+{"key": "1ba399f65ab9c019274a1e8d207f2a2eeb6e7132153712a6022fb95a592e9901", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is a piece of mild feedback regarding service quality that does not require private data or financial resolution.\"}"}
+{"key": "967b646a5239134e5941f02a276afeab0bdbbdfd8bc377c10f741d9ce56dd68b", "response": "{\"intent\": \"compliment\"}"}
+{"key": "5324227f99bb2877eedc42c7b5b582a11c4d1504eadeaa41bafc2929247defad", "response": "That\u2019s wonderful to hear! We\u2019ll be sure to pass your kind words on to Nathan and the rest of the team. Thanks for sharing! ^AB"}
+{"key": "59911f5ed2f8ec0bed276343063863be44232b493e1ca9ba627c9071970aa1eb", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment and does not require private intervention.\"}"}
+{"key": "c50b9197f34e609a80dc492b6fdf5570384ad2cc995dd7f3bc351d45bca12737", "response": "{\"intent\": \"complaint\"}"}
+{"key": "c12a41fe464cf39c34b6b2a768de892d3adc53f1e992b806046f2251cbe41309", "response": "I'm very sorry for the delay. Could you please DM us your email address and the reference number for your complaint? We'll take a look into this for you. ^MW"}
+{"key": "77b019bbba4b71aaa3153a29e4de9aa2a0e6e5268de1dc47500cc2b967bf7e43", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong frustration and threatening to churn, requiring human intervention to resolve the complaint.\"}"}
+{"key": "168af7cd80a0f2fe199fc3f19f720a67cf869f083fb94b572041ce86f54ee383", "response": "{\"intent\": \"compliment\"}"}
+{"key": "1ca4d31999aaf3e94a82152a8e37b01d4f3f705a1cc50a5cdb285b8d528369be", "response": "That\u2019s wonderful to hear! So glad you enjoyed your journey in First Class today. Thanks for sharing! ^AB"}
+{"key": "e7e29ca9165f2c123fcbd0eddf3b81f8279ce91ec0a75e9138368b592b8f4701", "response": "{\"decision\": \"auto_handle\", \"reason\": \"The message is a positive compliment and does not require further action.\"}"}
+{"key": "bf37a01a1036aa28062b5be0dfd59d46fd1b7c1f5abd09b5d50f650c16d24d20", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "dc2a1172054296af10ceb51863174b8898318e7ac3463a9e6213ebeb4369039d", "response": "I'm sorry to hear about your experience with our First Class service. Please send us a DM with your booking reference and journey details so we can look into this for you. ^AB"}
+{"key": "42ab0e6293f9cdbd4e529d59cc9a840e1192a89555491b7797562efc8a6e0c47", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "76e0f13be19ef284c360c9bb79d4ee7d4e15a005f700b24cb9a4b7cf11904594", "response": "I'm sorry to hear about your experience on the 17:50 service. Please send us a DM with your ticket details and the full account of what happened so our Customer Resolutions team can look into this for you. ^BT"}
+{"key": "cec3f4d5df8bc93fae16b256ea7587508664040ab781efdf371bd25ce2401799", "response": "{\"decision\": \"escalate\", \"reason\": \"The message reports poor staff conduct and service quality issues that require investigation and potential customer recovery.\"}"}
+{"key": "04a563940c4b817a685301a5e9b62eb849a89339f6a63c7518312a37065a3767", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "bedaa11cc8a7a7e06c3e379b2fb317746134ea7b11cce37dbdbff00ae26ffebe", "response": "I'm really sorry to hear it's so uncomfortable on board. Please send us a DM with your carriage and seat number so we can alert the crew to check the air conditioning for you. ^BT"}
+{"key": "0ad393b391094d4374420fa120b70a1350e7a4fd50892347d2a1f7a71fbb98f3", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong anger and potential churn risk regarding their travel experience.\"}"}
+{"key": "24fbaffea982d9b9792559a002d63587df37b071330dec600e0958a5ec42373f", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "3fc226105dda7c4b8f762f1a578828f3108d2155d709c0a4606d72d2b7fa00b4", "response": "I'm really sorry to hear that. Please DM us your booking reference and the details of the cancelled journey so we can look into this for you. ^MW"}
+{"key": "4f7fd18d881883e90154a5534c3913e55f70ba5fc18711d2f577984422070ea5", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "7f86ef408ee712d6d3d8278c03e75f5589c63149bf4020e1e8d8f2087df431f1", "response": "I'm sorry to hear this. Please DM us your booking reference and seat details so we can look into this for you. ^MW"}
+{"key": "0f9f1126c07506f03b93a5d8dd96d109d65d26364f9026839d057b1cbd618348", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong frustration regarding a service failure and requires personalized assistance.\"}"}
+{"key": "e84d147b75c27db91e5921eb7835a1e5e1730156bfa884a5d2fcdb54eff8bc54", "response": "{\"intent\": \"complaint\"}"}
+{"key": "71084e81133689a9de813a74394ddc2f5c38bb387c380f5a514a8f01980e8ce4", "response": "I'm really sorry to hear about your experience at New Street. Please send us a DM with your journey details and the time this happened so we can look into this with the station team. ^AB"}
+{"key": "8c3e1fe18f8d3ce1a2ad580873e54c26f7be8b5db863c22f705397d362043e29", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong dissatisfaction regarding staff conduct, which requires a personalized response to manage churn risk.\"}"}
+{"key": "9541d828a2ac657fd53a2483647971cdd645338dd1d12bdb74e98a0ec15d3b44", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "ec0a416c2d1c4a2992be742541e74974693dc1cf133b774ea49c2e533418f147", "response": "Sorry to hear this. Please speak with the onboard staff regarding the temperature, as they are best placed to assist you with this. ^BT"}
+{"key": "9c3248a209d97be9ae1426ca3d8260a2fc722b00e26041356f53e76371f6f587", "response": "{\"decision\": \"auto_handle\", \"reason\": \"This is mild feedback regarding train comfort that does not require private information or immediate intervention.\"}"}
+{"key": "27c59b63164e5c0d101fcc5d23a35ce0eca322fd939517f535a8089bfa53ead6", "response": "{\"intent\": \"refund_compensation\"}"}
+{"key": "0fffd659c7e76ff2e7fbc75e16bf651e0c5d410ebcbad39c78acc2432fea0fc0", "response": "Hi there. Our Customer Resolutions team aims to respond within 14 days, with a maximum of 28 days. You should receive a response from the team shortly. ^HP"}
+{"key": "b27aebc1bc4d77fbd032cf2bf1854054f30b7823fcb200558d0b22fd01e86156", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "5bd808e50e235d2fdd28ddeb95cd63868edc712617cb528aa9039e5b4620237d", "response": "I'm very sorry to hear you had to stand for your journey, that's not the experience we want for you. Did you have a seat reservation for this service? Please DM us your booking reference so we can look into this for you. ^HP"}
+{"key": "5ca3ae250c4cfb66226e713e6af43881744cb1dda8fcf29ef0f0acd6c01cd415", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing strong dissatisfaction and a potential service failure regarding a booked seat, which requires a personalized apology and potential compensation.\"}"}
+{"key": "c0f2660fe6ce041c96cce9e7499ae500a51533549e30265828dcda4c0bf86edc", "response": "{\"intent\": \"facilities_comfort\"}"}
+{"key": "4562223a149422d7e11d53e23dc3d00d8a572b4af9760dfd4c443c8f07188d5a", "response": "I'm really sorry to hear about your journey, that sounds incredibly frustrating. Please send us a DM with your ticket details and the train times so we can look into this for you. ^AB"}
+{"key": "4391017746bc1d4ee0d03ce3b0e9e85efaa858410ddf17e82e4fcdd366e043ac", "response": "{\"decision\": \"escalate\", \"reason\": \"The customer is expressing significant frustration regarding a service failure and potential compensation/refund eligibility.\"}"}
+{"key": "ad1cde0699f471b795055d72df3e1855a0ddf12515e8ab15059e18f7def2301d", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "e38cac164f3e30a6a76b8a4dc6e64b4dcdf2c00df45238249fe45471fcebd9f2", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "a104bfd7c0de9b761fe8ea8a0aee9df44af277953f7de6f90b28d86e22f9978d", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 4}"}
+{"key": "d4895a502cb558f67fa964dcc73cbe04427d3a62380e8702b6f835453a93ddab", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "b70b703aab1c43935e035229e914a720e79310680b5b09f80ea8b847e5a7b544", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "849bf7c852a7ac3cb8c7ebd20c2b731e8354bdb891973b313014509c280a4c4f", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "f0a45919b70ec5f7d26fbb96cc86ef2b4f3ee028220397cd8ead429cf4b5432c", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "c3d2c79705edd4463f4690fe6e6a2c2b621c387b7859ebc97e1878eb55e8d184", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "406ca998e6c84ddbf76551fdacfd0d5c2cfdbce6c499bd06a4acb1518d44a0fd", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "20a2e97e02b8086a6e3dd1e1dbe687b905364e607d47cd99cc55b176cc054654", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 4}"}
+{"key": "fa5309647d9a9e96c0f15cfb2ab4b45161033dbdedb9bc1d9e1bc77a1b68c1f3", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "e0346856063f5389c801c16c70be86d2769d74e3344b12c7eaad163aa417d47c", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "7fbf9d6aff600e963c992ffdb36885d6f746649691793be2e71772a811b80086", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "3725111647e5ea0a3ed9d21e8e381b8100014a29781b6e921beebe5548f759da", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "2a9cb2d4c067ef3c02d620efba88378419cbdd74017e11a94d59292ddaa6d511", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "3d91e355bb531898de0753d594f490b12edaa1b4b2547ffe2f46135b185f9c6d", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "e70888d04aaf401d12441bf563e1cd07bd721784e4675ca127c97e3a94e59b21", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "51a81d7c34743c22c338acb2340c121ce5301bbf04d7925abba4173a91a31e4d", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "acaacc2abe7c6a2f529c2a1dc067fa7606ed45bddebffe3907ff5e29961ac2c5", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "57349dd63c428cb6cbac65093f1c5a9e46d9779a82b5e85cf71cc3666909cee3", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "6e74b47c32c517a5d67363d1bec930dd600befdf43eb6fddba5b13a4b0d996c2", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "09c2efff1fd97650c70bc3164e797e9f5c61e869848dd1621e95dd1d326643f9", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "42dd8e16dd070fd9496a84cb8364fd08955df016c1979a4a119019bb4ef1a5d2", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "48d8b4069857aefc07206aa38bafe770ba60a05da116561b909c5c27d82929d8", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "2dc4520205716ea45693baa700f809fc0ddcc066cea763a1f9e72ab6270b5023", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "2d62ffa0c0be05d011e81d253909587d772b8b0643321d26e7d02bfd3460cde8", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "f52934d191bd6ceca37573a1745b0d0cd84eb3bc0df0282372e2f9bd976a928b", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "f0a52ed30074181197550855e74de0fd072be0546ee1a1265316d118e58f57b1", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "11105c0c547d08ec5cc3df527c361489630336366e9fe079e7cc7c6d1d2724b8", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "c14ce1d135744f1e5de4f007445ff45ed34a95b92c523c67eba046875873417a", "response": "{\"groundedness\": 4, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 4}"}
+{"key": "1315e3794943a5ac5cf91498f16010686160ac6f6df1ba9ad3567f3e94b3d5c1", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "91796f5ebca82ada6e9bc3dd033143ae1cc4199c29154d132a32f2e5700cd6a7", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "9efc94263ee239a8d21c26b60bbf8c27f3c682964acda35669c529ab2b137193", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "2a6527a92088785b6cf16102daa3db3bdc32f9cc3db9cbf3ab2374871046458c", "response": "{\"groundedness\": 4, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 4}"}
+{"key": "20fea83a930ed39b0d85eb426f428609a3da660b7bc3db4997a020386a0835a9", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "8e02b9f14eab2bff36d3d2c5cb9b8e467602ae9f0e9186e77f802c43311b807e", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "ac6a0918c3a1a76e01d05120476e40936ee509e73ae461c2bb44762ce09d9f6f", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "408f1bc81ecc6c6c25f031be949b9377b7ad142025f47315c4c37242add4a82f", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "2f029c8b7cb9d2ac866b340ae6ce6f62957b0dbcdf711a3d9727d740703b6634", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "06a054c4a8cae49dc7326fe2224859b5b567e2d026f6936a7241bde878848107", "response": "{\"groundedness\": 5, \"factual_correctness\": 5, \"tone_match\": 5, \"likely_to_resolve\": 5}"}
+{"key": "42abe61301e692ecc4e67611a18398e673c87f536b7381e962453a03c71bfe7e", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.9}"}
+{"key": "97da2c219c608874d314ca170310350319d520d56fbd219dec40defb9a155876", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "08695f463a494950e5b2f0df4ef00fde588659db5c1b74b9f9711f8d6f61af95", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking for a standard status update on a train service.\"}"}
+{"key": "e5bfe4fad72b1acf9010d27b9fd5ff3a5c44672919d63f54d14b2464de6e07bc", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "3a29574e9b1a86f373b41dd5425ead7869e85287571386c08111320bf1510914", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a standard factual inquiry regarding train status that can be answered with public service information.\"}"}
+{"key": "e21914a19440d632f573354d065ab9038b8b756bec4d5cb46d3fef4ba98a6cad", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 0.95}"}
+{"key": "ad83791daa65d79c337a6f5b3c7db3642f9addea11a6a8bb2d658aae1dc370fe", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "760be4bad2e5dc1a1623bf3734b2794b0d6080a04fa5d5af741a85d117eb1c1b", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing strong dissatisfaction and frustration regarding service quality, which requires a personalized response to prevent churn.\"}"}
+{"key": "56faee03217a5df22fde0e89126c39593b4785dd631d507b26512fa2e1108610", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.9}"}
+{"key": "e5726cf51dffb9c267d124dddd002eddd7932a7b347de97ddfc48058978d4047", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is providing mild feedback and expressing relief regarding a shorter-than-expected wait time, with no request for compensation or expression of severe anger.\"}"}
+{"key": "811d558a5fe721ff4296d059535735de4c97682ca602da990f293b6e72977ce1", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.9}"}
+{"key": "10cd83a976e2eaed67fd6c8f183162f5c05a13b3efeeab0a675671bd67280f51", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"safety_risk\", \"anger_churn\"], \"reason\": \"The customer is expressing frustration regarding a potential safety concern involving being held on a train against their will.\"}"}
+{"key": "2d4ebf14daaca787ab54607a937c11da8a64878b66a7f34545b5654f79b13d96", "response": "{\"intent\": \"compliment\", \"confidence\": 0.9}"}
+{"key": "8b40b99929acaa9471cf8203d962e50eda95ac1133feed11cbd6b965d3b1d5b7", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a positive compliment and requires no further action.\"}"}
+{"key": "8d4bba49cd9161f69c839d9df46d685704621b232018a91e14d20273a00b85ac", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 1.0}"}
+{"key": "7b2b7975c46a24237672849a75d852613744fdadf7e137d3d6c0d46deff9c6a4", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "9ea7d2c3db189618fc0dd9e79aa9f67a6de4efd2604ec7edc3ca14e40e4b8270", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"safety_risk\"], \"reason\": \"The customer is expressing strong anger regarding hygiene and food safety standards, which requires private handling to mitigate churn and address potential health concerns.\"}"}
+{"key": "aee92675f34f0e3631aff734bd9b9d4d0e09c7a3a03efcfa5689b599a61018dd", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "019707c90dc766faddf660d7d2e569526bfe8f3d7d29efa6aab04ba6f4f1cd6d", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"operational_disruption\", \"anger_churn\"], \"reason\": \"The customer is experiencing a significant operational delay and expressing frustration regarding their ability to complete their journey.\"}"}
+{"key": "d3adcd3e021ad6c08bd00a18c80e75b2e37be4f669c5f42a5541d8f3e7e15512", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.95}"}
+{"key": "8648d2de20d5207aa5558df790f2d7c491a40e0b356dc4301bd0716e4f7ad695", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"vulnerability\"], \"reason\": \"The customer has disclosed a vulnerability and is expressing anxiety, requiring a more personalized and supportive response.\"}"}
+{"key": "8d97cfc9076a012d18f4e470f9afd5573e924e3ccf84cd3c1cea204e3a522ebb", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "ecf2eccccfe1df940cc67fc463dd257834011a2a5f9f34f38a44940c6faef7ff", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"financial\", \"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing significant frustration regarding a cancellation and service failure, which requires a personalized response to manage churn risk and potential compensation.\"}"}
+{"key": "d482f3e26291583e9b98f2ff482ee2b829effa545876ec8b072e503cfe691075", "response": "{\"intent\": \"other\", \"confidence\": 0.9}"}
+{"key": "c69e98bd85b14b63ea52637bd14c74969b6bd64629deceb1b3ecc3043ba73ba0", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a public safety warning from a customer and does not require private intervention.\"}"}
+{"key": "f16f1709720f295c03bb955f646519a72cd2051b5f3faf79bd8c211536ab495c", "response": "{\"intent\": \"complaint\", \"confidence\": 0.95}"}
+{"key": "3ad9ec06452881b98476a5d7832875f2c16e0c741088d7743e1ec2d3b46aed36", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing strong hostility towards staff, which requires a sensitive, private response to manage churn risk.\"}"}
+{"key": "a964804db4a066aba8e391f3e3c9142cc67b1679330748c9d1ce52f63fc94a86", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.95}"}
+{"key": "bad1211c31bcbc75cb3908ad38adb76fe941f197da4717cc474b517c9caf224c", "response": "{\"intent\": \"compliment\", \"confidence\": 0.95}"}
+{"key": "b8abd210cd085bef370f9d2c85f6731eeaaf2c57a8f52b90244e84df8a450687", "response": "{}"}
+{"key": "18d66184c7f7b95c817b176a5cf1954abef24a4e4d66bc8eea337860e2c199a1", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 1.0}"}
+{"key": "d0b51890be4e762560b2669bfef31b9d8f49f1d6ac38317eb4b4ceeeca568272", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "5cf6d926d8045041ee022a7a0bd54265bce60451d935aba9113464104b11035f", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.95}"}
+{"key": "547faedff026ea527f3db749350124921ad3da199e313765133dcbb2254d2499", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "c3c624b10baaf5260afa975dd9d094608ef11e981ff49348ed8795491dfef143", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a standard factual inquiry about train status that can be answered with public service information.\"}"}
+{"key": "f9d4d838cb93e3e422d437eb30680c1e0dcdccf8cb94b675d8d07481ab691a0f", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "83cb732f6ec8432c4b054144d98a28b40b7f66e253c99a1fc8ac5cdbd76f5230", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "b5cf4ae2b6d0bfc11394c6820b171206317db2daf0b824970ee06ccaa98e885c", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a piece of mild feedback/sarcasm regarding service quality and does not require private intervention.\"}"}
+{"key": "c0d40f94a00d54574001c1faaf1e10d82091e6ceda4b466304d3dc5817d26538", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.95}"}
+{"key": "4582c65227ea8e25c3f6337e2cc827455b4ac4dec4539ce792ad407027b16dd8", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 1.0}"}
+{"key": "abdead3b15ec9857696d9a5509869d06aa159b154b5bc26b7c00301936e4b159", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a routine request regarding carriage comfort that can be addressed with a standard public response.\"}"}
+{"key": "07836e22a6674a9dc51ebab5d9cece59d052ccdac7d867d807e345afda7646d3", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.95}"}
+{"key": "7b395ae616db5d712cfef2b442584e7c738263f78fc2beef783f510a224b8982", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "820f64ac9c7c28052548d3eccde3d15e6f76dd5cdfe255724d864b108e545b09", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking for factual information regarding a train delay which can be provided via public channels.\"}"}
+{"key": "c0318bbad708ca0ccc6580f1b81d26c1226e149910ce7cd6dc89273ae3a791ec", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 1.0}"}
+{"key": "8612c9af6a07f6f4afe8ccc0ece76974a0d3b8aa5a128587e568232f5f2155e6", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 1.0}"}
+{"key": "a84db79122613dc254b553ff972bb861384eeced7043184a2dcb89c31d93973f", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.95}"}
+{"key": "e86d0502fa8931e46ba15e4caaa03798e67df2ab8170d96c19e395ae328b0319", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking a factual question about station status that can be answered with public information.\"}"}
+{"key": "5d8a2b6cb294fd64bf3b69ba0458890e904e791a083d997fbaff4e84d87803e4", "response": "{\"intent\": \"complaint\", \"confidence\": 0.85}"}
+{"key": "7163a25ec1f876cb825452c469d91e1998966b5434af7366b6ae43b58bf4cdd1", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is using aggressive, demanding language which indicates a high risk of churn and requires a personalized human response.\"}"}
+{"key": "507c62fdff6082888c2a010e4df1295c3b76039f14ff8529996eadf54fd357be", "response": "{\"intent\": \"other\", \"confidence\": 0.9}"}
+{"key": "1256ecc15f1c58acdf89990b9e793f5290ed67a08aa98cf41e7f4f926ee2101d", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a casual, conversational message that does not require sensitive handling or escalation.\"}"}
+{"key": "7eccc1e75c953dce8949318569b1ef0d1bc5490b4b263f08c183fb3de6c77ce5", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "2a5fe2643dce5a0e6f888a2ff3234934e44a878f1d9cc86a52a6d14fbd61bc4a", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking a general factual question about network status which can be answered with public information.\"}"}
+{"key": "40f375e4d50838449d92e4426987cd40468c0732e21a62bc439fc2b4936b6fa6", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "7da726e64d12b500e01ca6a2895510ba38fe616b2439331ae1e7ff315bc9805b", "response": "{\"intent\": \"complaint\", \"confidence\": 0.9}"}
+{"key": "5eeb6b9e8f789fbb2866bb96a41f3903aac4734c870bb2231223cd4afdcc6a30", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"vulnerability\", \"anger_churn\"], \"reason\": \"The customer is expressing frustration regarding assistance for a vulnerable passenger, which requires sensitive handling.\"}"}
+{"key": "28e0c35a183749b9db34cd51d204e169042f840ab324275c5f7bbfb98e1ba6f9", "response": "{\"intent\": \"complaint\", \"confidence\": 0.95}"}
+{"key": "c173a81d4f8cb2def8b394b202c8f6618fb07cd521063c034ce222f859e8f055", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is using aggressive language and expressing high frustration, indicating a churn risk that requires human intervention.\"}"}
+{"key": "26756e8081f9e3df5b95974490c89d78d7cae6f8a2042e6d17ca68024fa4fd94", "response": "{\"intent\": \"other\", \"confidence\": 0.9}"}
+{"key": "2eb5a2d80b894600613722e05604e45151ba1caa3ebbb2192c058368e9d42524", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a general observation/commentary and does not require specific action or contain sensitive information.\"}"}
+{"key": "ed7ed0fc6f0d9471e4c15d41bcebdc069879a76405efc26b2758c9c74ff93b12", "response": "{\"intent\": \"other\", \"confidence\": 0.9}"}
+{"key": "8edd96c214e136b51e72549012a61e654360b25d987fc60800b2a02617407588", "response": "Glad you found it strangely compelling! Hope you enjoyed the rest of your journey. ^CB"}
+{"key": "ae96627b22627e83252fc46faaf5ea57e5a83ba4c573ae67d74cd3a7ca3d5fca", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a lighthearted, humorous observation about an onboard experience and does not require intervention.\"}"}
+{"key": "965b59948a343d5bf4d19c72c5a6b72e481f506774768bf4ccfaf4cc30c5a092", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 1.0}"}
+{"key": "3057a4b668eb8ca9b4a1b36331ddc589e925a000074a6c2040bcda539a485a94", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a piece of feedback regarding onboard facilities that does not require private data or immediate financial intervention.\"}"}
+{"key": "3058bfa41eed6fdbb12bb49b41192b0fd1e366bf31d37595656f81c5e55736c3", "response": "{\"intent\": \"compliment\", \"confidence\": 0.95}"}
+{"key": "7851ed0bcf675671739163593744ed67a43e6c2e8964cdd773a034405ea9ba7b", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a positive compliment and does not require further action or contain sensitive information.\"}"}
+{"key": "8519666ff3e77ca1acffdc31875e083fc024b838fbb9550dbf49074151ea8de2", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 1.0}"}
+{"key": "c2c1b8f5caec69644cd9da158bebf0b569475b51866f9468009939953ce9646a", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing significant frustration regarding overcrowding and failure to access a booked seat, which requires personalized service recovery.\"}"}
+{"key": "b10c2b1f216727738fb8a80b5aafbf873dd0afbbfc5c09e99b9405c7605cfeea", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.95}"}
+{"key": "c21398705ac46ba75e9a093f13c669dca2683c7b8cfd9b1e9546aea9150ee96a", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a factual query regarding ticket validity during disruption that can be answered with standard policy information.\"}"}
+{"key": "19ab763bc0523d5bbb3e0170a83e156f4a67fd84014e64ef53d52c6e188af6da", "response": "{\"intent\": \"complaint\", \"confidence\": 0.9}"}
+{"key": "7d1e96ee37efcdc2256a53ad95d490dc3a3f47c8d46a4d3a91562ff470caf379", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a general expression of frustration regarding pricing and does not contain specific account details or urgent safety concerns.\"}"}
+{"key": "838dc155503470b856777e51bc391f34502d722e872d667430874c71b8fa2817", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 0.9}"}
+{"key": "2dbfb31dcef0f248e3216dbe18ef303e280c310703c9f8801d1f5d6b9cc83de2", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "30b623a68c39fb86a266e261ec0c4b23888adffd2dbd8a82883e39b10482bdd6", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a positive compliment and requires no sensitive handling.\"}"}
+{"key": "54803f9448b44511cfa216171881bf4eb4c1ac99ed69d79e027299d8c44ec062", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.85}"}
+{"key": "a69e0c2d17d9fafd7500a08aeb960f01f0717e35254987f91543f8b2b849082f", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"pii_exposure\"], \"reason\": \"The request involves locating a specific item left on a train, which requires verifying booking details and coordinating with station staff.\"}"}
+{"key": "e507886d46688209755e7291cbf5cde7766913a94a91f48b81fa05fa25539bec", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "b08f8588b838cb1b7111f6915996e18d9efa437bc522d2e93c453a6b6cad2588", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a positive compliment and requires no further action.\"}"}
+{"key": "8a6d9c3fb392f4a5a6aae2f939ab164a5462d56b27c1ccd2ba0f7b8cd6eb003b", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "9570949936e8cf838c217da305f6e195e728537d29e4e51598eb3787f068d877", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking for factual information regarding current service status and potential future delays.\"}"}
+{"key": "4adc235ba893bc5c5bca4e60ba17494f53dbc7663d11466e41015eed3877d259", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 1.0}"}
+{"key": "a9c7123d6592cbd0fb7efd044f5ad80b490e4bd76a3b3aed27136837922740a7", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.95}"}
+{"key": "38196bef0ed7f32e80d8f2dd8595ebf47db7f0b928bb0a990908afb3838bad38", "response": "{\"intent\": \"other\", \"confidence\": 1.0}"}
+{"key": "54628df49ba0b52db335624edaec213ae069b483be5d13304f19a800ec52b674", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a casual, non-urgent social comment that does not require human intervention.\"}"}
+{"key": "5658d1a4e714968c0b380ceffbd01b5fa522a4ddacaf386c20ee7d1abeb9d1ad", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "85f6c3b7ef7dc632b446829de8ea2c30e38c25de25ff9cfe82517a3f19bc4492", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is expressing mild frustration regarding a past experience but is not requesting a refund or reporting a critical issue requiring private intervention.\"}"}
+{"key": "2a37f5b67f6265d64a2e52958b578dbac80dc2015532da6806ddb5cb01ae78e7", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "6e33b8de5b89a94b80c9e3806e8e90c22d370d7c3f69fe80781c25c4c135665c", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is offering a correction and a compliment, requiring no sensitive action.\"}"}
+{"key": "c1b8e60428288dc1cf40813c47e0b4ff524470416cd0a3d6955f1dfac6bac39b", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "004febff4e43b83b48ab740a4620003696adfeda42622fc79714cf992e662572", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "ea00685974316c2267702207d4fe472c9f2bd07981d3beb625a949a2a9287b29", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.95}"}
+{"key": "e3d9f927c371722e76d67734baa652d54bb51317193f38b50acb75b3e09930d8", "response": "{\"intent\": \"compliment\", \"confidence\": 0.85}"}
+{"key": "2a4f181fb45000be631ae54cd834f4ba2d0b297a9917a933582f2601926319b9", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is sarcastic feedback regarding a minor delay and does not require private intervention.\"}"}
+{"key": "0be42ba2d8e81e70b1a1decb80a3e7664f41590eea23ea304b432d452f1f1b2c", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "b67a897010bbf2faf5fe00c82c4f58c7be0b23fb1964065b4baf052d080adc07", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "727bc5c3b3101781466321826a1ae2b0f7291f25894f25581c622cac0be98b38", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a positive compliment that does not require private information or financial resolution.\"}"}
+{"key": "47ae5247ab89d598071b5cd361c53acc7842ec4edf608de3dc08ecb86c623523", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "43a601822f0c6deec6dbc651e5ddab671265f24912a59f84a7b0fcde00c316e7", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing high levels of frustration regarding overcrowding and service failure, indicating a churn risk.\"}"}
+{"key": "06ad95f03896dca20116e81a30a12083c50d24633ccc62ee12d361c2aa27ea98", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "7b559e6ef438012fbe66098b742a5d40458d771b53fdec97ec0125875767577b", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.95}"}
+{"key": "77ff05d5668800e3142b476aa135ef968190e9ed61d782815b95ca56879606bd", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"operational_disruption\", \"anger_churn\"], \"reason\": \"The customer is reporting a significant service failure and capacity issue that requires immediate operational assistance.\"}"}
+{"key": "186b24aa27d644ee6d45c90db891fffbecb897f0b502db31f68c9cdda18cd727", "response": "{\"intent\": \"other\", \"confidence\": 0.9}"}
+{"key": "dede13676be18b237394ebee53bce5b0f009f5b88c97b564d55f06481be671c9", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a friendly, low-risk interaction that does not require private handling.\"}"}
+{"key": "6ad4283dd15d2b5e57fdbf3bd0e144ef892cb58c7886157033fd544caa39e51f", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "c75a156e0e5d111d6072ae112c3cddd7c15941a4436ee752ae6bb5584bf69c04", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a hyperbolic complaint about catering options and pricing, which does not require private data or financial intervention.\"}"}
+{"key": "fc0216a7edbed39600125aaca034db677e17712785328bd81bc5b3955d22eb26", "response": "{\"intent\": \"complaint\", \"confidence\": 0.9}"}
+{"key": "ff76bbaf8fcf6e43493f29115c964e63c92477e29e000efc71e6b42f4b6ec76d", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing significant dissatisfaction and potential churn risk, requiring a personalized response to de-escalate.\"}"}
+{"key": "898c6957a0d090e3db543b649d55d49d030b38be8c0b8d40134415ca59cddf64", "response": "{\"intent\": \"other\", \"confidence\": 0.9}"}
+{"key": "632866b6f1cb49c1963e23c3a965ddb60f93c06abaf4dbf834c926b31a0b97af", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a lighthearted social media post sharing a photo and does not require private intervention.\"}"}
+{"key": "df97ec243ec865de79b37e47fd39e3591b15aedf82ff5a792108b348d3320f6b", "response": "{\"intent\": \"other\", \"confidence\": 1.0}"}
+{"key": "78458ed4126237ed4c947c74616e85ce09353b2644e5d18f95b9520a9bba0749", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a lighthearted, non-urgent social comment that does not require human intervention.\"}"}
+{"key": "f1baf4722c383f178c6ab44fe5973d7c636f707e77b96409c9d7877b6f85a056", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 1.0}"}
+{"key": "59d80ff454643ab40d76289f3ed3b73ec3e1f88f79e80702dbae60170e6833c1", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.95}"}
+{"key": "79cc896fe8d0ffa39b01bbb3b342ec90119ec65d3bec7527572bc8f5c8e6a3a8", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "ed97e5a114975312ce416921cacfd0f3ce27af89d0c59420fb6328fe8875474a", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a positive compliment regarding staff performance and does not require private intervention.\"}"}
+{"key": "083884cb68625a9c65f649df75a17077213cdd76dbb3633149591ce88d1b671f", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "a1d5eec120bd8be6230fef0cdef580ddc2033be655a6f6396b9e4e098a32c962", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing significant frustration regarding overcrowding and service quality, which requires a personalized response to manage churn risk.\"}"}
+{"key": "f70bdf996a2250604e9d9c2770d33ecf19decb27ebb2f3b9a7d47bb2c565abf8", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.9}"}
+{"key": "581c01de3178118f6e32ff1c092682f2907ce0ee3e1f00ccc4b2fa19073a4a28", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "9380c7748e2351f7f58a193092fad25d120050a004977c18cb902c3c4573066b", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing strong dissatisfaction and anger regarding multiple service failures, indicating a high churn risk.\"}"}
+{"key": "2a7a9990713d3e8b4e43888986def5d0eec3db4c2df5555a8faa323f99765376", "response": "{\"intent\": \"complaint\", \"confidence\": 0.95}"}
+{"key": "117c0a9c848aa58d7edeb2daead8dc0fa62aa93a31bc22efb49fb0ef9dfa08fa", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing significant dissatisfaction with staff behavior, which requires a personalized response to manage churn risk.\"}"}
+{"key": "fb3880be595e6dd7161ad2c943d41c03069bb23c96bb248a4f664d5f6fd686ed", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "162ef5da7e845f6ce5ff6d6067fe69676c7dfbe0cc3303d65e2da6ab581773e1", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking for general travel advice regarding a cancellation, which can be answered with public information.\"}"}
+{"key": "397874d8aa1bdb63c1f988599a6751ccb862bd5384cccecad2e19074cf441f5f", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.95}"}
+{"key": "e04d80b1b5dcd72eebfab7b1c915e39dae572feb9ed467c5f3f65fd69120dd7d", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a sarcastic comment about a minor operational issue and does not require private intervention.\"}"}
+{"key": "85a63988c50774f3c3c31c7a5b6393e541bab7bfb92e2cbe3306a758603bcabf", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 0.95}"}
+{"key": "57ba24b407cc0488189ad71dc35b525df0e1acb5d5a5ad78faac690d8778ab31", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "9fa7e48db6e5cade01093728894ef11956c8a7736dc7eb715850122da64a5d98", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing significant frustration regarding a service failure and potential operational error, requiring personalized resolution.\"}"}
+{"key": "aad6f049405d90f11a73c0fbf94270d7ddce1f472c27affe1daee7c4306c8591", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "73dcfbc4db33fa6420901987eb21f4537e5f9d68d86ec8d1b261fa015fe1a416", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a factual question about onboard amenities that can be answered with a standard public response.\"}"}
+{"key": "82b91168c1c429ef9b00bc9e0b2505cb00135dc0a54aec0e5aa3658847af797d", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "6fecd8d6f627ec834b90b786746d7608d40d83167c2c17873c14067ad8579433", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"operational_disruption\", \"anger_churn\"], \"reason\": \"The message reports active passenger conflict and operational issues on a live service that require immediate staff intervention.\"}"}
+{"key": "0d7fa9941934ac379f80c63c58a37b5a0779244b62f35c87f44b79da0bfc58d5", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 0.95}"}
+{"key": "128f72cde093036cbb7c24c5c21d4c64e940c2dbbd218a5eb6d05b8604cb38a6", "response": "{\"intent\": \"complaint\", \"confidence\": 0.9}"}
+{"key": "df70ad2521d47c975856cec26576fec157aa4a5a6e0824fec40516614c1c8316", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing strong dissatisfaction and frustration regarding service quality and staff behavior, which requires a personalized response to prevent churn.\"}"}
+{"key": "23ec941d2cff01a57884da4902b9206d61728e1916c1255f33bef7b7a1eb7e65", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.9}"}
+{"key": "0e69160255b5bea0c9a1d6f64ed02ec174dc10e0b5c99a16f637f540d84c45de", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 1.0}"}
+{"key": "7180b180391c025a61362c3e7a6aa1fbd7f86d74baea7b456662071e99228ad5", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.9}"}
+{"key": "b80c8a05162e214bbfb462b890c66592c34973e702a4a0b77569863f38dcb80c", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.85}"}
+{"key": "4ff0bd848988f8fa4261139a45354b82e47b108e6205541951f059575cd70de4", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing frustration regarding multiple missed connections, indicating a high risk of churn and dissatisfaction.\"}"}
+{"key": "38d53048214d14c54b01683cf6d7e9111c3b3feb0a23ddf76b2bb9349235bfe9", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.9}"}
+{"key": "5858f7dd2541ad17c218c080b5178f15d3f918231f81a2394e14b41f5654119a", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "0e5e6572ff49411cf418be48e62aba2b276bab011027f8dc5947e3a766046180", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking for a factual status update on a specific train service.\"}"}
+{"key": "103f22822050eed08323973f2dbda4c03ce4d02e6f7686cc30da6108b406ea8e", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "b186dc17e3fb03ee5a31ed0d6603d5f02761f565fa9c8f275ce3dfea540420b7", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "9de87d0495a6a05a6b9b5876e99c12d956f1bcbe29b2ec43c1d5568ccda61915", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a minor complaint regarding onboard catering that does not require private data or financial intervention.\"}"}
+{"key": "331f31a9f7430b53e94e9065d20fefc06dab7cf2624bacf97b184ad5474b7cf8", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 0.95}"}
+{"key": "b9d6715bb183a0eff3cf9e1d66b7911d4e77fa8ab0ed47dc4291591debc9331a", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "3ef4cd34625abaf891ef4b9de7740d6eeaaa5ac897caba51aa8347f13da5422b", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a factual inquiry about service status that does not involve sensitive data or high-risk issues.\"}"}
+{"key": "2bc11c0189e2764c9b3ba5928e72f804ed19b69acbc7f64a6cc97c1a1ebaa170", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 1.0}"}
+{"key": "9342551051399301c7449ed23dab04fdb35a18a52fced1e752d1a6b79548b2cc", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "57bf2b51d9a3d75fae24eb06791f23cad7447ba3843bf72c0981626f07129041", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a standard service complaint regarding onboard amenities and does not contain sensitive data or high-risk indicators.\"}"}
+{"key": "460b63567b91677f6d4c0443859399c9cf7ba81f7f978961480ec8858ad0f1c0", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "6a5d22f6133a271ccf02b07f6f66a8b26e138cf091d31142b2cfc554f163eca4", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking for a status update on a delay, which can be addressed with public operational information.\"}"}
+{"key": "083c3c5d875483e8f7f485e5dddb26ba866050da8922a658381d3ddc64707d87", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.85}"}
+{"key": "0547a59e3ad72336c991ef2a7bd868f879bdfb5b9797e86716d296f2c5f452eb", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "ad98ba1d7de20fb00362db347e3375208fba27d81332a1b3eda7dabf73de1d66", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 0.95}"}
+{"key": "4e8c783de9715874e75460c7f12f9aa12a2aa864614ba6bfbd1468fcc1f2d661", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a factual query about service eligibility that does not involve personal data or sensitive issues.\"}"}
+{"key": "9a0c1841543cd8572fc1397b3ea29b2254c4c375079e34713cf0901fae778fe7", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "ce03b394f67e1de248449335e6fd99f356bb9b9bb56d5dfd44aefac0d5cd7515", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a mild expression of feedback regarding onboard catering that does not require private intervention.\"}"}
+{"key": "dd325ff647dc52568b633680adb6c14cd2b78bb55b038047a4b48ed062a98833", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.9}"}
+{"key": "664baf2fe0f95ae5dc73dbcba8dec0e906137a250bebad7ec4ff455d141b08a2", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a factual request for public information regarding service disruptions.\"}"}
+{"key": "b2ab6f1dc3fce9c86d6ab28e53d52a6339140e560f56a871beb7127e6ee1144e", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "4abd16e04a03e5e72e8434be336c80d4ee1453c238bd5c8e1c7e919427227296", "response": "I'm sorry for the frustration caused by the delays and the shorter train today. Please send us a DM with your journey details so we can look into this for you. ^HP"}
+{"key": "f0eab387b3ddad25e30edb334b4699735a09cefe40bd13e863b906b22847f8da", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a general complaint about service reliability and capacity that does not require private data or financial resolution.\"}"}
+{"key": "2c87f94e5b20ea0f5bf26c86d0a15d08db3ee90f282d9e4fe4616820872df706", "response": "{\"intent\": \"complaint\", \"confidence\": 0.95}"}
+{"key": "822985292c59a291f3b80c60e30d08c72abc331b29be0a8a6a466fe4438de884", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing extreme frustration and dissatisfaction, indicating a high risk of churn.\"}"}
+{"key": "9e814dc5c486f17103b184fcf12aaacffa566d5d49a224b087737c02d22efd72", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "f5e786b4a4b975865f567bd626fd93c5cc4fed1f9edd6d9ff5d65138251adb41", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing strong frustration regarding station infrastructure and service quality, which poses a churn risk.\"}"}
+{"key": "516052795e5127f9d692a8f110ea0f6e5b44b29463ee02ffb1d77ecb173f130c", "response": "{\"intent\": \"other\", \"confidence\": 0.95}"}
+{"key": "8f7f902dcdcd86ddaa988798033e8fe4eb2552953cfd57295cefe9842a73a06b", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a lighthearted social media post and does not require human intervention.\"}"}
+{"key": "42c204dcf66aa36afb6a9dbaba4cc5929dc6bf8b23b63eeb21a270352540452c", "response": "{\"intent\": \"complaint\", \"confidence\": 0.95}"}
+{"key": "26cd5fab5fa80408bdcf090c54994248356f0aebcab96caf32d82d3ceabf2c7d", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing significant frustration regarding staff conduct and misinformation, indicating a high risk of churn.\"}"}
+{"key": "3fb0468f4e047ae202de5a9f2c145fcf2a055ecfd9c2c1f7560ed6fe106c3379", "response": "{\"intent\": \"complaint\", \"confidence\": 0.95}"}
+{"key": "d3907bb2e2308a5f4a635e56109e63608614dc2631dfb4b3650a021cbb84eaf1", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing strong dissatisfaction and frustration, which requires a personalized response to manage churn risk.\"}"}
+{"key": "a00a2f3de2cd9219530c49e071b865f5e0b2842ff519afcddf3dc5dc09bcd780", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "c925d1f2dbb1d669d172c900b76dd0106cf3fc412087bd5ef6cc9c84191e6df6", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a minor service complaint regarding onboard facilities that does not require private data or financial intervention.\"}"}
+{"key": "cc8b5b635ead2143c5a9f1eba40b78376c566d2e7e1c242cd672771608792fe9", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "bb0503793d685e5e2b46e5cdb7268d3d1535187d4a245fb7ef4ce2d4c26b1c74", "response": "{\"intent\": \"complaint\", \"confidence\": 0.95}"}
+{"key": "d49a080e93fa9f99affbd406a4e64cad5f614a16d68e51d4c35893de45f3b7a3", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a general expression of frustration/mild feedback that does not require private intervention or financial resolution.\"}"}
+{"key": "16e5799eb4098a01e762c96bffc2f2e63e83fa5ea9e109af0631685a46c9af36", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "7b8a75a7404363576dd3bb2d63ba21a36f1fe403f824610c9fe5eee9a5a700d5", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing strong dissatisfaction and threatening to stop using the service, indicating a high churn risk.\"}"}
+{"key": "83445d721d3769d58bf5134b3c03de26591dc8e72d9fabc74e2096ca78752e32", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "f56dc6ea44ed05a44a8a283fcf2b887b17a0e07927abd7d7de03842e5045173e", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a positive compliment regarding staff performance and does not require private intervention.\"}"}
+{"key": "74425d948db6726a10c9e4cced84992c07b4d7c8ab02b1dc1d6a714282d92a54", "response": "{\"intent\": \"other\", \"confidence\": 1.0}"}
+{"key": "05056716a0a7419339f7429aab684a48f5503b62e663aa6b6c24061d1b3bc963", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a neutral statement providing context for a query and does not contain sensitive or high-risk information.\"}"}
+{"key": "1cceddae51f8941cf76e7e91926251e6f96b10042b268bd49463358efe0ac85e", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "f6f0b2f9b516738e083d99f50287c8206cb2a5cb8e58fd53dd609cdf20d61667", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a general policy question regarding onboard services and does not involve sensitive data or high-risk concerns.\"}"}
+{"key": "5286954f699e320a9d03af2470a1b1cb4af15f23f862b0e823a95993a223f9b7", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "0bfbbc1df6fbb759c33dbafe5bab8d40c37ce0baff72688a29fd4fcf845e1b07", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a piece of mild feedback regarding service quality and does not require private intervention.\"}"}
+{"key": "23f3c7f796117df4cd791585d68c72f21209e92fbf209e4a3e020602f716f549", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "7c0054157830778e12cd712f66770462be4a2b3babefb427d46a101c83eb4262", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a routine service inquiry regarding onboard amenities that does not involve sensitive data or high-risk issues.\"}"}
+{"key": "029308fcbd0f8b05d577a2bcbf47b2ff2c7bda7a7bcc22c9c9b664330ca4c041", "response": "{\"intent\": \"complaint\", \"confidence\": 0.9}"}
+{"key": "490d2d5ca8e2349cc8619288a9bbe86a889536bab16cebb8b1e0493c8930476b", "response": "Hi, sorry to hear this. Please report your lost item to our team on 03331 031 031, selecting option 1 then 3. They will be able to assist you further. ^MW"}
+{"key": "8b9b591260d49db6d4e3064a88d80ab5829e2d204bd7ffec4bdb79a10133fb72", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing frustration regarding a lack of assistance for lost property, indicating a high risk of churn and dissatisfaction.\"}"}
+{"key": "878f111095876fcfcbdb3f82979464f13cdf88ca9c523e5492114249c729d75f", "response": "{\"intent\": \"complaint\", \"confidence\": 0.9}"}
+{"key": "82e5215b4b6ba7cd354585dd10c2665f1ebb069f445378236541f6d14f602766", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a general expression of frustration regarding service quality that does not contain specific personal or financial details.\"}"}
+{"key": "226e82e94ad04553d3615e1e77a15eb6146a5b5394224047e615ef5c1daa403a", "response": "{\"intent\": \"other\", \"confidence\": 1.0}"}
+{"key": "9b0991202e2cd369e7c7d7b9611a0dbadfe87ba5af0680a0a013411c2440396b", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a lighthearted social media comment and does not require formal support intervention.\"}"}
+{"key": "c97bba7abe370fb5f80afb0100af7cd08a6066c51237ccca021b4bc080562016", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 0.95}"}
+{"key": "1446346646bbbdef713babf5c8b43ab633919fb544b414cdaa0dc7a2bec70638", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "243a60d850898ffb3e5f11bf1355d03764551a8c3fa8ac359566f72df3de2491", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"operational_disruption\", \"anger_churn\"], \"reason\": \"The customer is facing an imminent cancellation affecting their work commute and requires immediate assistance with travel alternatives.\"}"}
+{"key": "7e8ae6ad9184f6c9cd73b403a2485283ee997be2bf57ea80b55c6ee50326a167", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "44b38c36fdae6bf2bee94955cf6ddcb6c228e32dd9cc0c883a561e4e74c8d8b2", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "1449d896bb53c0b9a112fc5bf8b082549dcab85f354e65ad17c1ccf0ba03a49d", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing significant anger regarding a major operational failure and overcrowding, which poses a high churn risk.\"}"}
+{"key": "a9d5c23e1924f2c815530d78b33e7c4f84b34fd923f568c83c354f392ecf6b7b", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "24c8a7fb7933a13a6841797c2a67b360152de08584518606344c12a76bcf8ec3", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking for factual information regarding a service delay which can be addressed with public operational updates.\"}"}
+{"key": "659e4d03aa8f80325d29fcba2c9059a95e531b44deb749c9743e33123f5123d1", "response": "{\"intent\": \"compliment\", \"confidence\": 0.95}"}
+{"key": "f0bc057f8c5e0b40aa22e1d36e8f2ab4e8d25ff8781ba1b1405fa45365f86eac", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a positive compliment regarding staff and does not require private intervention.\"}"}
+{"key": "728d6e8462639b4ad53f23de822399b9f34b7e967953fb5631b4848bad64c452", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "f4a8566fee8aee4ab3c5ffa1adfb2a2071496e4b3d175f3095331ae446c89809", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing significant frustration regarding an operational policy during a delay, which requires a personalized response to manage churn risk.\"}"}
+{"key": "009da6b11dc8e577a5ca13f3cf144cfe1e81a29e3a7fb5b20618ef212c302991", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.9}"}
+{"key": "7cc3bbe212c8b413962ff646963da64efb3a973acef611bbdbbae94cda95ba5d", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "e30ea805e1bb8e1ff68cdd456c625f7f16bd20ed047f67f5f31c66f6b64df0d2", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a mild expression of dissatisfaction regarding comfort and does not require private intervention.\"}"}
+{"key": "acc8ac5523b17ec3ac8e57d8ce5b380edf3939d5a9884a42566ec6982a3e5cd8", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "96f9fcaaf6671e4ebd7e7152e13db0ac78fefa8eb4c712ab65f632c69d5b8d53", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "98b13f70e5f656e1ec72db6f9b28fea0b56dc110731d0fee67145aa1a34a142b", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a standard complaint about onboard service quality that does not involve sensitive data or high-risk issues.\"}"}
+{"key": "b231accb8e37f1e0b016ff0712ee3557e651e20f16dcc1f8e6f29bf59933e2ec", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.95}"}
+{"key": "7a2579589876451843b63b886e4882bce2bce23ddaa63f2210c49d6bebd8bd58", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking for general information regarding strike action which can be addressed with a public-facing update.\"}"}
+{"key": "10d7c4da3f24cd22e14d4cbe117453b15d398298d903b6a6e963749719124685", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "a8b70fac69ec86ce99331191ea045f59e2444615bc9f51f9cbe447aeb9108db9", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a positive compliment regarding staff performance and requires no private information or resolution.\"}"}
+{"key": "d31b06b2dfdaa952747dec9d969f8c53d7060b548007bcdd884ee46811882939", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.85}"}
+{"key": "d707216aa40356db09256c96aed04c02eb8ce7b8bc21808d4ec3702880412377", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking a factual question about onboard catering services.\"}"}
+{"key": "9dcea21f202f8e2606ccbbb35e157db0d862ef64f3663d91217fa20597a55359", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 1.0}"}
+{"key": "6eae4f8df8280dd1cb495cd1ec85671681ab0adb12e13e4e57cee06eb6143976", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is asking for a routine status update on a train service.\"}"}
+{"key": "d08fee3471eccf5aaa5da83f61f89af7a154ae2a673b812a12921390c5a289c8", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "c39b043f9603e8277e4e400030a2bc878d4173201ae5398fbf1c97759771f7f4", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a positive compliment regarding staff performance and does not require private intervention.\"}"}
+{"key": "4bf02b086e6c3646a712e53e248bd99f88cb5a501a4c8aead6c7fe3e40f8917a", "response": "{\"intent\": \"other\", \"confidence\": 1.0}"}
+{"key": "7e645db8a8a133c59733db1b6f819b26caf110472d55d954cdd9bdde640502b9", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a positive social media post that does not require intervention.\"}"}
+{"key": "aba615b213dc73f800dafefe21e0ca13ba2b925543f23b67b1746cad0ba3d323", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "dd42223566878088b472ea07c74e842f4e238dceea56bb283c165f895df5e3c4", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a positive compliment and requires no sensitive handling.\"}"}
+{"key": "07c983a99b9c3b9297cc65d9d1bfa8393ed99431860b0fdf05674b162a5daf85", "response": "{\"intent\": \"delay_cancellation\", \"confidence\": 0.9}"}
+{"key": "7cffdea38df01eb25a5592be8de9d6aaae572ee99c7654b88a0eea5368a65885", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing strong frustration regarding a service failure, which requires a personalized response to manage churn risk.\"}"}
+{"key": "64b732becceae46e9a1a7aa386cde534abfce0875a76d2d23215b782f9e79da1", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "b149546636b5d8f872c513e897a60a2ec41979ff928b4d102ab8583801e32268", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing significant frustration due to a major operational delay and poor onboard service, indicating a high churn risk.\"}"}
+{"key": "630102c74e8a97f9979ab1996e77c8020a3e7a0d0c93aeb2c5319b5a1511c12e", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.95}"}
+{"key": "34cab6bf5e30f1cc75a12984db11731f18657b5bf06c4383459ddcd6a9e6a038", "response": "{\"intent\": \"complaint\", \"confidence\": 0.95}"}
+{"key": "f1b59183f1f36740a5dd8f4b4e91b8c94181697e3ddad64d7d2a8accd3414011", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The customer is offering a polite apology and general feedback rather than a specific complaint requiring resolution.\"}"}
+{"key": "70fd096213529d5536a14891e2a5709365b962f73a9a04dfab4a7e770455e92d", "response": "{\"intent\": \"ticket_booking\", \"confidence\": 0.9}"}
+{"key": "233f1453533a2d5b518ecfb5f1f4bf7cd706903181110b1a522ee85f7e5c745b", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 0.95}"}
+{"key": "14fb4cde3c5015082d8adcbb78f4385b13b50b4858d0197263693685b4e050a5", "response": "{\"intent\": \"wifi_onboard\", \"confidence\": 1.0}"}
+{"key": "295c36748acb287888498c32aa81c5df945854a52ee7355aa46e719cab75d8eb", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a piece of mild feedback regarding onboard service quality that does not require private data or financial intervention.\"}"}
+{"key": "b616a9b79c871016f081e7a12a7891a87faf0e27646040ce2a6c66557adf33a7", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "d9a604fcbba66b089cddb44f8c63152fc0b8bf244f7e6a3e2a1c35f705f5b874", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a positive compliment and requires no sensitive handling.\"}"}
+{"key": "55f9417aa51bd27fb849a7ef5c82e90b6205cfa08497bf4d3444357c831edd98", "response": "{\"intent\": \"complaint\", \"confidence\": 1.0}"}
+{"key": "d293abd9df25483217b2fe3854b8869787833fe847853fa428d020a4363e4096", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing significant frustration regarding a delayed response and threatening to switch to a competitor.\"}"}
+{"key": "d3bbec293c5897c3ef43241439dccd5d3d8831d3f04e8ea02ddeb4f1235a8dcb", "response": "{\"intent\": \"compliment\", \"confidence\": 1.0}"}
+{"key": "5001b0eccf5db1dd28b588deab218228234a3b6db6cceb018d0b2e78917336f1", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"The message is a positive compliment and requires no further action.\"}"}
+{"key": "798574e471b45676ab0e229bfb85fc3cf4a2fe333208cbab66ef54c9fbcd4531", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 0.95}"}
+{"key": "d9335820b8b4cc126163f7b4a8683974a1a8426748c848028f14c7acd46d96ce", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "e899c1fe02b99f7eb21db2dfa87339e3e51057f2d98c9bb39b913bf05f0625a6", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is reporting poor staff conduct and service quality, which requires a private investigation to manage churn risk.\"}"}
+{"key": "655dabce96263d3991e582a9e7f4ff027a12418f52317cfa1fea0f7ddf6a0f1c", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 1.0}"}
+{"key": "bf45d1d7922dd5fb7c1174f7be19269cd4855d53a269e06146d1750f6cc89cea", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing strong anger and frustration regarding the onboard environment, which requires a personalized response to manage churn risk.\"}"}
+{"key": "aad80457bbe1a9e7e40dcacfbe218eb3172d42d531c775087321161c404d5a4c", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 0.95}"}
+{"key": "0d0034e6c449f6a9eea0be067d452bbc699ad3d796a2380b17d75f63b2ffa349", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "0e3860e11d2f8b0db8a06fa0218309f4fbffc65ee9663b16457de29ed5b5497c", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing significant frustration regarding a premium service failure, indicating a high risk of churn.\"}"}
+{"key": "bf0114a26165de3253e834b6619814dfe35ebdda2cc9033657b2a2cce33ce98f", "response": "{\"intent\": \"complaint\", \"confidence\": 0.95}"}
+{"key": "0d2c57ee273583ec06d3eafd233f5c7fd7049b8390271f66095b723a27a2f796", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing strong dissatisfaction and anger regarding staff conduct, which requires a personalized response to manage churn risk.\"}"}
+{"key": "c9dec13be6b1f89137697ea9187f8b6d06417262e426d74e29b6ce7529edfe1d", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 1.0}"}
+{"key": "f787fe267b4b684f96c50dbf490049b10d23feb6e7cb07330ea6cceb3cbd89a5", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is general feedback regarding onboard comfort that does not require private data or financial resolution.\"}"}
+{"key": "1fdb5d63dee9ac2e6a9c3b97d9b932e987d5f8c5ccb9d7dcbe1a14b0574de79c", "response": "{\"intent\": \"refund_compensation\", \"confidence\": 1.0}"}
+{"key": "7ad897befd3f9fe66191925a7f0dfc8c608347f85ec79185f72f3519b47e0a60", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.95}"}
+{"key": "617567765a4462d74d5a7f94455bf1524e1128af02154327750819c5d0a8cf13", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\"], \"reason\": \"The customer is expressing significant frustration regarding a service failure and is at risk of churn.\"}"}
+{"key": "ae8795d815d35dfaa836e09b642694c5c748aaf976d3985589fbef881e3ed015", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
+{"key": "1aebd2b98d7755990dee1a56a57159c71fe20aa2f24c82c60efb987f31949714", "response": "{\"decision\": \"escalate\", \"risk_labels\": [\"anger_churn\", \"operational_disruption\"], \"reason\": \"The customer is expressing significant frustration regarding a major service failure and overcrowding, which poses a high churn risk.\"}"}

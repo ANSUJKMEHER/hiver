@@ -1,0 +1,455 @@
+{
+  "intent_errors": [
+    {
+      "example_id": "c2bf980637f842e5adf9107c8c144018",
+      "text": "can partner use @user as alternative route?",
+      "true": "ticket_booking",
+      "pred": "other"
+    },
+    {
+      "example_id": "46b2168c4c2902973953963b944db3ac",
+      "text": "how’s the 1628 to Preston looking? Am I likely to be delayed?",
+      "true": "delay_cancellation",
+      "pred": "ticket_booking"
+    },
+    {
+      "example_id": "8ecb64a9f380c01c2846c074a06dc7a9",
+      "text": ". @VirginTrains will there be compensation after the weekend disruption? My train arr late on Sat morn the return cancelled & when got on train no seat, food or drink!! #disappointing #hungryandthirsty",
+      "true": "refund_compensation",
+      "pred": "delay_cancellation"
+    },
+    {
+      "example_id": "1aa623eadcd732cecb30cf50151fcab9",
+      "text": "Our @VirginTrains was late in both directions. On the bright side, we only had a 15 minute wait at Preston Station, we had expected 45",
+      "true": "delay_cancellation",
+      "pred": "complaint"
+    },
+    {
+      "example_id": "798b393cf99ce2d6b158c1e6b0a7fb98",
+      "text": "please explain to me that because your train is delayed with fault you will NOT allow me or anyone else to get off the train?",
+      "true": "complaint",
+      "pred": "delay_cancellation"
+    },
+    {
+      "example_id": "00b0be6172d6d6a37c89cba223c5f787",
+      "text": "Andddddd....roaring to the capital with @VirginTrains 🚂🎧💻",
+      "true": "other",
+      "pred": "compliment"
+    },
+    {
+      "example_id": "1c4e45854134bd9b1176b5c20c0d9f1c",
+      "text": "can you tell me if the seat sale for London to Liverpool has happened already?",
+      "true": "ticket_booking",
+      "pred": "other"
+    },
+    {
+      "example_id": "2a1f5622c058c45d68907ef4f729d24a",
+      "text": "Paid a lot of money for my return ticket to York only for the return journey to be cancelled. Now standing on a packed train back to London despite having reserved seats to be able to work whilst on journey. Not good enough Virgin!",
+      "true": "refund_compensation",
+      "pred": "facilities_comfort"
+    },
+    {
+      "example_id": "c34e37f1d9bcd098c63ea32cb2a2c0a8",
+      "text": "I'm on a delayed train so I'm going to miss the 17:15 Birmingham N St to Pre. Can I get the 18:15 even though this is peak?",
+      "true": "ticket_booking",
+      "pred": "delay_cancellation"
+    },
+    {
+      "example_id": "f9de17e8b77db8ad3951ea8bc51bf5fa",
+      "text": "my train was delayed from Preston to London on 5th Nov by two hours.. I booked on virgin online. When will my refund happen?",
+      "true": "refund_compensation",
+      "pred": "delay_cancellation"
+    },
+    {
+      "example_id": "7fecbf8ea78eb92934bbda1a23dda5aa",
+      "text": "Hi there, I need to pay a UFN but the website has got a technical issue. I can't call the 08 number from my phone but I need to pay it before I get charged. #helppleaseasap",
+      "true": "ticket_booking",
+      "pred": "wifi_onboard"
+    },
+    {
+      "example_id": "6e70f2ad563fc18a3f13ecbde664b167",
+      "text": "I bought advance tickets for London Euston on 18th December but the boxing match I was going to see has now been cancelled. Any chance of a refund? :)",
+      "true": "refund_compensation",
+      "pred": "delay_cancellation"
+    },
+    {
+      "example_id": "b1f305790ac53319da8b14733815d835",
+      "text": "Is there any greater example of foolish optimism than purchasing @VirginTrains WiFi?",
+      "true": "wifi_onboard",
+      "pred": "compliment"
+    },
+    {
+      "example_id": "3687b5cf72460e1c56bf6b6a9a5bae0b",
+      "text": "Are children (1yo daughter) allowed in first class on Chester to Edinburgh Waverley route? Sorry for ignorance!!",
+      "true": "ticket_booking",
+      "pred": "other"
+    },
+    {
+      "example_id": "13c325280b227ea1d213eee61ccf55af",
+      "text": "hello my reserved tickets are on a card which as been terminated- how can I get my tickets? Staff at desk couldn't help 😭",
+      "true": "ticket_booking",
+      "pred": "facilities_comfort"
+    },
+    {
+      "example_id": "e7e460ec5a65166a0bc91d56b3b46341",
+      "text": "what time is the 7.09 Wigan to London due given there's now delays?",
+      "true": "delay_cancellation",
+      "pred": "other"
+    },
+    {
+      "example_id": "6a9fce73c7be4273ab7fe2cb2fac14f8",
+      "text": "trying to book train for 28 Dec..liverpool-london ..says Reservations not available ..it is full or not available yet?",
+      "true": "ticket_booking",
+      "pred": "delay_cancellation"
+    },
+    {
+      "example_id": "9d5ad3e682684c01f4bc030b660322d2",
+      "text": "Hello @VirginTrains have you released all the advanced fares for around xmas or will more cheaper tix go on sale?",
+      "true": "ticket_booking",
+      "pred": "other"
+    },
+    {
+      "example_id": "213eefb6179b73e89a9bacc2d277df81",
+      "text": "are any trains moving? Are the lines open?",
+      "true": "delay_cancellation",
+      "pred": "ticket_booking"
+    },
+    {
+      "example_id": "df32c153ff092ca02da5018ab734d788",
+      "text": "I went to buy some tickets at the machines at Preston station but the transaction wouldn’t go through and I had to go to the ticket office to get them. But it’s taken 12.20 out of my account twice! How do I go about getting it sorted",
+      "true": "refund_compensation",
+      "pred": "ticket_booking"
+    }
+  ],
+  "escalation_errors": {
+    "false_auto_handle": [
+      {
+        "example_id": "c2bf980637f842e5adf9107c8c144018",
+        "text": "can partner use @user as alternative route?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "8ecb64a9f380c01c2846c074a06dc7a9",
+        "text": ". @VirginTrains will there be compensation after the weekend disruption? My train arr late on Sat morn the return cancelled & when got on train no seat, food or drink!! #disappointing #hungryandthirsty",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "798b393cf99ce2d6b158c1e6b0a7fb98",
+        "text": "please explain to me that because your train is delayed with fault you will NOT allow me or anyone else to get off the train?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "57bcb180793910cc46c3e69576f52bd6",
+        "text": "disgusting conditions on first class on your trains today. Food inc do I want to eat ? If this public wat state is food prep",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "7badfcc05aa80efbd6833e1222b32074",
+        "text": "will the 9.07pm train be running? I’m autistic and get very anxious in crowds and want to get home this evening",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "2a1f5622c058c45d68907ef4f729d24a",
+        "text": "Paid a lot of money for my return ticket to York only for the return journey to be cancelled. Now standing on a packed train back to London despite having reserved seats to be able to work whilst on journey. Not good enough Virgin!",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "c34e37f1d9bcd098c63ea32cb2a2c0a8",
+        "text": "I'm on a delayed train so I'm going to miss the 17:15 Birmingham N St to Pre. Can I get the 18:15 even though this is peak?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "f9de17e8b77db8ad3951ea8bc51bf5fa",
+        "text": "my train was delayed from Preston to London on 5th Nov by two hours.. I booked on virgin online. When will my refund happen?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "7fecbf8ea78eb92934bbda1a23dda5aa",
+        "text": "Hi there, I need to pay a UFN but the website has got a technical issue. I can't call the 08 number from my phone but I need to pay it before I get charged. #helppleaseasap",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "6e70f2ad563fc18a3f13ecbde664b167",
+        "text": "I bought advance tickets for London Euston on 18th December but the boxing match I was going to see has now been cancelled. Any chance of a refund? :)",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "13c325280b227ea1d213eee61ccf55af",
+        "text": "hello my reserved tickets are on a card which as been terminated- how can I get my tickets? Staff at desk couldn't help 😭",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "8e54a24140b52105ce1088683ce0e9d7",
+        "text": "am I meant to understand these emails? Have booked ‘assistance’ for my mum when she travels - useless 😬😬🙄🤔",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "ace7db3382d36d8b5b84f842e797e9a1",
+        "text": "Two trains cancelled before our first one was even due to arrive! Ruined our night away plans! #unhappycustomer #Refund",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "300813552e095326d31cdd855b300fbf",
+        "text": "we left our @marksandspencer soft cheese in the fridge in first class tonight, can we pick it up on Saturday on the way back?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "7f945fc50cff226cd320611d8dc1b830",
+        "text": "@user delays to your trains twice this week which you are refusing to acknowledge -can you please sort my refund -been waiting on the phone for over an hour and have sent an email ... very poor customer service",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "6706d0f2fe2179faacf40932da6ff983",
+        "text": "I applied for an online refund on advance single ticket from Leeds on London on Sunday as advised by phone and have received no confirmation - can you help?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "dc26dd273e23e2b4d4e8829d698126c8",
+        "text": "@user @user booking been cancelled 2339834620, can't get answer. I need to book, train is available! #help",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "7b38a768d7961723e40ab6b9d6be8a73",
+        "text": "Newcastle to London. Not even standing room!! Talk about over filling trains. This is an accident waiting to happen. @virgintrains",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "79a99d10646256c42dd721e9c3cfc418",
+        "text": "Over packed train and delays! Currently standing when have a seat which I could not get to as over packed! What a joke!!!!!!",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "fd4b292188ff1a9c18790605dd2f8bfd",
+        "text": "Hi @VirginTrains! I submitted a refund form + have yet to hear back from you guys after sending the required details. Can you help? Booking ref = 2341083861 - Thanks!",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "92afcf04281f004c80555998920cfc1e",
+        "text": "standing for 3 hours WITH reserved tickets but apparently coach doesn't exist! This is awful service!",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "41069df3253792f0e4c46d89c48e9e31",
+        "text": "Shocking service from Kings Cross to Peterborough. @VirginTrains arrived half an hour late meaning I missed my connecting train to Lincoln. Staff unfriendly and completely unhelpful at Peterborough station!",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "2ad952f8b743420f12a6aa5fe0f6fe10",
+        "text": "need to collect some tickets this eve but have a new card since booking online, can you help?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "24f37f1844884fe44fa131c2e3cf6ec4",
+        "text": "We’re booked on 1250 new st-Euston running late from Telford. Any problem with us getting the 1310? #advancedpurchaseticket. Would like to pay weekend 1st too",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "b3408f31a1b6c2bef278cb18d72a0437",
+        "text": "Utter shambles on 1552 York to Aberdeen @VirginTrains train. Passengers sitting in aisles. Unsafe, uncomfortable and unacceptable. Passengers on since London haven’t been able to access water or toilets. Disgraceful.",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "680f3b480f44fc2c6f62d0f33c72a668",
+        "text": "refunded my boyfriend £7.50 for him standing the entire way from Edinburgh-newcastle after a marathon despite a booked seat",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "ae46ad68143f9cda37ce8e8b2db2c502",
+        "text": "Got stuck on the @VirginTrains from london while trying to help the kids with luggage. Next stop, Milton Keynes with no wallet or ID. Help.",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "8b1c350ca63c11ea687db7eaa0bdcdaf",
+        "text": "still waiting for my refund from the 24th of September when will this be processed?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "3d15538a5d0230e97c1d3d78b38343f7",
+        "text": "Today's the worst day of travel I've ever experienced on @VirginTrains,have been sat on 2 trains for 8 HOURS!both train managers useless !",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "e5867c2fda586d17c3bcd1295016ce31",
+        "text": "How come it’s taken nearly 2 months to not process my refund?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "5f006ae793a87fe2db1fa2c50f867e13",
+        "text": "am not going to travel with you anymore.45 mins delay this morning and stood up most of return journey. Appalling service!",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "0d76d1524d030462e638538d957bafff",
+        "text": "hi, I am on the 17:59 train from NCL to Kings Cross and I booked direct with Virgin yet haven’t received wifi codes? Thanks",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "5a139271db08e3031ab8575817e0a3c8",
+        "text": "lost our property at Euston tonight but no help until tomorrow morning!",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "4b064082971373eb6708f650f404b5da",
+        "text": "got charged twice by the ticket machine this morning at stoke on trent station as an error message came up and would not process the transaction can you help ?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "50e1ffe984a0d519443f5dec519457ef",
+        "text": "yo my trains about to be cancelled and I’ve got work at 7am. What can you do for me 19.47 Liverpool like st to MKC",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "febca8ec32845f14bd5fdc4546469dab",
+        "text": "#delayrepay",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "72338d1881378d32b15a175eae1e2ae9",
+        "text": "can you help please? I need to get in contact with staff at cov train station regarding a season ticket refund due to an 1/2",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "e81bef2a9be1601260cdba41cd4d8392",
+        "text": "(2/2) ontrain to Kings Cross ok now but how do I sort it out to get home on 18:30? Will need wchair space",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "fc019131c4a2959987a1cdbab82375f5",
+        "text": "have train booked for Dec 15th. Likely to be disrupted by strike action. Can I get a refund / travel on a different day at no extra cost?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "a2ef3aff786a58c06adbe96fb4d16363",
+        "text": "Still no reply to this complaint a month later, absolute joke ! Will stick to London Midland @VirginTrains",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "f448e35880bb8beaacf731cd137d401f",
+        "text": "Another awful first class journey @VirginTrains from Manchester to London. Yesterday & today no crew. Refund for lack of service?",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "fbe2bed0946a1927879bd1d61db2ec6c",
+        "text": "Just realised I paid £10 so I could have wifi on the train back. A cancelled train. Bastards. Refund? @VirginTrains",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "5145bd62a74288ccfb1ea61bf61a12d8",
+        "text": "the way your staff treat cyclists is appalling. lucky to get on at new street as no one appeared to open the carriage",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "08d00659a42c1be5818c88e91adc4695",
+        "text": "I sent a refund request for my cancelled train from London Euston on Sunday 5th November. I sent this refund request on 14th November and I still haven’t heard anything. Please correspond at [email]",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "0cf26204cdd18adb0ac728f613b5c3f3",
+        "text": "when Virgin let @user book a seat in carriage F then no carriage F arrived. Standing the whole way from Stafford to Manchester. Bang out of order.",
+        "true": "escalate",
+        "pred": "auto_handle"
+      },
+      {
+        "example_id": "6ee33b70c6a81192b8422952b5f86143",
+        "text": "this is how we stood for nearly 3 hrs after being delayed 3 hrs and turfed off put on another train! Not a replacement! #crazy",
+        "true": "escalate",
+        "pred": "auto_handle"
+      }
+    ],
+    "false_escalate": [
+      {
+        "example_id": "46b2168c4c2902973953963b944db3ac",
+        "text": "how’s the 1628 to Preston looking? Am I likely to be delayed?",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
+        "example_id": "3ad4c91c367a44326936886f9273b8e2",
+        "text": "I have left my printed paper ticket at home, can I use the downloaded PDF e-version on my phone for travel?",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
+        "example_id": "213eefb6179b73e89a9bacc2d277df81",
+        "text": "are any trains moving? Are the lines open?",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
+        "example_id": "4acb4b872896e538f4e2d515fd39cfa4",
+        "text": "no at seat catering service either",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
+        "example_id": "9f2f9e0edff1652bfe5326014ec6fe86",
+        "text": "two coaches is not enough for rush hour Birmingham to Cardiff, can’t even get near the seat I booked 😫😫😫😫😫",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
+        "example_id": "30baf05ae9e6acdbd6e7674c1672c1f7",
+        "text": "That moment when you sit on the train and find this in the seat pocket 😮 #thingspeopleleaveontrains @VirginTrains",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
+        "example_id": "623b1b6d3a571a3156fd4e05163d4087",
+        "text": "your \"Someone beat you to it, please pick a different seat\" error while booking is annoying cos it's clearly not the reason. Please consider making seat availability more transparent.",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
+        "example_id": "7171a7f30f83375a6d4cd2269c1e042f",
+        "text": "you've installed a ticket barrier at Manchester Piccadilly but at many surrounding stations and on many trains there's no way of buying a ticket. A 20 min queue to get out of the station is unacceptable",
+        "true": "auto_handle",
+        "pred": "escalate"
+      }
+    ]
+  },
+  "low_judge_scores": []
+}

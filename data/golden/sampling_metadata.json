@@ -1,0 +1,31 @@
+{
+  "method": "hash-shuffled + stratified by keyword-estimated intent, with 10% messy-case oversample (short/emoji/non-Latin messages).",
+  "random_seed": 42,
+  "target_size": 200,
+  "actual_size": 200,
+  "messy_slots": 20,
+  "frame": "VirginTrains threads with non-empty first customer message (>=10 chars) and >=1 support reply",
+  "pre_tag_note": "keyword pre-tags are used ONLY for stratification, not classification",
+  "intent_distribution_pre_tag": {
+    "delay_cancellation": 1197,
+    "refund_compensation": 1169,
+    "ticket_booking": 2367,
+    "wifi_onboard": 827,
+    "facilities_comfort": 1268,
+    "complaint": 612,
+    "compliment": 2029,
+    "other": 3844
+  },
+  "chosen_pre_tag_distribution": {
+    "other": 37,
+    "wifi_onboard": 22,
+    "delay_cancellation": 22,
+    "refund_compensation": 23,
+    "complaint": 22,
+    "ticket_booking": 28,
+    "facilities_comfort": 23,
+    "compliment": 23
+  },
+  "dev_size": 44,
+  "test_size": 156
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hiver-support-agent"
+version = "0.1.0"
+description = "AI support agent for one brand on Twitter: intent classification, grounded reply drafting, and escalation decision."
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0",
+    "pyarrow>=14.0",
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+    "PyYAML>=6.0",
+    "requests>=2.31",
+    "structlog>=23.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

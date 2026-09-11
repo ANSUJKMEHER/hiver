@@ -1,0 +1,595 @@
+{
+  "config": {
+    "brand": "VirginTrains",
+    "test_size": 156
+  },
+  "systems": {
+    "trivial": {
+      "intent": {
+        "accuracy": 0.12179487179487179,
+        "macro_f1": 0.027142857142857142,
+        "per_intent": {
+          "delay_cancellation": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 25
+          },
+          "refund_compensation": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 20
+          },
+          "ticket_booking": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 23
+          },
+          "wifi_onboard": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 10
+          },
+          "facilities_comfort": {
+            "precision": 0.12179487179487179,
+            "recall": 1.0,
+            "f1": 0.21714285714285714,
+            "support": 19
+          },
+          "complaint": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 24
+          },
+          "compliment": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 14
+          },
+          "other": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 21
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            25,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            23,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            24,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            21,
+            0,
+            0,
+            0
+          ]
+        ],
+        "labels": [
+          "delay_cancellation",
+          "refund_compensation",
+          "ticket_booking",
+          "wifi_onboard",
+          "facilities_comfort",
+          "complaint",
+          "compliment",
+          "other"
+        ]
+      },
+      "escalation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 48,
+        "tn": 108,
+        "false_auto_handle": 48,
+        "false_escalate": 0,
+        "cost_weighted_total": 240.0,
+        "lean": "toward auto-handle"
+      },
+      "bootstrap_ci": {
+        "intent_accuracy": {
+          "mean": 0.12098717948717949,
+          "ci_lower": 0.07051282051282051,
+          "ci_upper": 0.17307692307692307
+        },
+        "intent_macro_f1": {
+          "mean": 0.02686269880630858,
+          "ci_lower": 0.016467065868263474,
+          "ci_upper": 0.036885245901639344
+        },
+        "escalation_f1": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "n_bootstrap": 1000,
+        "confidence_level": 0.95
+      }
+    },
+    "simple": {
+      "intent": {
+        "accuracy": 0.32051282051282054,
+        "macro_f1": 0.2963375195257136,
+        "per_intent": {
+          "delay_cancellation": {
+            "precision": 0.3793103448275862,
+            "recall": 0.44,
+            "f1": 0.4074074074074074,
+            "support": 25
+          },
+          "refund_compensation": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 20
+          },
+          "ticket_booking": {
+            "precision": 0.2,
+            "recall": 0.08695652173913043,
+            "f1": 0.12121212121212122,
+            "support": 23
+          },
+          "wifi_onboard": {
+            "precision": 0.5,
+            "recall": 0.8,
+            "f1": 0.6153846153846154,
+            "support": 10
+          },
+          "facilities_comfort": {
+            "precision": 0.34285714285714286,
+            "recall": 0.631578947368421,
+            "f1": 0.4444444444444444,
+            "support": 19
+          },
+          "complaint": {
+            "precision": 0.38461538461538464,
+            "recall": 0.20833333333333334,
+            "f1": 0.2702702702702703,
+            "support": 24
+          },
+          "compliment": {
+            "precision": 0.2,
+            "recall": 0.21428571428571427,
+            "f1": 0.20689655172413793,
+            "support": 14
+          },
+          "other": {
+            "precision": 0.23684210526315788,
+            "recall": 0.42857142857142855,
+            "f1": 0.3050847457627119,
+            "support": 21
+          }
+        },
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            2,
+            1,
+            2,
+            2,
+            0,
+            7
+          ],
+          [
+            6,
+            0,
+            2,
+            1,
+            6,
+            3,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            2,
+            5,
+            3,
+            0,
+            0,
+            11
+          ],
+          [
+            0,
+            0,
+            0,
+            8,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            3,
+            0,
+            12,
+            0,
+            0,
+            2
+          ],
+          [
+            5,
+            0,
+            0,
+            0,
+            6,
+            5,
+            3,
+            5
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            2,
+            3,
+            3,
+            4
+          ],
+          [
+            2,
+            0,
+            1,
+            0,
+            4,
+            0,
+            5,
+            9
+          ]
+        ],
+        "labels": [
+          "delay_cancellation",
+          "refund_compensation",
+          "ticket_booking",
+          "wifi_onboard",
+          "facilities_comfort",
+          "complaint",
+          "compliment",
+          "other"
+        ]
+      },
+      "escalation": {
+        "precision": 0.2,
+        "recall": 0.041666666666666664,
+        "f1": 0.06896551724137931,
+        "tp": 2,
+        "fp": 8,
+        "fn": 46,
+        "tn": 100,
+        "false_auto_handle": 46,
+        "false_escalate": 8,
+        "cost_weighted_total": 238.0,
+        "lean": "toward auto-handle"
+      },
+      "bootstrap_ci": {
+        "intent_accuracy": {
+          "mean": 0.3198205128205128,
+          "ci_lower": 0.25,
+          "ci_upper": 0.391025641025641
+        },
+        "intent_macro_f1": {
+          "mean": 0.29131913114455443,
+          "ci_lower": 0.22333888931095666,
+          "ci_upper": 0.3518823348304839
+        },
+        "escalation_f1": {
+          "mean": 0.0674145113984035,
+          "ci_lower": 0.0,
+          "ci_upper": 0.16666666666666669
+        },
+        "n_bootstrap": 1000,
+        "confidence_level": 0.95
+      }
+    },
+    "llm": {
+      "intent": {
+        "accuracy": 0.8141025641025641,
+        "macro_f1": 0.8271327066377663,
+        "per_intent": {
+          "delay_cancellation": {
+            "precision": 0.875,
+            "recall": 0.84,
+            "f1": 0.8571428571428571,
+            "support": 25
+          },
+          "refund_compensation": {
+            "precision": 0.95,
+            "recall": 0.95,
+            "f1": 0.95,
+            "support": 20
+          },
+          "ticket_booking": {
+            "precision": 0.8333333333333334,
+            "recall": 0.8695652173913043,
+            "f1": 0.851063829787234,
+            "support": 23
+          },
+          "wifi_onboard": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "facilities_comfort": {
+            "precision": 0.5757575757575758,
+            "recall": 1.0,
+            "f1": 0.7307692307692307,
+            "support": 19
+          },
+          "complaint": {
+            "precision": 0.7647058823529411,
+            "recall": 0.5416666666666666,
+            "f1": 0.6341463414634146,
+            "support": 24
+          },
+          "compliment": {
+            "precision": 0.8125,
+            "recall": 0.9285714285714286,
+            "f1": 0.8666666666666667,
+            "support": 14
+          },
+          "other": {
+            "precision": 1.0,
+            "recall": 0.5714285714285714,
+            "f1": 0.7272727272727273,
+            "support": 21
+          }
+        },
+        "confusion_matrix": [
+          [
+            21,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            19,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            20,
+            0,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            19,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            0,
+            7,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            3,
+            2,
+            2,
+            12
+          ]
+        ],
+        "labels": [
+          "delay_cancellation",
+          "refund_compensation",
+          "ticket_booking",
+          "wifi_onboard",
+          "facilities_comfort",
+          "complaint",
+          "compliment",
+          "other"
+        ]
+      },
+      "escalation": {
+        "precision": 0.5402298850574713,
+        "recall": 0.9791666666666666,
+        "f1": 0.6962962962962962,
+        "tp": 47,
+        "fp": 40,
+        "fn": 1,
+        "tn": 68,
+        "false_auto_handle": 1,
+        "false_escalate": 40,
+        "cost_weighted_total": 45.0,
+        "lean": "toward escalation"
+      },
+      "bootstrap_ci": {
+        "intent_accuracy": {
+          "mean": 0.8135384615384615,
+          "ci_lower": 0.75,
+          "ci_upper": 0.8717948717948718
+        },
+        "intent_macro_f1": {
+          "mean": 0.8232131319005911,
+          "ci_lower": 0.7676661499774707,
+          "ci_upper": 0.8770841754924947
+        },
+        "escalation_f1": {
+          "mean": 0.6931099762743977,
+          "ci_lower": 0.5981308411214953,
+          "ci_upper": 0.776978417266187
+        },
+        "n_bootstrap": 1000,
+        "confidence_level": 0.95
+      },
+      "grounding": {
+        "n": 156,
+        "avg_similarity_mean": 0.4597676526599733,
+        "avg_similarity_median": 0.49574919275161894,
+        "max_similarity_mean": 0.7349634626262079,
+        "max_similarity_median": 0.9481691749937403,
+        "low_grounding_count": 0,
+        "low_grounding_rate": 0.0,
+        "low_grounding_threshold": 0.05,
+        "low_grounding_examples": []
+      },
+      "confidence_dist": {
+        "n": 156,
+        "mean": 0.9548076923076922,
+        "median": 0.95,
+        "min": 0.85,
+        "max": 1.0,
+        "p10": 0.9,
+        "p25": 0.9,
+        "p75": 1.0,
+        "p90": 1.0,
+        "below_0.5": 0,
+        "below_0.3": 0
+      },
+      "risk_labels": {
+        "total_escalated": 87,
+        "total_auto_handled": 69,
+        "risk_label_counts": {
+          "pii_exposure": 26,
+          "none": 69,
+          "financial": 21,
+          "anger_churn": 39,
+          "safety_risk": 4,
+          "operational_disruption": 14,
+          "vulnerability": 2
+        }
+      }
+    }
+  },
+  "failure_analysis_simple": {
+    "intent_error_count": 20,
+    "false_auto_handle": 46,
+    "false_escalate": 8
+  },
+  "failure_analysis_llm": {
+    "intent_error_count": 20,
+    "false_auto_handle": 1,
+    "false_escalate": 40
+  }
+}

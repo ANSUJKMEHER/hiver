@@ -1,0 +1,50 @@
+# Central configuration. Everything that could reasonably change lives here,
+# not scattered across scripts. Taxonomy definitions live in src/taxonomy.py
+# (they carry real data examples + validation logic that code needs to import).
+
+brand: VirginTrains
+
+data:
+  # 'original' = the assignment's Kaggle twcs.csv (flat tweets, we reconstruct
+  #   threads ourselves). 'mirror' = the public HF pre-reconstructed mirror
+  #   (convenience fallback; third-party re-processing). See CREDITS.md.
+  source: original
+
+  # original (Kaggle) — download twcs.csv and put it here (see README):
+  raw_csv_path: data/raw/twcs.csv
+
+  # mirror (optional fallback):
+  mirror_url: "https://huggingface.co/datasets/TNE-AI/customer-support-on-twitter-conversation/resolve/main/data/train-00000-of-00001.parquet"
+  mirror_path: data/raw/twcs_conversations.parquet
+
+  processed_path: data/processed/virgintrains_threads.jsonl
+  golden_path: data/golden/golden_set.jsonl
+  cache_dir: data/cache
+
+llm:
+  provider: gemini                     # using Gemini via OpenAI-compatible endpoint
+  base_url: "https://generativelanguage.googleapis.com/v1beta/openai"
+  agent_model: models/gemini-3.1-flash-lite-preview  # confirmed 200 with this key
+  judge_model: models/gemini-3.1-flash-lite-preview   # falling back to flash-lite as pro is out of quota
+  temperature: 0.0
+  max_tokens: 256
+  api_key_env: OPENAI_API_KEY          # set OPENAI_API_KEY=<your Gemini key> in .env
+
+grounding:
+  k: 3                                # number of resolved precedent threads to retrieve
+  embedding: tfidf                    # 'tfidf' (fast, deterministic) or 'sentence-transformers'
+
+golden:
+  target_size: 200
+  dev_frac: 0.2                       # dev slice for prompt tuning; test slice touched only at the end
+  random_seed: 42
+
+escalation:
+  # Hard rules that always escalate, regardless of model confidence.
+  always_escalate_intents: [refund_compensation, ticket_booking]
+  refund_amount_threshold: 0          # any money/refund request escalates (needs account verification)
+  require_private_info_intents: [refund_compensation, ticket_booking]
+
+demo:
+  # Number of live (uncached) confirmation calls allowed in the demo path.
+  live_confirmation: 3

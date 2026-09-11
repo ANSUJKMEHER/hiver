@@ -1,0 +1,25 @@
+{
+  "n": 40,
+  "agreement": {
+    "groundedness": {
+      "kappa": 0.0,
+      "spearman_total": null
+    },
+    "factual_correctness": {
+      "kappa": 0.0,
+      "spearman_total": null
+    },
+    "tone_match": {
+      "kappa": 0.0,
+      "spearman_total": null
+    },
+    "likely_to_resolve": {
+      "kappa": 0.0,
+      "spearman_total": null
+    },
+    "total": {
+      "kappa": null,
+      "spearman_total": 1.0
+    }
+  }
+}
