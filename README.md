@@ -23,7 +23,7 @@ baselines, and an honest account of what the headline number hides. See
 **macOS / Linux**
 
 ```bash
-git clone <your-repo-url> && cd hiver-support-agent
+git clone https://github.com/ANSUJKMEHER/hiver.git && cd hiver-support-agent
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 cp .env.example .env          # then put your OPENAI_API_KEY in .env
@@ -32,7 +32,7 @@ cp .env.example .env          # then put your OPENAI_API_KEY in .env
 **Windows (PowerShell)**
 
 ```powershell
-git clone <your-repo-url>; cd hiver-support-agent
+git clone https://github.com/ANSUJKMEHER/hiver.git; cd hiver-support-agent
 python -m venv .venv; .venv\Scripts\Activate.ps1
 pip install -e ".[dev]"
 Copy-Item .env.example .env    # then put your OPENAI_API_KEY in .env
@@ -174,5 +174,5 @@ unchanged, and don't touch `golden_dev.jsonl`/`golden_test.jsonl` (the split is 
 - `data/raw/` and `data/processed/` are regenerable and gitignored. `data/cache/`
   is committed *intentionally* (DECISIONS #10) so a fresh clone replays cached LLM
   calls; it holds no secrets — but double-check before pushing.
-- Replace `<your-repo-url>` above with your actual GitHub URL and submit that link
+- Replace `https://github.com/ANSUJKMEHER/hiver.git` above with your actual GitHub URL and submit that link
   (public, or private with access granted) through the Notion form — not email.

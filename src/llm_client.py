@@ -40,6 +40,7 @@ _load_dotenv()
 _PRICE_PER_1M = {
     "gpt-4o-mini": {"input": 0.15, "output": 0.60},
     "gpt-4o": {"input": 2.50, "output": 10.00},
+    "models/gemini-3.1-flash-lite-preview": {"input": 0.075, "output": 0.30},
 }
 
 

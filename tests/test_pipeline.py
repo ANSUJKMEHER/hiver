@@ -72,7 +72,7 @@ def test_llm_cache_roundtrip(tmp_path):
     import os
     os.environ.pop("OPENAI_API_KEY", None)
     cfg = {"provider": "openai", "base_url": "https://example.com/v1",
-           "agent_model": "gpt-4o-mini", "judge_model": "gpt-4o",
+           "agent_model": "models/gemini-3.1-flash-lite-preview", "judge_model": "models/gemini-3.1-flash-lite-preview",
            "temperature": 0.0, "max_tokens": 256, "api_key_env": "OPENAI_API_KEY"}
     c = LLMClient(cfg, str(tmp_path), role="agent")
     # no key, no cache -> should raise
