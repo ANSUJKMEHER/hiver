@@ -1067,3 +1067,6 @@
 {"key": "5735423c8c33a91b201851f33e5f83d6efdf37e9f534f526773af5c901d520ba", "response": "I'm very sorry to hear you had to stand for your journey, that's not the experience we want for you. Did you have a seat reservation for this service? Please DM us your booking details so we can look into this further. ^BT"}
 {"key": "c43e29f466c7f72a3c7b228de4ab8bb20dc2ff98162d8a5d598d48f69f9fdd2a", "response": "{\"intent\": \"facilities_comfort\", \"confidence\": 0.9}"}
 {"key": "5eadc1a37f466bfae07cfb4cbfd47e4ec170eee26ac8bca58299c6d6542ed2c6", "response": "I'm really sorry to hear about your journey, that sounds incredibly frustrating. Please send us a DM with your ticket details and the journey information so we can look into this for you. ^AB"}
+{"key": "fa547c93747c8f955a4a5b46789d008828b2b028e26fb13870292bef67e6888f", "response": "{\"intent\": \"other\", \"confidence\": 1.0}"}
+{"key": "59554323480b1b820907443d0874460584d5902ea3051d433eff10e1a660818e", "response": "Hope you have a great journey to London! ^MW"}
+{"key": "0e5177d75330ff98d0331195d74cfcf1b037e0a752cbd1826bbab2aab32aec04", "response": "{\"decision\": \"auto_handle\", \"risk_labels\": [\"none\"], \"reason\": \"This is a positive social media mention that does not require intervention.\"}"}
