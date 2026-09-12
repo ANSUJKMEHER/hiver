@@ -34,13 +34,7 @@
       "example_id": "00b0be6172d6d6a37c89cba223c5f787",
       "text": "Andddddd....roaring to the capital with @VirginTrains 🚂🎧💻",
       "true": "other",
-      "pred": "compliment"
-    },
-    {
-      "example_id": "1c4e45854134bd9b1176b5c20c0d9f1c",
-      "text": "can you tell me if the seat sale for London to Liverpool has happened already?",
-      "true": "ticket_booking",
-      "pred": "other"
+      "pred": "complaint"
     },
     {
       "example_id": "2a1f5622c058c45d68907ef4f729d24a",
@@ -58,7 +52,7 @@
       "example_id": "f9de17e8b77db8ad3951ea8bc51bf5fa",
       "text": "my train was delayed from Preston to London on 5th Nov by two hours.. I booked on virgin online. When will my refund happen?",
       "true": "refund_compensation",
-      "pred": "delay_cancellation"
+      "pred": "ticket_booking"
     },
     {
       "example_id": "7fecbf8ea78eb92934bbda1a23dda5aa",
@@ -71,12 +65,6 @@
       "text": "I bought advance tickets for London Euston on 18th December but the boxing match I was going to see has now been cancelled. Any chance of a refund? :)",
       "true": "refund_compensation",
       "pred": "delay_cancellation"
-    },
-    {
-      "example_id": "b1f305790ac53319da8b14733815d835",
-      "text": "Is there any greater example of foolish optimism than purchasing @VirginTrains WiFi?",
-      "true": "wifi_onboard",
-      "pred": "compliment"
     },
     {
       "example_id": "3687b5cf72460e1c56bf6b6a9a5bae0b",
@@ -103,12 +91,6 @@
       "pred": "delay_cancellation"
     },
     {
-      "example_id": "9d5ad3e682684c01f4bc030b660322d2",
-      "text": "Hello @VirginTrains have you released all the advanced fares for around xmas or will more cheaper tix go on sale?",
-      "true": "ticket_booking",
-      "pred": "other"
-    },
-    {
       "example_id": "213eefb6179b73e89a9bacc2d277df81",
       "text": "are any trains moving? Are the lines open?",
       "true": "delay_cancellation",
@@ -118,6 +100,24 @@
       "example_id": "df32c153ff092ca02da5018ab734d788",
       "text": "I went to buy some tickets at the machines at Preston station but the transaction wouldn’t go through and I had to go to the ticket office to get them. But it’s taken 12.20 out of my account twice! How do I go about getting it sorted",
       "true": "refund_compensation",
+      "pred": "ticket_booking"
+    },
+    {
+      "example_id": "36d044259ce33c6844aebe87a5610043",
+      "text": "The 19h00 from London to Manchester brings out the best and worst in people: some impressive displays of patience, respect and generosity, and some other not-so-good stuff.",
+      "true": "other",
+      "pred": "facilities_comfort"
+    },
+    {
+      "example_id": "ad916d253bc29f5f49aed128870e988e",
+      "text": "My @VirginTrains 🚂 journey is definitely NOT improved by Will Ferrell speaking to me in the loo😳 so freaky 😂😂😂",
+      "true": "other",
+      "pred": "compliment"
+    },
+    {
+      "example_id": "4acb4b872896e538f4e2d515fd39cfa4",
+      "text": "no at seat catering service either",
+      "true": "facilities_comfort",
       "pred": "ticket_booking"
     }
   ],
@@ -172,12 +172,6 @@
         "pred": "auto_handle"
       },
       {
-        "example_id": "f9de17e8b77db8ad3951ea8bc51bf5fa",
-        "text": "my train was delayed from Preston to London on 5th Nov by two hours.. I booked on virgin online. When will my refund happen?",
-        "true": "escalate",
-        "pred": "auto_handle"
-      },
-      {
         "example_id": "7fecbf8ea78eb92934bbda1a23dda5aa",
         "text": "Hi there, I need to pay a UFN but the website has got a technical issue. I can't call the 08 number from my phone but I need to pay it before I get charged. #helppleaseasap",
         "true": "escalate",
@@ -192,12 +186,6 @@
       {
         "example_id": "13c325280b227ea1d213eee61ccf55af",
         "text": "hello my reserved tickets are on a card which as been terminated- how can I get my tickets? Staff at desk couldn't help 😭",
-        "true": "escalate",
-        "pred": "auto_handle"
-      },
-      {
-        "example_id": "8e54a24140b52105ce1088683ce0e9d7",
-        "text": "am I meant to understand these emails? Have booked ‘assistance’ for my mum when she travels - useless 😬😬🙄🤔",
         "true": "escalate",
         "pred": "auto_handle"
       },
@@ -252,12 +240,6 @@
       {
         "example_id": "79a99d10646256c42dd721e9c3cfc418",
         "text": "Over packed train and delays! Currently standing when have a seat which I could not get to as over packed! What a joke!!!!!!",
-        "true": "escalate",
-        "pred": "auto_handle"
-      },
-      {
-        "example_id": "fd4b292188ff1a9c18790605dd2f8bfd",
-        "text": "Hi @VirginTrains! I submitted a refund form + have yet to hear back from you guys after sending the required details. Can you help? Booking ref = 2341083861 - Thanks!",
         "true": "escalate",
         "pred": "auto_handle"
       },
@@ -400,12 +382,6 @@
         "pred": "auto_handle"
       },
       {
-        "example_id": "4b064082971373eb6708f650f404b5da",
-        "text": "got charged twice by the ticket machine this morning at stoke on trent station as an error message came up and would not process the transaction can you help ?",
-        "true": "escalate",
-        "pred": "auto_handle"
-      },
-      {
         "example_id": "50e1ffe984a0d519443f5dec519457ef",
         "text": "yo my trains about to be cancelled and I’ve got work at 7am. What can you do for me 19.47 Liverpool like st to MKC",
         "true": "escalate",
@@ -510,8 +486,20 @@
         "pred": "escalate"
       },
       {
+        "example_id": "1c4e45854134bd9b1176b5c20c0d9f1c",
+        "text": "can you tell me if the seat sale for London to Liverpool has happened already?",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
         "example_id": "3ad4c91c367a44326936886f9273b8e2",
         "text": "I have left my printed paper ticket at home, can I use the downloaded PDF e-version on my phone for travel?",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
+        "example_id": "9d5ad3e682684c01f4bc030b660322d2",
+        "text": "Hello @VirginTrains have you released all the advanced fares for around xmas or will more cheaper tix go on sale?",
         "true": "auto_handle",
         "pred": "escalate"
       },
@@ -534,6 +522,12 @@
         "pred": "escalate"
       },
       {
+        "example_id": "10df65b091723e86a0906ed61798a5e8",
+        "text": "Hoping today I will actually get the seat I booked on my return journey with @VirginTrains unlike my trip yesterday!",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
         "example_id": "30baf05ae9e6acdbd6e7674c1672c1f7",
         "text": "That moment when you sit on the train and find this in the seat pocket 😮 #thingspeopleleaveontrains @VirginTrains",
         "true": "auto_handle",
@@ -546,8 +540,20 @@
         "pred": "escalate"
       },
       {
+        "example_id": "8f59c3cf3ff5655c17049379f6dacc9c",
+        "text": "Hi! When do Advance tickets for December 28th/29th/30th go on sale?",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
         "example_id": "7171a7f30f83375a6d4cd2269c1e042f",
         "text": "you've installed a ticket barrier at Manchester Piccadilly but at many surrounding stations and on many trains there's no way of buying a ticket. A 20 min queue to get out of the station is unacceptable",
+        "true": "auto_handle",
+        "pred": "escalate"
+      },
+      {
+        "example_id": "fa8b45ca92837112c562c6479c22c334",
+        "text": "Just got on @VirginTrains first class Morpeth to Edinburgh and there's no reservations! It's a 1st class service for god's sake 😡",
         "true": "auto_handle",
         "pred": "escalate"
       }

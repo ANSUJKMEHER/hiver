@@ -37,6 +37,12 @@
       "pred": "complaint"
     },
     {
+      "example_id": "ad916d253bc29f5f49aed128870e988e",
+      "text": "My @VirginTrains 🚂 journey is definitely NOT improved by Will Ferrell speaking to me in the loo😳 so freaky 😂😂😂",
+      "true": "other",
+      "pred": "facilities_comfort"
+    },
+    {
       "example_id": "300813552e095326d31cdd855b300fbf",
       "text": "we left our @marksandspencer soft cheese in the fridge in first class tonight, can we pick it up on Saturday on the way back?",
       "true": "other",
@@ -109,16 +115,10 @@
       "pred": "facilities_comfort"
     },
     {
-      "example_id": "5f006ae793a87fe2db1fa2c50f867e13",
-      "text": "am not going to travel with you anymore.45 mins delay this morning and stood up most of return journey. Appalling service!",
+      "example_id": "3b8592aa617b0299e2269ed032a13773",
+      "text": "11:15 service from Leeds to London is a joke. 2 sets of train customers shoved together on 1 service with a carriage missing.",
       "true": "complaint",
       "pred": "facilities_comfort"
-    },
-    {
-      "example_id": "5a139271db08e3031ab8575817e0a3c8",
-      "text": "lost our property at Euston tonight but no help until tomorrow morning!",
-      "true": "other",
-      "pred": "complaint"
     }
   ],
   "escalation_errors": {

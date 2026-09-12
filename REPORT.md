@@ -65,8 +65,8 @@ examples come from the 44-example dev slice). All three systems run the same
 | system | intent acc | intent macro-F1 | escalate F1 | false auto-handle* | false escalate |
 |---|---|---|---|---|---|
 | trivial (majority + canned + always-auto) | 12.2% [0.07, 0.17] | 0.027 | 0.000 | 65 | 0 |
-| simple (TF-IDF+LR + template + rule) | 32.1% [0.25, 0.39] | 0.296 | 0.053 | 63 | 8 |
-| LLM pipeline (classify→ground→draft→escalate) | 81.4% [0.75, 0.87] | 0.827 | 0.763 | 7 | 29 |
+| simple (TF-IDF+LR + template + rule) | 36.5% [0.29, 0.44] | 0.343 | 0.143 | 59 | 13 |
+| LLM pipeline (classify→ground→draft→escalate) | 82.1% [0.76, 0.88] | 0.833 | 0.763 | 7 | 29 |
 
 \* *false auto-handle = a message that should have been escalated but was auto-handled —
 the expensive error for a support agent.*
@@ -74,18 +74,18 @@ the expensive error for a support agent.*
 The two real rows tell a clear story even before the LLM runs. The trivial baseline
 is a 12% floor: any system that can't beat "always say 'facilities_comfort'" is
 worthless. The simple baseline is the more interesting bar. TF-IDF + logistic
-regression reaches 32% intent accuracy / 0.30 macro-F1 — but its **escalation is
-nearly as bad as random** (F1 0.053) because the rule `{refund, ticket} → escalate`
+regression reaches 36.5% intent accuracy / 0.34 macro-F1 — but its **escalation is
+extremely poor** (F1 0.143) because the rule `{refund, ticket} → escalate`
 is a blunt instrument: it can't see the money/private-data/safety/churn signal in a
 `facilities_comfort` or `complaint` message, and it wrongly escalates simple status
-queries it mis-classified as `ticket_booking`. 63 of its 71 escalation misses are in
+queries it mis-classified as `ticket_booking`. 59 of its 72 escalation misses are in
 the *dangerous* direction (should-have-escalated). This is the precise gap the LLM
 is meant to close: hard escalation rules *plus* judgment on the middle.
 
 The simple baseline's low intent number is partly a training-data artifact (44
 examples, 8 classes) — see §4; 5-fold CV on the full 200 set gives a fairer
 "classical ceiling" of roughly ~0.40 macro-F1, which is the honest number to beat,
-not the 0.296 dev-trained figure.
+not the 0.343 dev-trained figure.
 
 ## 3. Failure analysis
 
@@ -150,7 +150,7 @@ number]**" reported without this section. Concretely:
   `refund_compensation`).
 - **The escalation error *direction* is the story, not F1.** A false auto-handle (a
   should-escalate message handled by a bot) is far costlier than a false escalate. The
-  baselines lean toward auto-handle (63–65 dangerous misses); the LLM pipeline flips
+  baselines lean toward auto-handle (59–65 dangerous misses); the LLM pipeline flips
   this to recall 0.892 — 7 dangerous misses — but at the cost of 29 false
   escalations (precision 0.667; ~56% of test messages get handed off). That is the
   *safer* lean for a support brand, but 29 unnecessary hand-offs is a real ops cost
