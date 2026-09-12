@@ -63,20 +63,40 @@ def main() -> None:
     try:
         pipe = Pipeline(cfg, few_shot=load_few_shot(str(gdir / "golden_dev.jsonl")))
         llm_preds = []
+        cache_misses = 0
         for e in test:
-            r = pipe.handle_message(e["text"])
+            try:
+                r = pipe.handle_message(e["text"])
+            except LLMOfflineError:
+                # Per-message cache miss: fall back to a safe "escalate" prediction
+                # so the rest of the cached results still reproduce.
+                cache_misses += 1
+                r = {
+                    "intent": "other",
+                    "intent_raw": "other",
+                    "confidence": 0.0,
+                    "reply": "[offline — no cache entry for this message]",
+                    "decision": "escalate",
+                    "risk_labels": ["cache_miss"],
+                    "reason": "No cached LLM response and no API key available.",
+                    "retrieved": [],
+                    "grounding_stats": {},
+                }
             r["example_id"] = e["example_id"]
             llm_preds.append(r)
-            
+
         results["systems"]["llm"] = metrics.aggregate(llm_preds, test)
         results["systems"]["llm"]["predictions"] = llm_preds
-        
+
         # LLM-only metrics
         results["systems"]["llm"]["grounding"] = grounding_metrics.grounding_report(llm_preds, test)
         results["systems"]["llm"]["confidence_dist"] = grounding_metrics.confidence_distribution(llm_preds)
         results["systems"]["llm"]["risk_labels"] = grounding_metrics.risk_label_distribution(llm_preds)
-        
-        print("  [llm] ran (cache or live)")
+
+        if cache_misses:
+            print(f"  [llm] ran ({len(test) - cache_misses}/{len(test)} from cache, {cache_misses} fell back to safe default)")
+        else:
+            print("  [llm] ran (cache or live)")
     except LLMOfflineError as e:
         results["systems"]["llm"] = {"offline": True, "note": str(e)}
         print("  [llm] SKIPPED — no API key and no cache. Set OPENAI_API_KEY and re-run.")
