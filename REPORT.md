@@ -75,10 +75,10 @@ The two real rows tell a clear story even before the LLM runs. The trivial basel
 is a 12% floor: any system that can't beat "always say 'facilities_comfort'" is
 worthless. The simple baseline is the more interesting bar. TF-IDF + logistic
 regression reaches 32% intent accuracy / 0.30 macro-F1 — but its **escalation is
-nearly as bad as random** (F1 0.07) because the rule `{refund, ticket} → escalate`
+nearly as bad as random** (F1 0.053) because the rule `{refund, ticket} → escalate`
 is a blunt instrument: it can't see the money/private-data/safety/churn signal in a
 `facilities_comfort` or `complaint` message, and it wrongly escalates simple status
-queries it mis-classified as `ticket_booking`. 46 of its 48 escalation misses are in
+queries it mis-classified as `ticket_booking`. 63 of its 71 escalation misses are in
 the *dangerous* direction (should-have-escalated). This is the precise gap the LLM
 is meant to close: hard escalation rules *plus* judgment on the middle.
 
@@ -150,11 +150,12 @@ number]**" reported without this section. Concretely:
   `refund_compensation`).
 - **The escalation error *direction* is the story, not F1.** A false auto-handle (a
   should-escalate message handled by a bot) is far costlier than a false escalate. The
-  baselines lean toward auto-handle (46–48 dangerous misses); the LLM pipeline flips
-  this to recall 0.979 — only 1 dangerous miss — but at the cost of 40 false
-  escalations (precision 0.54; ~56% of test messages get handed off). That is the
-  *safer* lean for a support brand, but 40 unnecessary hand-offs is a real ops cost
-  that a headline F1 of 0.696 hides.
+  baselines lean toward auto-handle (63–65 dangerous misses); the LLM pipeline flips
+  this to recall 0.892 — 7 dangerous misses — but at the cost of 29 false
+  escalations (precision 0.667; ~56% of test messages get handed off). That is the
+  *safer* lean for a support brand, but 29 unnecessary hand-offs is a real ops cost
+  that a headline F1 of 0.763 hides.
+  *The original golden set under-labelled escalation (58/200 → 78/200 after review). My earlier "1 dangerous miss" was partly an artifact of that under-labelling; the stricter labels expose **7** real misses. This is exactly why the golden set had to be hand-reviewed.*
 - **The simple baseline is handicapped by a tiny training set (44).** The "LLM beats
   simple by X" headline is partly "LLM needs fewer examples," not "LLM is smarter."
   I report the CV ceiling (~0.40) alongside the held-out number to avoid that flattery.
